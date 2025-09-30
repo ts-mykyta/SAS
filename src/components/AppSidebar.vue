@@ -1,4 +1,4 @@
-<script>
+<script setup>
 </script>
 
 <template>
@@ -6,7 +6,7 @@
     <nav class="w-full h-full bg-background overflow-y-auto border-r border-border sidebar-border">
       <div class="p-3 lg:p-4">
         <div class="mb-6 lg:mb-8 flex items-center justify-between">
-          <a class="flex items-center gap-2" href="/pl-PL" data-discover="true"><span class="font-logo font-semibold tracking-wide uppercase text-primary text-xl">StarsAndSummits</span></a>
+          <router-link to="/" class="flex items-center gap-2" data-discover="true"><span class="font-logo font-semibold tracking-wide uppercase text-primary text-xl">StarsAndSummits</span></router-link>
           <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground h-10 w-10 lg:hidden">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x h-5 w-5" aria-hidden="true">
                 <path d="M18 6 6 18"></path>
@@ -16,7 +16,7 @@
         </div>
         <div class="space-y-1 mb-4">
           <h3 class="text-xs font-semibold text-muted-foreground uppercase tracking-wider px-3 mb-2">Główne Menu</h3>
-          <a href="/pl-PL/destinations" data-discover="true">
+          <router-link to="/destinations" data-discover="true">
             <button class="inline-flex items-center gap-2 whitespace-nowrap rounded-md ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 py-2 w-full justify-start font-medium transition-all duration-200 relative text-sm h-9 px-3 text-foreground dark:text-foreground hover:text-primary dark:hover:text-primary hover:bg-muted/50 dark:hover:bg-muted/20">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin h-4 w-4 mr-2" aria-hidden="true">
                 <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
@@ -24,7 +24,7 @@
               </svg>
               Destynacje
             </button>
-          </a>
+          </router-link>
           <a href="/pl-PL/activities" data-discover="true">
             <button class="inline-flex items-center gap-2 whitespace-nowrap rounded-md ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 py-2 w-full justify-start font-medium transition-all duration-200 relative text-sm h-9 px-3 text-foreground dark:text-foreground hover:text-primary dark:hover:text-primary hover:bg-muted/50 dark:hover:bg-muted/20">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-activity h-4 w-4 mr-2" aria-hidden="true">

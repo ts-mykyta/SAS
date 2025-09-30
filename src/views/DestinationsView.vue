@@ -1,11 +1,8 @@
 <script setup>
   import AppSidebar from "@/components/AppSidebar.vue";
   import AppHeader from "@/components/AppHeader.vue";
-  import AppPriceClaendar from "@/components/AppPriceClaendar.vue";
-
   import AppPromo from "@/components/AppPromo.vue";
   import AppDestinations from "@/components/AppDestinations.vue";
-  import AppActivities from "@/components/AppActivities.vue";
 </script>
 
 <template>
@@ -18,21 +15,15 @@
           <!-- Promo section -->
           <AppPromo
             imageUrl="/images/home-promo.png"
-            title="Odblokuj Twoją Następną Wyprawę"
-            subtitle="Znajdź najlepsze loty i oferty podróży dzięki naszej kompleksowej platformie porównawczej"
+            title="Odkryj Zapierające Dech w Piersiach Miejsca"
+            subtitle="Wyrusz na przygodę do zapierających dech w piersiach miejsc na całym świecie. Od rozgrzanych słońcem piasków po wielowiekowe panoramy miejskie, odkryj idealne schronienie na swoją następną ucieczkę."
           />
 
           <!-- Country section -->
           <AppDestinations
-            :isBtnShow="true"
-            :countOfCountries="3"
+            :isBtnShow="false"
+            :countOfCountries="20"
           />
-
-          <!-- Price Calendar -->
-          <AppPriceClaendar />
-
-          <!-- Services -->
-          <AppActivities />
         </main>
 
         <AppFooter />
