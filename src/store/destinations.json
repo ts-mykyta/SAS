@@ -1,0 +1,74 @@
+[
+    {
+        "country": "Francja",
+        "tag": "Europa",
+        "text": "Francja oferuje bogatą mozaikę kultury, historii i naturalnego piękna, od ikonicznych zabytków, takich jak Wieża Eiffla, po skąpane w słońcu plaże Riwiery, renomowane regiony winiarskie i malownicze wiejskie wioski.",
+        "img": "/images/france.png"
+    },
+    {
+        "country": "Japonia",
+        "tag": "Azja",
+        "text": "Japonia jest krainą żywych kontrastów, gdzie starożytne świątynie i spokojne ogrody dzielą krajobraz z miastami oświetlonymi neonami i superszybkimi pociągami. Od ośnieżonych gór po tropikalne plaże, jej bogate tradycje, najnowocześniejsza technologia i światowej sławy kuchnia tworzą niezapomnianą podróż.",
+        "img": "/images/japan.png"
+    },
+    {
+        "country": "Brazylia",
+        "tag": "Ameryka Południowa",
+        "text": "Brazylia to rozległy i tętniący życiem kraj w Ameryce Południowej znany ze swojego bogatego dziedzictwa kulturowego, różnorodnych ekosystemów, od lasu deszczowego Amazonii po dziewicze plaże, oraz światowej sławy festiwali, takich jak Karnawał, które celebrują jego żywiołowego ducha.",
+        "img": "/images/brazil.png"
+    },
+    {
+        "country": "Nowa Zelandia",
+        "tag": "Oceania",
+        "text": "Nowa Zelandia jest państwem wyspiarskim na południowo-zachodnim Pacyfiku znanym ze zróżnicowanych krajobrazów—od surowych gór i fiordów po pagórkowate wzgórza i dziewicze plaże. Słynąc ze sportów przygodowych, kultury Maorysów i światowej klasy szlaków turystycznych, oferuje unikalne połączenie naturalnego piękna i żywych lokalnych doświadczeń.",
+        "img": "/images/new-zealand.png"
+    },
+    {
+        "country": "Maroko",
+        "tag": "Afryka",
+        "text": "Maroko to tętniący życiem kraj w Afryce Północnej, znany z różnorodnych krajobrazów, od rozległych wydm Sahary i surowych Gór Atlas po tętniące życiem medyny i kolorowe targi w miastach takich jak Marrakesz i Fez. Łącząc wpływy arabskie, berberyjskie i francuskie, oferuje bogate doświadczenia kulturowe, smakowitą kuchnię i ponadczasową architekturę.",
+        "img": "/images/morocco.png"
+    },
+    {
+        "country": "Kanada",
+        "tag": "Północna Ameryka",
+        "text": "Kanada to rozległy, zróżnicowany kraj w Ameryce Północnej, znany ze swoich zapierających dech w piersiach cudów natury, od wyniosłych pasm górskich i nieskazitelnych jezior po rozległe lasy i dynamiczne ośrodki miejskie. Doświadcz bogatego wielokulturowego dziedzictwa, przyjaznych społeczności i niekończących się możliwości przeżywania przygód.",
+        "img": "/images/canada.png"
+    },
+    {
+        "country": "Włochy",
+        "tag": "Europa",
+        "text": "Włochy to kraina ponadczasowego piękna i bogactwa kulturowego; od starożytnych ruin Rzymu i sztuki renesansu we Florencji po skąpane w słońcu Wybrzeże Amalfi i falujące winnice Toskanii, oferują światowej klasy kuchnię, żywe tradycje i niezapomniane krajobrazy.",
+        "img": "/images/italy.png"
+    },
+    {
+        "country": "Kenia",
+        "tag": "Afryka",
+        "text": "Kenia jest krajem wschodniej Afryki słynącym ze swoich zapierających dech w piersiach krajobrazów, obfitej dzikiej przyrody i bogatego dziedzictwa kulturowego. Od ikonicznych równin Masaj Mara po ośnieżone szczyty Mount Kenya, oferuje niezapomnianą przygodę pełną barwnych tradycji, różnorodnych ekosystemów i tętniących życiem społeczności.",
+        "img": "/images/kenya.png"
+    },
+    {
+        "country": "Tajlandia",
+        "tag": "Azja",
+        "text": "Tajlandia jest żywym klejnotem Azji Południowo-Wschodniej, gdzie złote świątynie, bujne dżungle, tętniące życiem targi i nieskazitelne plaże tworzą bogatą mozaikę kultury, historii i piękna natury.",
+        "img": "/images/thailand.png"
+    },
+    {
+        "country": "Islandia",
+        "tag": "Europa",
+        "text": "Islandia jest krainą ognia i lodu, gdzie wulkaniczne szczyty, potężne lodowce i geotermalne gorące źródła tworzą nieziemskie krajobrazy. Od tętniącej życiem zorzy polarnej tańczącej po niebie po grzmiące wodospady i czarne piaszczyste plaże, Islandia oferuje poszukiwaczom przygód dramatyczną i niezapomnianą podróż.",
+        "img": "/images/island.png"
+    },
+    {
+        "country": "Peru",
+        "tag": "Ameryka Południowa",
+        "text": "Peru to tętniący życiem kraj w Ameryce Południowej, znany ze starożytnych inkaskich ruin, takich jak Machu Picchu, różnorodnych krajobrazów od lasu deszczowego Amazonii po Andy oraz bogatego dziedzictwa kulturowego z barwnymi festiwalami i kuchnią światowej klasy.",
+        "img": "/images/peru.png"
+    },
+    {
+        "country": "Australia",
+        "tag": "Australia",
+        "text": "Australia jest ogromnym i różnorodnym krajem słynącym z plaż zalanych słońcem, starożytnych krajobrazów Outbacku, bujnych lasów deszczowych i tętniących życiem miast. Od ikonicznej Opery w Sydney i Wielkiej Rafy Koralowej po unikalne dzikie zwierzęta, takie jak kangury i koale, Australia oferuje niezapomniane połączenie cudów natury i nowoczesnej kultury.",
+        "img": "/images/australia.png"
+    }
+]
