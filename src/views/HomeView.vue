@@ -4,8 +4,8 @@
   import AppPriceClaendar from "@/components/AppPriceClaendar.vue";
 
   import AppPromo from "@/components/AppPromo.vue";
-  import HomeDestinations from "@/components/home/HomeDestinations.vue";
-  import HomeActivities from "@/components/home/HomeActivities.vue";
+  import AppDestinations from "@/components/AppDestinations.vue";
+  import AppActivities from "@/components/AppActivities.vue";
 </script>
 
 <template>
@@ -23,13 +23,13 @@
           />
 
           <!-- Country section -->
-          <HomeDestinations />
+          <AppDestinations />
 
           <!-- Price Calendar -->
           <AppPriceClaendar />
 
           <!-- Services -->
-          <HomeActivities />
+          <AppActivities />
         </main>
 
         <AppFooter />
