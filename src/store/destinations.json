@@ -9,7 +9,7 @@
         "description": "Francja to kraj urzekającej różnorodności, gdzie wieki historii spotykają się z nowoczesną kreatywnością na malowniczych krajobrazach. Wędruj po urokliwych uliczkach Paryża, domu ikonicznych zabytków takich jak Wieża Eiffla, Luwr i majestatyczna katedra Notre-Dame. Poza stolicą pagórkowate winnice w Bordeaux i Burgundii produkują światowej sławy wina, podczas gdy lawendowe pola Prowansji tworzą żywy fioletowy gobelin pod śródziemnomorskim słońcem. Od skąpanych w słońcu plaż Riwiery po ośnieżone szczyty Francuskich Alp, każdy region oferuje swój niepowtarzalny charakter i smaki. Kultura francuska jest synonimem kulinarnej doskonałości, dziedzictwa artystycznego i głębokiego uznania dla wyrafinowanych przyjemności życia. Rozkoszuj się maślanymi croissantami w osiedlowej piekarni, kosztuj gastronomii nagrodzonej gwiazdkami Michelin w historycznych wnętrzach château albo delektuj się serami wiejskimi i wędlinami w rustykalnych wiejskich bistrach. Przy tempie życia, które ceni długie, wspólne posiłki i kulturalne więzi, podróżni odnajdą ciepło i elegancję wplecione w codzienną rutynę. Niezależnie czy zwiedzasz średniowieczne miasteczka w Normandii, pedałujesz szlakiem châteaux Doliny Loary czy tańczysz do późna w paryskich klubach, Francja obiecuje niezapomnianą podróż dla każdego poszukiwacza przygód.",
         "currency": "EUR",
         "language": "Francuski",
-        "advices": ["Zawsze witaj sprzedawców i personel restauracji uprzejmym “Bonjour” przed rozpoczęciem rozmowy.", "Używaj formy grzecznościowej (Monsieur/Madame), chyba że zaproszono do zwracania się po imieniu."],
+        "advices": ["Zawsze witaj sprzedawców i personel restauracji uprzejmym “Bonjour” przed rozpoczęciem rozmowy.", "Używaj formy grzecznościowej (Monsieur/Madame), chyba że zaproszono do zwracania się po imieniu.", "Etykieta przy stole: trzymaj ręce na stole, łam chleb rękami, i poczekaj, aż wszyscy zostaną podani, zanim zaczniesz jeść.", "Napiwek: opłata serwisowa jest wliczona, ale zostawienie niewielkiego dodatkowego napiwku (5–10%) jest mile widziane przy doskonałej obsłudze.", "Zwróć uwagę na godziny otwarcia sklepów i muzeów; wiele z nich zamyka się na lunch (12–2 pm) i jest zamkniętych w niedziele."],
         "destinations": ["Taras Wieży Eiffla", "Lawendowe Pola", "Promenada Anglików"],
         "sliderImg": "/images/france-slider.png",
         "popularLocations": [
@@ -18,8 +18,57 @@
                 "img": "/image/",
                 "city": "Paryż",
                 "features": ["Panoramiczne widoki na miasto", "Bujne ogrody publiczne"]
+            },
+            {
+                "title": "Lawendowe Pola",
+                "img": "/image/",
+                "city": "Prowansja",
+                "features": ["Niekończące się purpurowe kwiaty", "Pachnące, falujące krajobrazy"]
+            },
+            {
+                "title": "Promenada Anglików",
+                "img": "/image/",
+                "city": "Nicea, Lazurowe Wybrzeże",
+                "features": ["Nadmorski bulwar obsadzony palmami", "Kolorowe parasole plażowe"]
+            },
+            {
+                "title": "Zamek w Chambord",
+                "img": "/image/",
+                "city": "Dolina Loary",
+                "features": ["Architektura renesansu", "Symetryczne wieżyczki"]
             }
-        ]
+
+        ],
+        "food": [
+            {
+                "restaurant": "Le Jules Verne",
+                "city": "Paryż"
+            },
+                        {
+                "restaurant": "Mirazur",
+                "city": "Menton"
+            },
+                        {
+                "restaurant": "Srebrna Wieża",
+                "city": "Paryż"
+            },
+                        {
+                "restaurant": "Zajazd Starej Studni",
+                "city": "Fontjoncouse"
+            },
+                        {
+                "restaurant": "Le Chabichou",
+                "city": "Courchevel"
+            },
+                        {
+                "restaurant": "L’Oustau de Baumanière",
+                "city": "Les Baux-de-Provence"
+            }
+        ],
+        "nightActivities": ["Rex Club w Paryżu", "Harry’s New York Bar w Paryżu", "Le Sucre w Lyonie", "Plaża Baoli w Cannes", "Les Bains w Paryżu", "Les Caves du Roy w Saint-Tropez"],
+        "creditCard": "Powszechnie akceptowane w miastach i obszarach turystycznych; niektóre małe wsie mogą preferować gotówkę.",
+        "atm": "Łatwo dostępne w obszarach miejskich i turystycznych; ograniczona dostępność w odległych wsiach.",
+        "english": "Powszechne w miejscach turystycznych"
 
     },
     {
