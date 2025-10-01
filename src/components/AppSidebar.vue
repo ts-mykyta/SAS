@@ -25,14 +25,14 @@
               Destynacje
             </button>
           </router-link>
-          <a href="/pl-PL/activities" data-discover="true">
+          <router-link to="/activities" data-discover="true">
             <button class="inline-flex items-center gap-2 whitespace-nowrap rounded-md ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 py-2 w-full justify-start font-medium transition-all duration-200 relative text-sm h-9 px-3 text-foreground dark:text-foreground hover:text-primary dark:hover:text-primary hover:bg-muted/50 dark:hover:bg-muted/20">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-activity h-4 w-4 mr-2" aria-hidden="true">
                 <path d="M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2"></path>
               </svg>
               Aktywności
             </button>
-          </a>
+          </router-link>
           <a href="/pl-PL/contact" data-discover="true">
             <button class="inline-flex items-center gap-2 whitespace-nowrap rounded-md ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 py-2 w-full justify-start font-medium transition-all duration-200 relative text-sm h-9 px-3 text-foreground dark:text-foreground hover:text-primary dark:hover:text-primary hover:bg-muted/50 dark:hover:bg-muted/20">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail h-4 w-4 mr-2" aria-hidden="true">

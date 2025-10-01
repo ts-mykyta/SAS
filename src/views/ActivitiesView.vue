@@ -24,16 +24,20 @@ const activities = ref(
 
 const selectedTags = ref([])
 
+const allCountries = computed(() => {
+  const set = new Set()
+  for (const a of activities.value) {
+    for (const c of a.countries || []) set.add(c)
+  }
+  return Array.from(set).sort((a, b) => a.localeCompare(b))
+})
+
 const filteredActivities = computed(() => {
   if (!selectedTags.value.length) return activities.value
   return activities.value.filter((activity) =>
     selectedTags.value.every((tag) => activity.countries.includes(tag)),
   )
 })
-
-// const handleFilterChange = (tags) => {
-//   selectedTags.value = tags
-// }
 </script>
 
 <template>
@@ -51,7 +55,6 @@ const filteredActivities = computed(() => {
         />
 
         <!-- activities -->
-
         <section class="py-16 bg-background">
           <div class="container mx-auto px-4">
             <div class="mb-8">
@@ -63,30 +66,13 @@ const filteredActivities = computed(() => {
                 aktywności odpowiadające Twoim zainteresowaniom.
               </p>
             </div>
-            <div class="md:hidden mb-6">
-              <button
-                class="w-full flex items-center justify-between bg-card p-4 rounded-lg shadow border border-border"
-              >
-                <span class="font-medium text-card-foreground">Filtry</span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="lucide lucide-chevron-down h-5 w-5 transition-transform text-card-foreground rotate-180"
-                  aria-hidden="true"
-                >
-                  <path d="m6 9 6 6 6-6"></path>
-                </svg>
-              </button>
-            </div>
+
             <div class="flex flex-col md:flex-row gap-8">
-              <ActivitiesFilter />
+              <ActivitiesFilter
+                v-model="selectedTags"
+                :options="allCountries"
+              />
+
               <div class="flex-1">
                 <div class="grid grid-cols-1 3xl:grid-cols-2 2xl:grid-cols-3 gap-6">
                   <ActivitiesCard
