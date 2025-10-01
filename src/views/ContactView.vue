@@ -216,7 +216,7 @@ import AppFooter from '@/components/AppFooter.vue'
                     </p>
                   </div>
                   <div class="p-6 pt-0 px-8 pb-8">
-                    <form class="space-y-6">
+                    <form method="#" class="space-y-6">
                       <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div class="space-y-2">
                           <label

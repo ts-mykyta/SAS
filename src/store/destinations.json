@@ -3,7 +3,24 @@
         "country": "Francja",
         "tag": "Europa",
         "text": "Francja oferuje bogatą mozaikę kultury, historii i naturalnego piękna, od ikonicznych zabytków, takich jak Wieża Eiffla, po skąpane w słońcu plaże Riwiery, renomowane regiony winiarskie i malownicze wiejskie wioski.",
-        "img": "/images/france.png"
+        "img": "/images/france.png",
+        "title": "Odkryj ukryte uroki Francji",
+        "subtitle": "Odkryj cuda Francji. Od jej bogatego dziedzictwa i wyśmienitej kuchni po alpejskie panoramy, zanurz się w każdym zachwycie, jaki ta czarująca kraina ujawnia.",
+        "description": "Francja to kraj urzekającej różnorodności, gdzie wieki historii spotykają się z nowoczesną kreatywnością na malowniczych krajobrazach. Wędruj po urokliwych uliczkach Paryża, domu ikonicznych zabytków takich jak Wieża Eiffla, Luwr i majestatyczna katedra Notre-Dame. Poza stolicą pagórkowate winnice w Bordeaux i Burgundii produkują światowej sławy wina, podczas gdy lawendowe pola Prowansji tworzą żywy fioletowy gobelin pod śródziemnomorskim słońcem. Od skąpanych w słońcu plaż Riwiery po ośnieżone szczyty Francuskich Alp, każdy region oferuje swój niepowtarzalny charakter i smaki. Kultura francuska jest synonimem kulinarnej doskonałości, dziedzictwa artystycznego i głębokiego uznania dla wyrafinowanych przyjemności życia. Rozkoszuj się maślanymi croissantami w osiedlowej piekarni, kosztuj gastronomii nagrodzonej gwiazdkami Michelin w historycznych wnętrzach château albo delektuj się serami wiejskimi i wędlinami w rustykalnych wiejskich bistrach. Przy tempie życia, które ceni długie, wspólne posiłki i kulturalne więzi, podróżni odnajdą ciepło i elegancję wplecione w codzienną rutynę. Niezależnie czy zwiedzasz średniowieczne miasteczka w Normandii, pedałujesz szlakiem châteaux Doliny Loary czy tańczysz do późna w paryskich klubach, Francja obiecuje niezapomnianą podróż dla każdego poszukiwacza przygód.",
+        "currency": "EUR",
+        "language": "Francuski",
+        "advices": ["Zawsze witaj sprzedawców i personel restauracji uprzejmym “Bonjour” przed rozpoczęciem rozmowy.", "Używaj formy grzecznościowej (Monsieur/Madame), chyba że zaproszono do zwracania się po imieniu."],
+        "destinations": ["Taras Wieży Eiffla", "Lawendowe Pola", "Promenada Anglików"],
+        "sliderImg": "/images/france-slider.png",
+        "popularLocations": [
+            {
+                "title": "Taras Wieży Eiffla",
+                "img": "/image/",
+                "city": "Paryż",
+                "features": ["Panoramiczne widoki na miasto", "Bujne ogrody publiczne"]
+            }
+        ]
+
     },
     {
         "country": "Japonia",
