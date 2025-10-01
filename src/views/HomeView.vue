@@ -32,7 +32,10 @@
           <AppPriceClaendar />
 
           <!-- Services -->
-          <AppActivities />
+          <AppActivities
+            title="Popularne aktywności"
+            subtitle="Odkryj ekscytujące przygody i wciągające doświadczenia, które zamienią twoje podróże w niezapomniane wspomnienia."
+          />
         </main>
 
         <AppFooter />
