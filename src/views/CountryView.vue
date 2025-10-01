@@ -41,7 +41,7 @@ const filteredActivities = computed(() => {
         <!-- Promo section -->
         <div v-if="country">
           <AppPromo
-            :imageUrl="country.sliderImg || country.img || '/images/home-promo.png'"
+            :imageUrl="country.img || '/images/home-promo.png'"
             :title="country.title || `Odkryj ${country.country}`"
             :subtitle="country.subtitle || country.text"
           />
@@ -226,7 +226,7 @@ const filteredActivities = computed(() => {
                                       <ul class="space-y-2">
                                         <li
                                           class="text-sm flex items-start"
-                                          v-for="(tip, i) in country.advices"
+                                          v-for="(tip, i) in country.advices.slice(0, 2)"
                                           :key="i"
                                         >
                                           <svg
@@ -249,6 +249,13 @@ const filteredActivities = computed(() => {
                                       </ul>
                                       <button
                                         class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 underline-offset-4 hover:underline rounded-md mt-2 p-0 h-auto text-primary"
+                                        :aria-selected="activeTab === 'practical'"
+                                        aria-controls="radix-«r5m»-content-practical"
+                                        :data-state="
+                                          activeTab === 'practical' ? 'active' : 'inactive'
+                                        "
+                                        id="radix-«r5m»-trigger-practical"
+                                        @click="activeTab = 'practical'"
                                       >
                                         Zobacz wszystkie wskazówki
                                       </button>
@@ -412,7 +419,7 @@ const filteredActivities = computed(() => {
                                   <ul class="space-y-2">
                                     <li
                                       class="text-sm flex items-start"
-                                      v-for="(tip, i) in country.advices"
+                                      v-for="(tip, i) in country.advices.slice(0, 2)"
                                       :key="i"
                                     >
                                       <svg
@@ -435,6 +442,11 @@ const filteredActivities = computed(() => {
                                   </ul>
                                   <button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 underline-offset-4 hover:underline rounded-md mt-2 p-0 h-auto text-primary"
+                                    :aria-selected="activeTab === 'practical'"
+                                    aria-controls="radix-«r5m»-content-practical"
+                                    :data-state="activeTab === 'practical' ? 'active' : 'inactive'"
+                                    id="radix-«r5m»-trigger-practical"
+                                    @click="activeTab = 'practical'"
                                   >
                                     Zobacz wszystkie wskazówki
                                   </button>
@@ -499,7 +511,6 @@ const filteredActivities = computed(() => {
                         </aside>
                         <div class="md:w-2/3 lg:w-3/4">
                           <div
-                            data-state="active"
                             data-orientation="horizontal"
                             role="tabpanel"
                             aria-labelledby="radix-«r5m»-trigger-overview"
