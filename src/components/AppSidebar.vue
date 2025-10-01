@@ -88,7 +88,7 @@
               Aktywności
             </button>
           </router-link>
-          <a href="/pl-PL/contact" data-discover="true">
+          <router-link to="/contact" data-discover="true">
             <button
               class="inline-flex items-center gap-2 whitespace-nowrap rounded-md ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 py-2 w-full justify-start font-medium transition-all duration-200 relative text-sm h-9 px-3 text-foreground dark:text-foreground hover:text-primary dark:hover:text-primary hover:bg-muted/50 dark:hover:bg-muted/20"
             >
@@ -110,7 +110,7 @@
               </svg>
               Kontakt
             </button>
-          </a>
+          </router-link>
         </div>
         <div class="space-y-1 mb-4">
           <h3
@@ -143,7 +143,7 @@
               O nas
             </button>
           </router-link>
-          <a href="/pl-PL/contact" data-discover="true">
+          <router-link to="/contact" data-discover="true">
             <button
               class="inline-flex items-center gap-2 whitespace-nowrap rounded-md ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent py-2 w-full justify-start font-medium transition-all duration-200 relative text-sm h-8 px-3 text-muted-foreground hover:text-foreground"
             >
@@ -165,7 +165,7 @@
               </svg>
               Kontakt
             </button>
-          </a>
+          </router-link>
           <router-link to="/privacy-policy" data-discover="true">
             <button
               class="inline-flex items-center gap-2 whitespace-nowrap rounded-md ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent py-2 w-full justify-start font-medium transition-all duration-200 relative text-sm h-8 px-3 text-muted-foreground hover:text-foreground"

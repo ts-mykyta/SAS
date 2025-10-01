@@ -6,6 +6,7 @@ import AppFooter from '@/components/AppFooter.vue'
 <template>
   <div class="min-h-screen flex" data-navigation-style="vertical" data-website-style="boxed">
     <AppSidebar />
+    <AppHeader />
     <div class="lg:hidden">
       <header
         class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-transparent py-4 lg:py-6"
