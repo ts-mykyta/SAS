@@ -63,15 +63,15 @@
               Kontakt
             </button>
           </a>
-          <a href="/pl-PL/privacy-policy" data-discover="true">
+          <router-link to="/privacy-policy" data-discover="true">
             <button class="inline-flex items-center gap-2 whitespace-nowrap rounded-md ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent py-2 w-full justify-start font-medium transition-all duration-200 relative text-sm h-8 px-3 text-muted-foreground hover:text-foreground">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield h-3.5 w-3.5 mr-2" aria-hidden="true">
                 <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
               </svg>
               Polityka prywatności
             </button>
-          </a>
-          <a href="/pl-PL/terms-of-use" data-discover="true">
+          </router-link>
+          <router-link to="/terms" data-discover="true">
             <button class="inline-flex items-center gap-2 whitespace-nowrap rounded-md ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent py-2 w-full justify-start font-medium transition-all duration-200 relative text-sm h-8 px-3 text-muted-foreground hover:text-foreground">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text h-3.5 w-3.5 mr-2" aria-hidden="true">
                 <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path>
@@ -82,8 +82,8 @@
               </svg>
               Warunki Użytkowania
             </button>
-          </a>
-          <a href="/pl-PL/cookie-policy" data-discover="true">
+          </router-link>
+          <router-link to="/cookie" data-discover="true">
             <button class="inline-flex items-center gap-2 whitespace-nowrap rounded-md ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent py-2 w-full justify-start font-medium transition-all duration-200 relative text-sm h-8 px-3 text-muted-foreground hover:text-foreground">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-scale h-3.5 w-3.5 mr-2" aria-hidden="true">
                 <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"></path>
@@ -94,38 +94,7 @@
               </svg>
               Polityka plików cookie
             </button>
-          </a>
-        </div>
-        <div class="mt-4 pt-3 border-t border-gray-200 dark:border-gray-700">
-          <div class="flex items-center w-full space-x-1">
-            <div class="flex-1">
-              <div class="toggle-container">
-                <button class="inline-flex items-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:text-accent-foreground py-2 hover:bg-muted toggle-button w-full justify-center text-muted-foreground h-8 px-2 min-w-[80px] max-w-[100px]" type="button" id="radix-«r82»" aria-haspopup="menu" aria-expanded="false" data-state="closed">
-                  <div class="flex items-center space-x-1 min-w-0">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe h-4 w-4 flex-shrink-0 w-full justify-center text-muted-foreground" aria-hidden="true">
-                      <circle cx="12" cy="12" r="10"></circle>
-                      <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
-                      <path d="M2 12h20"></path>
-                    </svg>
-                    <span class="text-xs font-medium truncate toggle-text">PL</span>
-                  </div>
-                </button>
-              </div>
-            </div>
-            <div class="flex-1">
-              <div class="toggle-container">
-                <button class="inline-flex items-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:text-accent-foreground py-2 hover:bg-muted toggle-button w-full justify-center text-muted-foreground h-8 px-2 min-w-[80px] max-w-[100px]" type="button" id="radix-«r84»" aria-haspopup="menu" aria-expanded="false" data-state="closed">
-                  <div class="flex items-center space-x-1 min-w-0">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-dollar-sign h-4 w-4 flex-shrink-0 w-full justify-center text-muted-foreground" aria-hidden="true">
-                      <line x1="12" x2="12" y1="2" y2="22"></line>
-                      <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
-                    </svg>
-                    <span class="text-xs font-medium truncate toggle-text">USD</span>
-                  </div>
-                </button>
-              </div>
-            </div>
-          </div>
+          </router-link>
         </div>
       </div>
     </nav>
