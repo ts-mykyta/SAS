@@ -85,12 +85,12 @@ function tagBtnClass(tag) {
           <!-- Сетка карточек -->
           <div class="mt-0">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch">
-              <a
+              <router-link
                 v-for="d in filtered.slice(0, props?.countOfCountries)"
                 :key="d.slug"
                 class="card-hover h-full flex"
-                :href="`/pl-PL/destinations/${d.slug}`"
                 data-discover="true"
+                :to="{ name: 'destination', params: { slug: d.slug } }"
               >
                 <div class="rounded-lg border bg-card text-card-foreground overflow-hidden border-none shadow-md flex flex-col w-full">
                   <div class="aspect-[16/9] overflow-hidden">
@@ -123,7 +123,7 @@ function tagBtnClass(tag) {
                     </div>
                   </div>
                 </div>
-              </a>
+              </router-link>
             </div>
 
             <!-- Если ничего не найдено -->
