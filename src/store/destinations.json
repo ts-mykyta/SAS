@@ -102,21 +102,21 @@
     "destinations": ["Tokio Tower", "Świątynia Fushimi Inari", "Fuji-san"],
     "sliderImg": "/images/japan-slider.png",
     "popularLocations": [
-      {
-        "title": "Tokio Tower",
-        "img": "/image/",
-        "city": "Tokio",
-        "features": ["Widoki na metropolię", "Nowoczesna architektura"]
-      },
-      {
+    {
         "title": "Świątynia Fushimi Inari",
-        "img": "/image/",
+        "img": "/images/fushimi-inari.png",
         "city": "Kioto",
         "features": ["Tysiące bram torii", "Atmosfera duchowości"]
       },
       {
+        "title": "Arashiyama Bamboo Grove",
+        "img": "/images/bamboo.png",
+        "city": "Kyoto",
+        "features": ["Towering bamboo stalks", "Tranquil walking paths"]
+      },
+      {
         "title": "Fuji-san",
-        "img": "/image/",
+        "img": "/images/mount-fuji.png",
         "city": "Prefektura Shizuoka",
         "features": ["Ikoniczny wulkan", "Punkt pielgrzymek i trekkingu"]
       }
