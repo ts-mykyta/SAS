@@ -19,7 +19,7 @@ const props = defineProps({
         <p class="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">{{ props?.subtitle }}</p>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <a class="card-hover" href="/pl-PL/activities/bike-tour" data-discover="true">
+        <RouterLink class="card-hover" :to="{ name: 'activity', params: { slug: 'wycieczka-rowerowa' } }" data-discover="true">
           <div class="rounded-lg border bg-card text-card-foreground overflow-hidden h-full border-none shadow-md">
             <div class="aspect-[16/9] overflow-hidden"><img loading="lazy" decoding="async" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110" alt="Bike Tour" src="/images/biketour.png"></div>
             <div class="p-6">
@@ -39,8 +39,8 @@ const props = defineProps({
               </div>
             </div>
           </div>
-        </a>
-        <a class="card-hover" href="/pl-PL/activities/city-tour" data-discover="true">
+        </RouterLink>
+        <RouterLink class="card-hover" :to="{ name: 'activity', params: { slug: 'wycieczka-po-miescie' } }" data-discover="true">
           <div class="rounded-lg border bg-card text-card-foreground overflow-hidden h-full border-none shadow-md">
             <div class="aspect-[16/9] overflow-hidden"><img loading="lazy" decoding="async" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110" alt="City Tour" src="/images/bustour.png"></div>
             <div class="p-6">
@@ -60,8 +60,8 @@ const props = defineProps({
               </div>
             </div>
           </div>
-        </a>
-        <a class="card-hover" href="/pl-PL/activities/wildlife-safari" data-discover="true">
+        </RouterLink>
+        <RouterLink class="card-hover" :to="{ name: 'activity', params: { slug: 'safari-dzikiej-przyrody' } }" data-discover="true">
           <div class="rounded-lg border bg-card text-card-foreground overflow-hidden h-full border-none shadow-md">
             <div class="aspect-[16/9] overflow-hidden"><img loading="lazy" decoding="async" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110" alt="Wildlife Safari" src="/images/safari.png"></div>
             <div class="p-6">
@@ -81,8 +81,8 @@ const props = defineProps({
               </div>
             </div>
           </div>
-        </a>
-        <a class="card-hover" href="/pl-PL/activities/food-tasting" data-discover="true">
+        </RouterLink>
+        <RouterLink class="card-hover" :to="{ name: 'activity', params: { slug: 'degustacja-potraw' } }" data-discover="true">
           <div class="rounded-lg border bg-card text-card-foreground overflow-hidden h-full border-none shadow-md">
             <div class="aspect-[16/9] overflow-hidden"><img loading="lazy" decoding="async" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110" alt="Food Tasting" src="/images/degustation.png"></div>
             <div class="p-6">
@@ -102,8 +102,8 @@ const props = defineProps({
               </div>
             </div>
           </div>
-        </a>
-        <a class="card-hover" href="/pl-PL/activities/snorkeling" data-discover="true">
+        </RouterLink>
+        <RouterLink class="card-hover" :to="{ name: 'activity', params: { slug: 'nurkowanie-z-rurka' } }" data-discover="true">
           <div class="rounded-lg border bg-card text-card-foreground overflow-hidden h-full border-none shadow-md">
             <div class="aspect-[16/9] overflow-hidden"><img loading="lazy" decoding="async" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110" alt="Snorkeling" src="/images/snorkeling.png"></div>
             <div class="p-6">
@@ -123,8 +123,8 @@ const props = defineProps({
               </div>
             </div>
           </div>
-        </a>
-        <a class="card-hover" href="/pl-PL/activities/beach-day" data-discover="true">
+        </RouterLink>
+        <RouterLink class="card-hover" :to="{ name: 'activity', params: { slug: 'dzien-na-plazy' } }" data-discover="true">
           <div class="rounded-lg border bg-card text-card-foreground overflow-hidden h-full border-none shadow-md">
             <div class="aspect-[16/9] overflow-hidden"><img loading="lazy" decoding="async" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110" alt="Beach Day" src="/images/beach.png"></div>
             <div class="p-6">
@@ -144,7 +144,7 @@ const props = defineProps({
               </div>
             </div>
           </div>
-        </a>
+        </RouterLink>
       </div>
       <div class="text-center mt-12">
         <a class="inline-flex items-center px-6 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary/90 transition-colors" href="/pl-PL/activities" data-discover="true">

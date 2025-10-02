@@ -6,10 +6,23 @@ const props = defineProps({
   countries: Array,
   category: String,
 })
+
+function slugify(s) {
+  return (s || '')
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+}
 </script>
 
 <template>
-  <a class="card-hover" href="/pl-PL/activities/museum-visit" data-discover="true">
+  <RouterLink
+    class="card-hover"
+    :to="{ name: 'activity', params: { slug: slugify(props?.title) } }"
+    data-discover="true"
+  >
     <div
       class="rounded-lg border bg-card text-card-foreground overflow-hidden h-full border-none shadow-md flex flex-col"
     >
@@ -170,5 +183,5 @@ const props = defineProps({
         </div>
       </div>
     </div>
-  </a>
+  </RouterLink>
 </template>

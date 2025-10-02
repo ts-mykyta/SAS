@@ -11,6 +11,15 @@ import ActivitiesFilter from '@/components/activities/ActivitiesFilter.vue'
 
 const categories = ['Popularne', 'Nowości', 'Outdoor', 'Kulinaria', 'Relaks']
 
+function slugify(s) {
+  return (s || '')
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+}
+
 const activities = ref(
   activitiesData.map((item, index) => ({
     id: index + 1,
@@ -19,6 +28,7 @@ const activities = ref(
     text: item.text,
     image: item.img,
     category: categories[Math.floor(Math.random() * categories.length)],
+    slug: item.slug || slugify(item.activity),
   })),
 )
 
