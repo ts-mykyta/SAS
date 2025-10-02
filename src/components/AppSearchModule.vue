@@ -1,5 +1,6 @@
 <script setup>
 import { ref, reactive, computed, onMounted } from 'vue'
+import airportsData from '@/store/airports.json'
 
 // Реактивные данные
 const searchForm = reactive({
@@ -17,67 +18,11 @@ const isLoading = ref(false)
 const searchResults = ref([])
 const showResults = ref(false)
 
-const airportsData = ref([
-  { code: 'WAW', name: 'Warszawa Okęcie', country: 'Polska', city: 'Warszawa' },
-  { code: 'KRK', name: 'Kraków Balice', country: 'Polska', city: 'Kraków' },
-  { code: 'GDN', name: 'Gdańsk Lech Wałęsa', country: 'Polska', city: 'Gdańsk' },
-  { code: 'WRO', name: 'Wrocław Strachowice', country: 'Polska', city: 'Wrocław' },
-  { code: 'POZ', name: 'Poznań Ławica', country: 'Polska', city: 'Poznań' },
-  { code: 'KTW', name: 'Katowice Pyrzowice', country: 'Polska', city: 'Katowice' },
-  { code: 'RZE', name: 'Rzeszów Jasionka', country: 'Polska', city: 'Rzeszów' },
-  { code: 'SZZ', name: 'Szczecin Goleniów', country: 'Polska', city: 'Szczecin' },
-  { code: 'LUZ', name: 'Lublin Świdnik', country: 'Polska', city: 'Lublin' },
-  { code: 'BZG', name: 'Bydgoszcz Szwederowo', country: 'Polska', city: 'Bydgoszcz' },
-  { code: 'OSR', name: 'Ostrava', country: 'Polska', city: 'Ostrava' },
-  { code: 'IEG', name: 'Zielona Góra', country: 'Polska', city: 'Zielona Góra' },
-  { code: 'LCJ', name: 'Łódź Lublinek', country: 'Polska', city: 'Łódź' },
-  { code: 'SZY', name: 'Olsztyn Mazury', country: 'Polska', city: 'Olsztyn' },
-  { code: 'RDO', name: 'Radom Sadków', country: 'Polska', city: 'Radom' },
-
-  // Europe
-  { code: 'CDG', name: 'Paryż Charles de Gaulle', country: 'Francja', city: 'Paryż' },
-  { code: 'ORY', name: 'Paryż Orly', country: 'Francja', city: 'Paryż' },
-  { code: 'LHR', name: 'Londyn Heathrow', country: 'Wielka Brytania', city: 'Londyn' },
-  { code: 'LGW', name: 'Londyn Gatwick', country: 'Wielka Brytania', city: 'Londyn' },
-  { code: 'STN', name: 'Londyn Stansted', country: 'Wielka Brytania', city: 'Londyn' },
-  { code: 'FCO', name: 'Rzym Fiumicino', country: 'Włochy', city: 'Rzym' },
-  { code: 'MXP', name: 'Mediolan Malpensa', country: 'Włochy', city: 'Mediolan' },
-  { code: 'MAD', name: 'Madryt Barajas', country: 'Hiszpania', city: 'Madryt' },
-  { code: 'BCN', name: 'Barcelona El Prat', country: 'Hiszpania', city: 'Barcelona' },
-  { code: 'FRA', name: 'Frankfurt', country: 'Niemcy', city: 'Frankfurt' },
-  { code: 'MUC', name: 'Monachium', country: 'Niemcy', city: 'Monachium' },
-  { code: 'TXL', name: 'Berlin Tegel', country: 'Niemcy', city: 'Berlin' },
-  { code: 'AMS', name: 'Amsterdam Schiphol', country: 'Holandia', city: 'Amsterdam' },
-  { code: 'VIE', name: 'Wiedeń', country: 'Austria', city: 'Wiedeń' },
-  { code: 'ZUR', name: 'Zurych', country: 'Szwajcaria', city: 'Zurych' },
-  { code: 'CPH', name: 'Kopenhaga', country: 'Dania', city: 'Kopenhaga' },
-  { code: 'ARN', name: 'Sztokholm Arlanda', country: 'Szwecja', city: 'Sztokholm' },
-  { code: 'OSL', name: 'Oslo Gardermoen', country: 'Norwegia', city: 'Oslo' },
-  { code: 'HEL', name: 'Helsinki Vantaa', country: 'Finlandia', city: 'Helsinki' },
-  { code: 'PRG', name: 'Praga', country: 'Czechy', city: 'Praga' },
-  { code: 'BUD', name: 'Budapeszt', country: 'Węgry', city: 'Budapeszt' },
-  { code: 'IST', name: 'Stambuł', country: 'Turcja', city: 'Stambuł' },
-  { code: 'SAW', name: 'Stambuł Sabiha Gökçen', country: 'Turcja', city: 'Stambuł' },
-
-  // Dalekie kierunki
-  { code: 'DXB', name: 'Dubaj', country: 'ZEA', city: 'Dubaj' },
-  { code: 'JFK', name: 'Nowy Jork JFK', country: 'USA', city: 'Nowy Jork' },
-  { code: 'LAX', name: 'Los Angeles', country: 'USA', city: 'Los Angeles' },
-  { code: 'NRT', name: 'Tokio Narita', country: 'Japonia', city: 'Tokio' },
-  { code: 'ICN', name: 'Seul Incheon', country: 'Korea Południowa', city: 'Seul' },
-  { code: 'SIN', name: 'Singapur Changi', country: 'Singapur', city: 'Singapur' },
-  { code: 'BKK', name: 'Bangkok Suvarnabhumi', country: 'Tajlandia', city: 'Bangkok' },
-  { code: 'SYD', name: 'Sydney Kingsford Smith', country: 'Australia', city: 'Sydney' },
-  { code: 'MEL', name: 'Melbourne', country: 'Australia', city: 'Melbourne' },
-  { code: 'YYZ', name: 'Toronto Pearson', country: 'Kanada', city: 'Toronto' },
-  { code: 'YVR', name: 'Vancouver', country: 'Kanada', city: 'Vancouver' },
-])
-
 const filteredOriginSuggestions = computed(() => {
   if (!searchForm.origin) return []
   const query = searchForm.origin.toLowerCase()
 
-  return airportsData.value
+  return airportsData
     .filter(
       (airport) =>
         airport.name.toLowerCase().includes(query) ||
@@ -100,7 +45,7 @@ const filteredDestinationSuggestions = computed(() => {
   if (!searchForm.destination) return []
   const query = searchForm.destination.toLowerCase()
 
-  return airportsData.value
+  return airportsData
     .filter(
       (airport) =>
         airport.name.toLowerCase().includes(query) ||
