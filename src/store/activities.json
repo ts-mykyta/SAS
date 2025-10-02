@@ -1,0 +1,92 @@
+[
+    {
+        "activity": "Wizyta W Muzeum",
+        "countries": ["Francja", "Włochy"],
+        "text": "Zanurz się w historii i sztuce, wędrując przez okazałe galerie, zachwycając się ikonicznymi arcydziełami i odkrywając fascynujące historie kryjące się za każdną wystawą podczas immersyjnej Wizyty w Muzeum.",
+        "img": "/images/museum.png"
+    },
+    {
+        "activity": "Dzień Na Plaży",
+        "countries": ["Brazylia", "Tajlandia", "Australia"],
+        "text": "Beach Day to skąpane w słońcu nadmorskie doświadczenie, w którym możesz odpocząć na złotym piasku, popływać w krystalicznie czystych wodach i chłonąć tętniącą życiem nadmorską atmosferę z przyjaciółmi i rodziną.",
+        "img": "/images/beach.png"
+    },
+    {
+        "activity": "Wycieczka Po Mieście",
+        "countries": ["Francja", "Japonia", "Włochy"],
+        "text": "Rozpocznij fascynującą wycieczkę po mieście, która zabierze Cię przez tętniące życiem ulice, zabytkowe miejsca i barwne dzielnice. Odkryj ukryte historie, lokalne tradycje i ikoniczne atrakcje, zanurzając się w dynamicznej kulturze miasta.",
+        "img": "/images/bustour.png"
+    },
+    {
+        "activity": "Przygoda Wędrówkowa",
+        "countries": ["Nowa Zelandia", "Kanada", "Peru"],
+        "text": "Wyrusz na ekscytującą Wędrówkę Pieszą przez kręte górskie ścieżki, bujne lasy i panoramiczne widoki. Odkrywaj ukryte wodospady, spotykaj miejscową faunę i zanurz się w zapierającym dech w piersiach pięknie natury, podejmując wyzwanie i tworząc niezapomniane wspomnienia.",
+        "img": "/images/hiking.png"
+    },
+    {
+        "activity": "Degustacja Potraw",
+        "countries": ["Japonia", "Włochy", "Tajlandia"],
+        "text": "Odkryj bogate smaki i kulinarne tradycje swojego miejsca docelowego, próbując różnorodnych lokalnych potraw, przekąsek i napojów. Prowadzeni przez kompetentnych gospodarzy odkryjesz ukryte perełki, poznasz regionalne składniki i zanurzysz się w kulturze poprzez jedzenie.",
+        "img": "/images/degustation.png"
+    },
+        {
+        "activity": "Safari Dzikiej Przyrody",
+        "countries": ["Kenia"],
+        "text": "Wyrusz na ekscytujące safari w dzikiej przyrodzie, aby obserwować majestatyczne stworzenia swobodnie przemierzające rozległe sawanny i bujne tereny podmokłe, oferujące niezapomniane spotkania z najbardziej ikonicznymi gatunkami natury.",
+        "img": "/images/safari.png"
+    },
+    {
+        "activity": "Degustacja Wina",
+        "countries": ["Francja", "Włochy", "Australia"],
+        "text": "Odkryj sztukę wina podczas prowadzonych degustacji w malowniczych winnicach. Skosztuj regionalnych szczepów, poznaj tradycje winiarskie i udoskonal swoje podniebienie w żywym, edukacyjnym doświadczeniu idealnym dla miłośników jedzenia i ciekawych podróżników.",
+        "img": "/images/wine-tasting.png"
+    },
+    {
+        "activity": "Dzień SPA",
+        "countries": ["Japonia", "Tajlandia"],
+        "text": "Rozkoszuj się odmładzającą ucieczką z Spa Day, gdzie doświadczeni terapeuci, kojące zabiegi, i spokojne otoczenie przywracają twój umysł, ciało, i ducha. Zrelaksuj się w basenach z gorącymi kamieniami, oddaj się aromatycznym masażom, i zanurz się w całkowitym relaksie dla spokojnego i odświeżającego doświadczenia.",
+        "img": "/images/spa.png"
+    },
+    {
+        "activity": "Pokaz Kulturowy",
+        "countries": ["Japonia", "Brazylia"],
+        "text": "Doświadcz barwnej mozaiki lokalnych tradycji poprzez urzekające występy, muzykę, taniec i opowiadanie historii podczas angażującego Pokazu Kulturowego.",
+        "img": "/images/cultural-show.png"
+    },
+    {
+        "activity": "Wycieczka Rowerowa",
+        "countries": ["Francja"],
+        "text": "Poczuj dreszczyk emocji odkrywając lokalne krajobrazy na dwóch kółkach, pedałując malowniczymi szlakami, urokliwymi wioskami, i zapierającymi dech w piersiach widokami.",
+        "img": "/images/biketour.png"
+    },
+    {
+        "activity": "Warsztaty Fotograficzne",
+        "countries": ["Japonia", "Islandia", "Australia"],
+        "text": "Dołącz do profesjonalnych fotografów na immersyjnym Warsztacie Fotograficznym, ucząc się zaawansowanych technik kadrowania dramatycznych krajobrazów, żywych scen ulicznych, i bogatych momentów kulturowych. Odkrywaj ukryte perełki, doskonal swoje umiejętności, i wróć do domu z oszałamiającym portfolio zdjęć z podróży.",
+        "img": "/images/photography.png"
+    },
+    {
+        "activity": "Rejs Rzeczny",
+        "countries": ["Francja"],
+        "text": "Płynąc malowniczymi drogami wodnymi podczas Rejsu Rzecznego, zwiedzając malownicze krajobrazy, urokliwe miasteczka nadbrzeżne, i historyczne zabytki w komforcie i stylu.",
+        "img": "/images/cruise.png"
+    },
+    {
+        "activity": "Nurkowanie z rurką",
+        "countries": ["Tajlandia", "Australia"],
+        "text": "Nurkowanie z rurką oferuje ekscytujący wgląd w podwodne światy, pozwalając płynąć tuż nad kolorowymi ogrodami koralowymi i ciekawskim życiem morskim w czystych, płytkich wodach. Idealne dla wszystkich grup wiekowych, to dostępna przygoda, która odkrywa ukryte skarby natury.",
+        "img": "/images/snorkeling.png"
+    },
+    {
+        "activity": "Zakupy Na Lokalnym Rynku",
+        "countries": ["Maroko", "Tajlandia", "Peru"],
+        "text": "Zanurz się w sercu destynacji, przemierzając jej lokalne targowiska. Odkryj tętniące życiem stragany ze świeżymi produktami, wyrobami rękodzielniczymi i aromatycznymi przyprawami, nawiązując rozmowy z przyjaznymi sprzedawcami i chłonąc autentyczne widoki, dźwięki i smaki społeczności.",
+        "img": "/images/shopping.png"
+    },
+    {
+        "activity": "Lekcja Tańca",
+        "countries": ["Brazylia"],
+        "text": "Doświadcz radości ruchu na pełnych życia zajęciach tanecznych, gdzie doświadczeni instruktorzy prowadzą cię przez pełne energii kroki, zanurzając cię w kulturowych rytmach i energii społeczności.",
+        "img": "/images/dancing.png"
+    }
+]

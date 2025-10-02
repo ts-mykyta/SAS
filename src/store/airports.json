@@ -1,0 +1,331 @@
+[
+  {
+    "code": "WAW",
+    "name": "Warszawa Okęcie",
+    "country": "Polska",
+    "city": "Warszawa",
+    "timezone": "Europe/Warsaw"
+  },
+  {
+    "code": "KRK",
+    "name": "Kraków Balice",
+    "country": "Polska",
+    "city": "Kraków",
+    "timezone": "Europe/Warsaw"
+  },
+  {
+    "code": "GDN",
+    "name": "Gdańsk Lech Wałęsa",
+    "country": "Polska",
+    "city": "Gdańsk",
+    "timezone": "Europe/Warsaw"
+  },
+  {
+    "code": "WRO",
+    "name": "Wrocław Strachowice",
+    "country": "Polska",
+    "city": "Wrocław",
+    "timezone": "Europe/Warsaw"
+  },
+  {
+    "code": "POZ",
+    "name": "Poznań Ławica",
+    "country": "Polska",
+    "city": "Poznań",
+    "timezone": "Europe/Warsaw"
+  },
+  {
+    "code": "KTW",
+    "name": "Katowice Pyrzowice",
+    "country": "Polska",
+    "city": "Katowice",
+    "timezone": "Europe/Warsaw"
+  },
+  {
+    "code": "RZE",
+    "name": "Rzeszów Jasionka",
+    "country": "Polska",
+    "city": "Rzeszów",
+    "timezone": "Europe/Warsaw"
+  },
+  {
+    "code": "SZZ",
+    "name": "Szczecin Goleniów",
+    "country": "Polska",
+    "city": "Szczecin",
+    "timezone": "Europe/Warsaw"
+  },
+  {
+    "code": "LUZ",
+    "name": "Lublin Świdnik",
+    "country": "Polska",
+    "city": "Lublin",
+    "timezone": "Europe/Warsaw"
+  },
+  {
+    "code": "BZG",
+    "name": "Bydgoszcz Szwederowo",
+    "country": "Polska",
+    "city": "Bydgoszcz",
+    "timezone": "Europe/Warsaw"
+  },
+  {
+    "code": "LCJ",
+    "name": "Łódź Lublinek",
+    "country": "Polska",
+    "city": "Łódź",
+    "timezone": "Europe/Warsaw"
+  },
+  {
+    "code": "SZY",
+    "name": "Olsztyn Mazury",
+    "country": "Polska",
+    "city": "Olsztyn",
+    "timezone": "Europe/Warsaw"
+  },
+  {
+    "code": "RDO",
+    "name": "Radom Sadków",
+    "country": "Polska",
+    "city": "Radom",
+    "timezone": "Europe/Warsaw"
+  },
+  {
+    "code": "CDG",
+    "name": "Paryż Charles de Gaulle",
+    "country": "Francja",
+    "city": "Paryż",
+    "timezone": "Europe/Paris"
+  },
+  {
+    "code": "ORY",
+    "name": "Paryż Orly",
+    "country": "Francja",
+    "city": "Paryż",
+    "timezone": "Europe/Paris"
+  },
+  {
+    "code": "LHR",
+    "name": "Londyn Heathrow",
+    "country": "Wielka Brytania",
+    "city": "Londyn",
+    "timezone": "Europe/London"
+  },
+  {
+    "code": "LGW",
+    "name": "Londyn Gatwick",
+    "country": "Wielka Brytania",
+    "city": "Londyn",
+    "timezone": "Europe/London"
+  },
+  {
+    "code": "STN",
+    "name": "Londyn Stansted",
+    "country": "Wielka Brytania",
+    "city": "Londyn",
+    "timezone": "Europe/London"
+  },
+  {
+    "code": "FCO",
+    "name": "Rzym Fiumicino",
+    "country": "Włochy",
+    "city": "Rzym",
+    "timezone": "Europe/Rome"
+  },
+  {
+    "code": "MXP",
+    "name": "Mediolan Malpensa",
+    "country": "Włochy",
+    "city": "Mediolan",
+    "timezone": "Europe/Rome"
+  },
+  {
+    "code": "MAD",
+    "name": "Madryt Barajas",
+    "country": "Hiszpania",
+    "city": "Madryt",
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "code": "BCN",
+    "name": "Barcelona El Prat",
+    "country": "Hiszpania",
+    "city": "Barcelona",
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "code": "FRA",
+    "name": "Frankfurt",
+    "country": "Niemcy",
+    "city": "Frankfurt",
+    "timezone": "Europe/Berlin"
+  },
+  {
+    "code": "MUC",
+    "name": "Monachium",
+    "country": "Niemcy",
+    "city": "Monachium",
+    "timezone": "Europe/Berlin"
+  },
+  {
+    "code": "TXL",
+    "name": "Berlin Tegel",
+    "country": "Niemcy",
+    "city": "Berlin",
+    "timezone": "Europe/Berlin"
+  },
+  {
+    "code": "AMS",
+    "name": "Amsterdam Schiphol",
+    "country": "Holandia",
+    "city": "Amsterdam",
+    "timezone": "Europe/Amsterdam"
+  },
+  {
+    "code": "VIE",
+    "name": "Wiedeń",
+    "country": "Austria",
+    "city": "Wiedeń",
+    "timezone": "Europe/Vienna"
+  },
+  {
+    "code": "ZUR",
+    "name": "Zurych",
+    "country": "Szwajcaria",
+    "city": "Zurych",
+    "timezone": "Europe/Zurich"
+  },
+  {
+    "code": "CPH",
+    "name": "Kopenhaga",
+    "country": "Dania",
+    "city": "Kopenhaga",
+    "timezone": "Europe/Copenhagen"
+  },
+  {
+    "code": "ARN",
+    "name": "Sztokholm Arlanda",
+    "country": "Szwecja",
+    "city": "Sztokholm",
+    "timezone": "Europe/Stockholm"
+  },
+  {
+    "code": "OSL",
+    "name": "Oslo Gardermoen",
+    "country": "Norwegia",
+    "city": "Oslo",
+    "timezone": "Europe/Oslo"
+  },
+  {
+    "code": "HEL",
+    "name": "Helsinki Vantaa",
+    "country": "Finlandia",
+    "city": "Helsinki",
+    "timezone": "Europe/Helsinki"
+  },
+  {
+    "code": "PRG",
+    "name": "Praga",
+    "country": "Czechy",
+    "city": "Praga",
+    "timezone": "Europe/Prague"
+  },
+  {
+    "code": "BUD",
+    "name": "Budapeszt",
+    "country": "Węgry",
+    "city": "Budapeszt",
+    "timezone": "Europe/Budapest"
+  },
+  {
+    "code": "IST",
+    "name": "Stambuł",
+    "country": "Turcja",
+    "city": "Stambuł",
+    "timezone": "Europe/Istanbul"
+  },
+  {
+    "code": "SAW",
+    "name": "Stambuł Sabiha Gökçen",
+    "country": "Turcja",
+    "city": "Stambuł",
+    "timezone": "Europe/Istanbul"
+  },
+  {
+    "code": "DXB",
+    "name": "Dubaj",
+    "country": "ZEA",
+    "city": "Dubaj",
+    "timezone": "Asia/Dubai"
+  },
+  {
+    "code": "JFK",
+    "name": "Nowy Jork JFK",
+    "country": "USA",
+    "city": "Nowy Jork",
+    "timezone": "America/New_York"
+  },
+  {
+    "code": "LAX",
+    "name": "Los Angeles",
+    "country": "USA",
+    "city": "Los Angeles",
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "code": "NRT",
+    "name": "Tokio Narita",
+    "country": "Japonia",
+    "city": "Tokio",
+    "timezone": "Asia/Tokyo"
+  },
+  {
+    "code": "ICN",
+    "name": "Seul Incheon",
+    "country": "Korea Południowa",
+    "city": "Seul",
+    "timezone": "Asia/Seoul"
+  },
+  {
+    "code": "SIN",
+    "name": "Singapur Changi",
+    "country": "Singapur",
+    "city": "Singapur",
+    "timezone": "Asia/Singapore"
+  },
+  {
+    "code": "BKK",
+    "name": "Bangkok Suvarnabhumi",
+    "country": "Tajlandia",
+    "city": "Bangkok",
+    "timezone": "Asia/Bangkok"
+  },
+  {
+    "code": "SYD",
+    "name": "Sydney Kingsford Smith",
+    "country": "Australia",
+    "city": "Sydney",
+    "timezone": "Australia/Sydney"
+  },
+  {
+    "code": "MEL",
+    "name": "Melbourne",
+    "country": "Australia",
+    "city": "Melbourne",
+    "timezone": "Australia/Melbourne"
+  },
+  {
+    "code": "YYZ",
+    "name": "Toronto Pearson",
+    "country": "Kanada",
+    "city": "Toronto",
+    "timezone": "America/Toronto"
+  },
+  {
+    "code": "YVR",
+    "name": "Vancouver",
+    "country": "Kanada",
+    "city": "Vancouver",
+    "timezone": "America/Vancouver"
+  }
+]

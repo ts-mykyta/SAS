@@ -1,11 +1,22 @@
-<script setup></script>
+<script setup>
+const props = defineProps({
+  title: {
+    type: String,
+    required: false
+  },
+  subtitle: {
+    type: String,
+    required: false
+  }
+})
+</script>
 
 <template>
   <section class="section bg-primary/10">
     <div class="container">
       <div class="text-center mb-12">
-        <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gray-900 dark:text-white">Popularne aktywności</h2>
-        <p class="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">Odkryj ekscytujące przygody i wciągające doświadczenia, które zamienią twoje podróże w niezapomniane wspomnienia.</p>
+        <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gray-900 dark:text-white">{{ props?.title }}</h2>
+        <p class="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">{{ props?.subtitle }}</p>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <a class="card-hover" href="/pl-PL/activities/bike-tour" data-discover="true">

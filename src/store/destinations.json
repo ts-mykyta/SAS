@@ -1,0 +1,620 @@
+[
+  {
+    "country": "Francja",
+    "tag": "Europa",
+    "text": "Francja oferuje bogatą mozaikę kultury, historii i naturalnego piękna, od ikonicznych zabytków, takich jak Wieża Eiffla, po skąpane w słońcu plaże Riwiery, renomowane regiony winiarskie i malownicze wiejskie wioski.",
+    "img": "/images/france.png",
+    "title": "Odkryj ukryte uroki Francji",
+    "subtitle": "Odkryj cuda Francji. Od jej bogatego dziedzictwa i wyśmienitej kuchni po alpejskie panoramy, zanurz się w każdym zachwycie, jaki ta czarująca kraina ujawnia.",
+    "description": "Francja to kraj urzekającej różnorodności, gdzie wieki historii spotykają się z nowoczesną kreatywnością na malowniczych krajobrazach. Wędruj po urokliwych uliczkach Paryża, domu ikonicznych zabytków takich jak Wieża Eiffla, Luwr i majestatyczna katedra Notre-Dame. Poza stolicą pagórkowate winnice w Bordeaux i Burgundii produkują światowej sławy wina, podczas gdy lawendowe pola Prowansji tworzą żywy fioletowy gobelin pod śródziemnomorskim słońcem. Od skąpanych w słońcu plaż Riwiery po ośnieżone szczyty Francuskich Alp, każdy region oferuje swój niepowtarzalny charakter i smaki. Kultura francuska jest synonimem kulinarnej doskonałości, dziedzictwa artystycznego i głębokiego uznania dla wyrafinowanych przyjemności życia. Rozkoszuj się maślanymi croissantami w osiedlowej piekarni, kosztuj gastronomii nagrodzonej gwiazdkami Michelin w historycznych wnętrzach château albo delektuj się serami wiejskimi i wędlinami w rustykalnych wiejskich bistrach. Przy tempie życia, które ceni długie, wspólne posiłki i kulturalne więzi, podróżni odnajdą ciepło i elegancję wplecione w codzienną rutynę. Niezależnie czy zwiedzasz średniowieczne miasteczka w Normandii, pedałujesz szlakiem châteaux Doliny Loary czy tańczysz do późna w paryskich klubach, Francja obiecuje niezapomnianą podróż dla każdego poszukiwacza przygód.",
+    "currency": "EUR",
+    "language": "Francuski",
+    "advices": [
+      "Zawsze witaj sprzedawców i personel restauracji uprzejmym “Bonjour” przed rozpoczęciem rozmowy.",
+      "Używaj formy grzecznościowej (Monsieur/Madame), chyba że zaproszono do zwracania się po imieniu.",
+      "Etykieta przy stole: trzymaj ręce na stole, łam chleb rękami, i poczekaj, aż wszyscy zostaną podani, zanim zaczniesz jeść.",
+      "Napiwek: opłata serwisowa jest wliczona, ale zostawienie niewielkiego dodatkowego napiwku (5–10%) jest mile widziane przy doskonałej obsłudze.",
+      "Zwróć uwagę na godziny otwarcia sklepów i muzeów; wiele z nich zamyka się na lunch (12–2 pm) i jest zamkniętych w niedziele."
+    ],
+    "destinations": ["Taras Wieży Eiffla", "Lawendowe Pola", "Promenada Anglików"],
+    "sliderImg": "/images/france-slider.png",
+    "popularLocations": [
+      {
+        "title": "Taras Wieży Eiffla",
+        "img": "/image/",
+        "city": "Paryż",
+        "features": ["Panoramiczne widoki na miasto", "Bujne ogrody publiczne"]
+      },
+      {
+        "title": "Lawendowe Pola",
+        "img": "/image/",
+        "city": "Prowansja",
+        "features": ["Niekończące się purpurowe kwiaty", "Pachnące, falujące krajobrazy"]
+      },
+      {
+        "title": "Promenada Anglików",
+        "img": "/image/",
+        "city": "Nicea, Lazurowe Wybrzeże",
+        "features": ["Nadmorski bulwar obsadzony palmami", "Kolorowe parasole plażowe"]
+      },
+      {
+        "title": "Zamek w Chambord",
+        "img": "/image/",
+        "city": "Dolina Loary",
+        "features": ["Architektura renesansu", "Symetryczne wieżyczki"]
+      }
+    ],
+    "food": [
+      {
+        "restaurant": "Le Jules Verne",
+        "city": "Paryż"
+      },
+      {
+        "restaurant": "Mirazur",
+        "city": "Menton"
+      },
+      {
+        "restaurant": "Srebrna Wieża",
+        "city": "Paryż"
+      },
+      {
+        "restaurant": "Zajazd Starej Studni",
+        "city": "Fontjoncouse"
+      },
+      {
+        "restaurant": "Le Chabichou",
+        "city": "Courchevel"
+      },
+      {
+        "restaurant": "L’Oustau de Baumanière",
+        "city": "Les Baux-de-Provence"
+      }
+    ],
+    "nightActivities": [
+      "Rex Club w Paryżu",
+      "Harry’s New York Bar w Paryżu",
+      "Le Sucre w Lyonie",
+      "Plaża Baoli w Cannes",
+      "Les Bains w Paryżu",
+      "Les Caves du Roy w Saint-Tropez"
+    ],
+    "creditCard": "Powszechnie akceptowane w miastach i obszarach turystycznych; niektóre małe wsie mogą preferować gotówkę.",
+    "atm": "Łatwo dostępne w obszarach miejskich i turystycznych; ograniczona dostępność w odległych wsiach.",
+    "english": "Powszechne w miejscach turystycznych"
+  },
+  {
+    "country": "Japonia",
+    "tag": "Azja",
+    "text": "Japonia jest krainą kontrastów, gdzie starożytne świątynie spotykają się z neonowymi miastami.",
+    "img": "/images/japan.png",
+    "title": "Zanurz się w kontrastach Japonii",
+    "subtitle": "Od świątyń Kioto po futurystyczne Tokio — Japonia łączy tradycję z nowoczesnością.",
+    "description": "Japonia to kraj, gdzie tradycja i nowoczesność współistnieją w idealnej harmonii. Od spokojnych ogrodów zen i starożytnych świątyń w Kioto po pulsujące energią dzielnice Shibuya w Tokio, podróżnik odkrywa nieustannie zmieniający się krajobraz. Japonia to również kraj kulinarnej doskonałości — sushi, ramen i tempura to tylko początek przygody. Ośnieżone stoki Hokkaido przyciągają narciarzy, a tropikalne plaże Okinawy zapewniają relaks w rajskim otoczeniu.",
+    "currency": "JPY",
+    "language": "Japoński",
+    "advices": [
+      "Zawsze zdejmuj buty w domach i świątyniach.",
+      "Mów 'Arigato' dziękując, a 'Sumimasen' przepraszając.",
+      "Gotówka wciąż szeroko używana — miej przy sobie yen.",
+      "W metrze i pociągach zachowaj ciszę.",
+      "Napiwki nie są praktykowane."
+    ],
+    "destinations": ["Tokio Tower", "Świątynia Fushimi Inari", "Fuji-san"],
+    "sliderImg": "/images/japan-slider.png",
+    "popularLocations": [
+    {
+        "title": "Świątynia Fushimi Inari",
+        "img": "/images/fushimi-inari.png",
+        "city": "Kioto",
+        "features": ["Tysiące bram torii", "Atmosfera duchowości"]
+      },
+      {
+        "title": "Arashiyama Bamboo Grove",
+        "img": "/images/bamboo.png",
+        "city": "Kyoto",
+        "features": ["Towering bamboo stalks", "Tranquil walking paths"]
+      },
+      {
+        "title": "Fuji-san",
+        "img": "/images/mount-fuji.png",
+        "city": "Prefektura Shizuoka",
+        "features": ["Ikoniczny wulkan", "Punkt pielgrzymek i trekkingu"]
+      }
+    ],
+    "food": [
+      { "restaurant": "Sukiyabashi Jiro", "city": "Tokio" },
+      { "restaurant": "Kikunoi", "city": "Kioto" },
+      { "restaurant": "Ichiran Ramen", "city": "Tokio" }
+    ],
+    "nightActivities": ["Robot Restaurant w Tokio", "Golden Gai w Shinjuku", "Kluby w Osace"],
+    "creditCard": "Akceptowane w dużych miastach, mniej w wiejskich obszarach.",
+    "atm": "Bankomaty 24h dostępne w konbinis.",
+    "english": "Popularny w turystycznych strefach i hotelach"
+  },
+  {
+    "country": "Brazylia",
+    "tag": "Ameryka Południowa",
+    "text": "Brazylia to kraina karnawału, plaż i Amazonii.",
+    "img": "/images/brazil.png",
+    "title": "Brazylia — rytm życia",
+    "subtitle": "Od Rio po Amazonię, odkryj tętniące życiem serce Ameryki Południowej.",
+    "description": "Brazylia to kraj pełen energii i koloru. Rio de Janeiro przyciąga złotymi plażami Copacabana i słynnym posągiem Chrystusa Odkupiciela. Amazońska dżungla oferuje niezrównane bogactwo przyrody, a wodospady Iguaçu zachwycają potęgą. Karnawał w Rio to eksplozja tańca, muzyki i radości życia.",
+    "currency": "BRL",
+    "language": "Portugalski",
+    "advices": [
+      "Uważaj na kieszonkowców w dużych miastach.",
+      "Zawsze pij wodę butelkowaną.",
+      "Przywitaj się uściskiem dłoni lub pocałunkiem w policzek.",
+      "Unikaj samotnych spacerów nocą w nieznanych dzielnicach.",
+      "Ciesz się muzyką i tańcem — to część kultury."
+    ],
+    "destinations": ["Statua Chrystusa", "Amazonia", "Plaża Copacabana"],
+    "sliderImg": "/images/brazil-slider.png",
+    "popularLocations": [
+      {
+        "title": "Statua Chrystusa",
+        "img": "/image/",
+        "city": "Rio de Janeiro",
+        "features": ["Ikoniczny pomnik", "Widok na zatokę Guanabara"]
+      },
+      {
+        "title": "Plaża Copacabana",
+        "img": "/image/",
+        "city": "Rio de Janeiro",
+        "features": ["Złoty piasek", "Żywe nocne życie"]
+      },
+      {
+        "title": "Amazonia",
+        "img": "/image/",
+        "city": "Manaus",
+        "features": ["Największy las deszczowy", "Unikalna fauna i flora"]
+      }
+    ],
+    "food": [
+      { "restaurant": "Fogo de Chão", "city": "São Paulo" },
+      { "restaurant": "Aprazível", "city": "Rio de Janeiro" }
+    ],
+    "nightActivities": ["Kluby samby w Rio", "Bar Vila Madalena w São Paulo"],
+    "creditCard": "Akceptowane w większych miastach.",
+    "atm": "Dostępne powszechnie.",
+    "english": "W hotelach i kurortach — tak, na wsiach — mniej"
+  },
+  {
+    "country": "Nowa Zelandia",
+    "tag": "Oceania",
+    "text": "Nowa Zelandia to kraj nieziemskich krajobrazów i przygód.",
+    "img": "/images/new-zealand.png",
+    "title": "Nowa Zelandia — kraina natury i przygód",
+    "subtitle": "Od fiordów Milford Sound po wulkany Wyspy Północnej — odkryj kraj, gdzie natura gra główną rolę.",
+    "description": "Nowa Zelandia to raj dla miłośników przyrody i aktywnego wypoczynku. Góry, fiordy i jeziora południowej wyspy kontrastują z geotermalnymi cudami Rotorua i złotymi plażami Bay of Islands. Kultura Maorysów wzbogaca doświadczenie podróży, a fani filmów mogą zwiedzić plan filmowy Władcy Pierścieni. To kraj, gdzie trekking, sporty ekstremalne i niezapomniane widoki są codziennością.",
+    "currency": "NZD",
+    "language": "Angielski, Maoryski",
+    "advices": [
+      "Pogoda zmienia się szybko — zawsze miej kurtkę przeciwdeszczową.",
+      "Kiwis są bardzo przyjaźni i bezpośredni.",
+      "Samochód to najlepszy sposób zwiedzania kraju.",
+      "Ciesz się przyrodą, ale szanuj zasady ekologii.",
+      "Nie ma napiwków jako obowiązku, ale są mile widziane."
+    ],
+    "destinations": ["Milford Sound", "Rotorua", "Bay of Islands"],
+    "sliderImg": "/images/nz-slider.png",
+    "popularLocations": [
+      {
+        "title": "Milford Sound",
+        "img": "/image/",
+        "city": "Fiordland",
+        "features": ["Fiordy o niesamowitej skali", "Rejsy łodziami wśród wodospadów"]
+      },
+      {
+        "title": "Rotorua",
+        "img": "/image/",
+        "city": "Wyspa Północna",
+        "features": ["Gejzery i gorące źródła", "Kultura Maorysów"]
+      },
+      {
+        "title": "Bay of Islands",
+        "img": "/image/",
+        "city": "Północna część",
+        "features": ["Plaże i żeglarstwo", "Rejsy z obserwacją delfinów"]
+      }
+    ],
+    "food": [
+      { "restaurant": "Sid at The French Café", "city": "Auckland" },
+      { "restaurant": "Amisfield Bistro", "city": "Queenstown" }
+    ],
+    "nightActivities": ["SkyCity Casino w Auckland", "Kluby w Queenstown"],
+    "creditCard": "Akceptowane w miastach i kurortach.",
+    "atm": "Dostępne w większości miejscowości.",
+    "english": "Język angielski jest urzędowy."
+  },
+  {
+    "country": "Maroko",
+    "tag": "Afryka",
+    "text": "Maroko — kraj kolorów, przypraw i pustynnych przygód.",
+    "img": "/images/morocco.png",
+    "title": "Maroko — brama do Afryki",
+    "subtitle": "Od medyn Marrakeszu po wydmy Sahary — odkryj egzotyczne piękno Maroka.",
+    "description": "Maroko to miejsce, gdzie orientalna magia spotyka afrykańską gościnność. Marrakesz kusi kolorowymi sukami i aromatem przypraw, Fez czaruje średniowiecznymi uliczkami, a Sahara daje doświadczenie życia pod gwiazdami. Góry Atlasu oferują trekking, a nadmorski Essaouira relaks nad Atlantykiem. To kraj, gdzie każda podróż pachnie miętową herbatą i tajine.",
+    "currency": "MAD",
+    "language": "Arabski, Berberyjski, Francuski",
+    "advices": [
+      "Negocjowanie cen na targach jest normą.",
+      "Unikaj fotografowania ludzi bez zgody.",
+      "W miejscach religijnych ubieraj się skromnie.",
+      "Pij tylko butelkowaną wodę.",
+      "Uważaj na nachalnych sprzedawców."
+    ],
+    "destinations": ["Marrakesz Medina", "Sahara", "Essaouira"],
+    "sliderImg": "/images/morocco-slider.png",
+    "popularLocations": [
+      {
+        "title": "Medina Marrakeszu",
+        "img": "/image/",
+        "city": "Marrakesz",
+        "features": ["Kolorowe suki", "Plac Jemaa el-Fna"]
+      },
+      {
+        "title": "Wydmy Sahary",
+        "img": "/image/",
+        "city": "Merzouga",
+        "features": ["Karawany wielbłądów", "Noclegi pod gwiazdami"]
+      },
+      {
+        "title": "Essaouira",
+        "img": "/image/",
+        "city": "Wybrzeże Atlantyku",
+        "features": ["Forteca portugalska", "Plaże surferskie"]
+      }
+    ],
+    "food": [
+      { "restaurant": "Al Fassia", "city": "Marrakesz" },
+      { "restaurant": "Dar Yacout", "city": "Marrakesz" }
+    ],
+    "nightActivities": [
+      "Targ nocny Jemaa el-Fna",
+      "Tradycyjne hammamy",
+      "Kawiarnie z muzyką na żywo"
+    ],
+    "creditCard": "Akceptowane w hotelach i większych sklepach.",
+    "atm": "Dostępne w miastach.",
+    "english": "Często używany w turystycznych miejscach."
+  },
+  {
+    "country": "Kanada",
+    "tag": "Północna Ameryka",
+    "text": "Kanada — kraj natury i wielokulturowości.",
+    "img": "/images/canada.png",
+    "title": "Kanada — wielka przygoda",
+    "subtitle": "Od wodospadów Niagara po Góry Skaliste — odkryj potęgę natury Kanady.",
+    "description": "Kanada to kraj ogromnych przestrzeni i przyjaznych ludzi. Wschód zachwyca wodospadami Niagara i Montrealem pełnym kultury. Zachód to Vancouver i Góry Skaliste, raj dla narciarzy i miłośników trekkingu. Północ Kanady kryje zorze polarne i bezkresną tundrę. To miejsce, gdzie kultura europejska i północnoamerykańska mieszają się w wielokulturowym tyglu.",
+    "currency": "CAD",
+    "language": "Angielski, Francuski",
+    "advices": [
+      "Zima może być ekstremalna — ubierz się odpowiednio.",
+      "Kanadyjczycy są bardzo grzeczni — używaj 'Sorry' i 'Thank you'.",
+      "Napiwki 15–20% są standardem.",
+      "Przyroda jest chroniona — szanuj zasady parków narodowych.",
+      "Wielkie odległości — planuj podróże z wyprzedzeniem."
+    ],
+    "destinations": ["Wodospady Niagara", "Góry Skaliste", "Toronto CN Tower"],
+    "sliderImg": "/images/canada-slider.png",
+    "popularLocations": [
+      {
+        "title": "Wodospady Niagara",
+        "img": "/image/",
+        "city": "Ontario",
+        "features": ["Spektakularny wodospad", "Rejs łodzią Maid of the Mist"]
+      },
+      {
+        "title": "Góry Skaliste",
+        "img": "/image/",
+        "city": "Alberta",
+        "features": ["Park Narodowy Banff", "Krystaliczne jeziora"]
+      },
+      {
+        "title": "CN Tower",
+        "img": "/image/",
+        "city": "Toronto",
+        "features": ["Taras widokowy", "Szklana podłoga"]
+      }
+    ],
+    "food": [
+      { "restaurant": "Toqué!", "city": "Montreal" },
+      { "restaurant": "Joe Beef", "city": "Montreal" },
+      { "restaurant": "Alo Restaurant", "city": "Toronto" }
+    ],
+    "nightActivities": ["Kluby w Toronto", "Puby w Montrealu", "Życie nocne w Vancouver"],
+    "creditCard": "Akceptowane wszędzie.",
+    "atm": "Dostępne nawet w małych miastach.",
+    "english": "Język angielski jest podstawowym."
+  },
+  {
+    "country": "Włochy",
+    "tag": "Europa",
+    "text": "Włochy — kraj historii, sztuki i doskonałej kuchni.",
+    "img": "/images/italy.png",
+    "title": "Italia — serce Europy",
+    "subtitle": "Od Koloseum po Toskanię — Włochy to podróż przez wieki kultury.",
+    "description": "Włochy to kraj sztuki, kuchni i dolce vita. Rzym oczarowuje ruinami Koloseum i Watykanem, Florencja zachwyca sztuką renesansu, a Wenecja romantycznymi kanałami. Toskania to falujące wzgórza i winnice, a Wybrzeże Amalfi kusi malowniczymi miasteczkami nad morzem. To kraj, gdzie każdy posiłek jest świętem, a życie płynie w rytmie espresso i rozmów przy stole.",
+    "currency": "EUR",
+    "language": "Włoski",
+    "advices": [
+      "Kawa pije się szybko przy barze.",
+      "W restauracjach doliczana jest coperto (opłata za nakrycie).",
+      "Ubieraj się elegancko — Włosi cenią styl.",
+      "Nie zamawiaj cappuccino po 11 rano.",
+      "Miej gotówkę, szczególnie w małych miasteczkach."
+    ],
+    "destinations": ["Koloseum", "Kanały Wenecji", "Wybrzeże Amalfi"],
+    "sliderImg": "/images/italy-slider.png",
+    "popularLocations": [
+      {
+        "title": "Koloseum",
+        "img": "/image/",
+        "city": "Rzym",
+        "features": ["Starożytne ruiny", "Ikona Cesarstwa Rzymskiego"]
+      },
+      {
+        "title": "Kanały Wenecji",
+        "img": "/image/",
+        "city": "Wenecja",
+        "features": ["Gondole", "Plac Świętego Marka"]
+      },
+      {
+        "title": "Wybrzeże Amalfi",
+        "img": "/image/",
+        "city": "Amalfi",
+        "features": ["Malownicze klify", "Kolorowe miasteczka"]
+      }
+    ],
+    "food": [
+      { "restaurant": "La Pergola", "city": "Rzym" },
+      { "restaurant": "Osteria Francescana", "city": "Modena" },
+      { "restaurant": "Da Enzo al 29", "city": "Rzym" }
+    ],
+    "nightActivities": ["Aperitivo w Mediolanie", "Nocne spacery w Rzymie", "Kluby w Rimini"],
+    "creditCard": "Akceptowane w miastach.",
+    "atm": "Powszechne.",
+    "english": "W turystycznych miastach większość osób mówi po angielsku."
+  },
+  {
+    "country": "Kenia",
+    "tag": "Afryka",
+    "text": "Kenia — kraj safari i niezapomnianych krajobrazów.",
+    "img": "/images/kenya.png",
+    "title": "Kenia — królestwo dzikiej przyrody",
+    "subtitle": "Od sawann Masaj Mara po szczyt Kilimandżaro — Kenia to przygoda życia.",
+    "description": "Kenia jest sercem afrykańskich safari. Park Narodowy Masaj Mara słynie z Wielkiej Migracji, Amboseli z majestatycznym widokiem na Kilimandżaro, a wybrzeże oferuje rajskie plaże Mombasy. Spotkasz tu lwy, słonie, żyrafy i nosorożce w ich naturalnym środowisku. Kultura Masajów wzbogaca każdą podróż, a przyjazna atmosfera sprawia, że każdy turysta czuje się tu mile widziany.",
+    "currency": "KES",
+    "language": "Suahili, Angielski",
+    "advices": [
+      "Zawsze korzystaj z przewodników podczas safari.",
+      "Ubieraj się w lekkie i jasne ubrania.",
+      "Pij tylko wodę butelkowaną.",
+      "Szanuj lokalne zwyczaje i tradycje.",
+      "Nie karm dzikich zwierząt."
+    ],
+    "destinations": ["Masaj Mara", "Amboseli", "Mombasa"],
+    "sliderImg": "/images/kenya-slider.png",
+    "popularLocations": [
+      {
+        "title": "Masaj Mara",
+        "img": "/image/",
+        "city": "Południowo-zachodnia Kenia",
+        "features": ["Wielka Migracja", "Lwy i gepardy"]
+      },
+      {
+        "title": "Amboseli",
+        "img": "/image/",
+        "city": "Pod Kilimandżaro",
+        "features": ["Stada słoni", "Widok na góry"]
+      },
+      {
+        "title": "Mombasa",
+        "img": "/image/",
+        "city": "Wybrzeże",
+        "features": ["Plaże z białym piaskiem", "Fort Jesus"]
+      }
+    ],
+    "food": [
+      { "restaurant": "Carnivore", "city": "Nairobi" },
+      { "restaurant": "Tamarind", "city": "Mombasa" }
+    ],
+    "nightActivities": ["Bary w Nairobi", "Kluby w Mombasie", "Ogniska safari"],
+    "creditCard": "Akceptowane w dużych miastach i hotelach.",
+    "atm": "Dostępne w miastach, mniej na wsiach.",
+    "english": "Język angielski szeroko używany."
+  },
+  {
+    "country": "Tajlandia",
+    "tag": "Azja",
+    "text": "Tajlandia — kraj uśmiechu, złotych świątyń i tropikalnych plaż.",
+    "img": "/images/thailand.png",
+    "title": "Tajlandia — egzotyczny raj Azji",
+    "subtitle": "Od Bangkoku po wyspy Phuket i Koh Samui — Tajlandia to podróż marzeń.",
+    "description": "Tajlandia to jedno z najchętniej odwiedzanych miejsc na świecie. Bangkok zachwyca złotymi świątyniami i tętniącym życiem nocnym. Chiang Mai to duchowe centrum północy z pięknymi świątyniami i festiwalami. Południowe wyspy oferują białe plaże, rafy koralowe i rajskie laguny. Kuchnia tajska to eksplozja smaków — pikantne curry, pad thai i świeże owoce tropikalne.",
+    "currency": "THB",
+    "language": "Tajski",
+    "advices": [
+      "Szanuj świątynie — zdejmuj buty i ubieraj się skromnie.",
+      "Negocjuj ceny na targach.",
+      "Nie wskazuj stóp na ludzi ani posągi Buddy.",
+      "Unikaj picia kranowej wody.",
+      "Transport tuk-tukiem to przygoda, ale ustal cenę wcześniej."
+    ],
+    "destinations": ["Bangkok", "Chiang Mai", "Phuket"],
+    "sliderImg": "/images/thailand-slider.png",
+    "popularLocations": [
+      {
+        "title": "Wielki Pałac",
+        "img": "/image/",
+        "city": "Bangkok",
+        "features": ["Świątynia Szmaragdowego Buddy", "Złote budowle"]
+      },
+      {
+        "title": "Świątynie Chiang Mai",
+        "img": "/image/",
+        "city": "Chiang Mai",
+        "features": ["Wat Phra That Doi Suthep", "Tradycyjne rynki"]
+      },
+      {
+        "title": "Wyspa Phuket",
+        "img": "/image/",
+        "city": "Południe Tajlandii",
+        "features": ["Plaże i laguny", "Nurkowanie i sporty wodne"]
+      }
+    ],
+    "food": [
+      { "restaurant": "Nahm", "city": "Bangkok" },
+      { "restaurant": "Blue Elephant", "city": "Phuket" }
+    ],
+    "nightActivities": ["Khao San Road w Bangkoku", "Full Moon Party na Koh Phangan", "Bary w Phuket"],
+    "creditCard": "Akceptowane w dużych miastach i hotelach.",
+    "atm": "Bardzo łatwo dostępne.",
+    "english": "W turystycznych rejonach powszechne."
+  },
+  {
+    "country": "Islandia",
+    "tag": "Europa",
+    "text": "Islandia — kraina ognia, lodu i zorzy polarnej.",
+    "img": "/images/island.png",
+    "title": "Islandia — cud natury",
+    "subtitle": "Od gejzerów i lodowców po wodospady i zorzę polarną — Islandia to przyroda w najczystszej postaci.",
+    "description": "Islandia to niezwykła wyspa pełna kontrastów. Gejzery i gorące źródła spotykają się z ogromnymi lodowcami i wulkanami. Reykjavik to mała, ale tętniąca życiem stolica z bogatą kulturą. Golden Circle to obowiązkowa trasa turystyczna, a zimą można zobaczyć tańczącą na niebie zorzę polarną. Islandia to raj dla miłośników trekkingu i fotografii.",
+    "currency": "ISK",
+    "language": "Islandzki",
+    "advices": [
+      "Ceny są wysokie — przygotuj budżet.",
+      "Pogoda zmienia się w minutę — miej ciepłe ubrania.",
+      "Woda z kranu jest bezpieczna i smaczna.",
+      "Prowadzenie auta wymaga ostrożności — wiatr bywa bardzo silny.",
+      "Nie ma napiwków — obsługa wliczona w cenę."
+    ],
+    "destinations": ["Reykjavik", "Golden Circle", "Lodowiec Vatnajökull"],
+    "sliderImg": "/images/iceland-slider.png",
+    "popularLocations": [
+      {
+        "title": "Reykjavik",
+        "img": "/image/",
+        "city": "Stolica",
+        "features": ["Katedra Hallgrímskirkja", "Kolorowe domy"]
+      },
+      {
+        "title": "Golden Circle",
+        "img": "/image/",
+        "city": "Południowa Islandia",
+        "features": ["Gejzer Strokkur", "Wodospad Gullfoss"]
+      },
+      {
+        "title": "Vatnajökull",
+        "img": "/image/",
+        "city": "Południowy-wschód",
+        "features": ["Największy lodowiec w Europie", "Jaskinie lodowe"]
+      }
+    ],
+    "food": [
+      { "restaurant": "Dill", "city": "Reykjavik" },
+      { "restaurant": "Grillmarkaðurinn", "city": "Reykjavik" }
+    ],
+    "nightActivities": ["Obserwacja zorzy polarnej", "Bary w Reykjaviku", "Kąpiele w Blue Lagoon"],
+    "creditCard": "Akceptowane wszędzie.",
+    "atm": "Łatwo dostępne.",
+    "english": "Większość mieszkańców mówi płynnie po angielsku."
+  },
+  {
+    "country": "Peru",
+    "tag": "Ameryka Południowa",
+    "text": "Peru — ojczyzna Machu Picchu i inkaskiego dziedzictwa.",
+    "img": "/images/peru.png",
+    "title": "Peru — podróż w czasie",
+    "subtitle": "Od ruin Inków po amazońską dżunglę — Peru to historia i przygoda.",
+    "description": "Peru to kraj, w którym historia ożywa na każdym kroku. Machu Picchu to jedno z cudów świata, a Cusco zachwyca kolonialną architekturą. Jezioro Titicaca oferuje spotkanie z kulturą Indian Uros, a Amazonia to niezapomniane safari przyrodnicze. Kuchnia peruwiańska — ceviche i quinoa — zdobywa światową popularność.",
+    "currency": "PEN",
+    "language": "Hiszpański, Quechua",
+    "advices": [
+      "Przyzwyczaj się do wysokości — pij herbatę z koki.",
+      "Nie lekceważ ostrych zmian klimatu.",
+      "Negocjuj ceny na lokalnych targach.",
+      "Dbaj o bezpieczeństwo w dużych miastach.",
+      "Zachowuj szacunek wobec kultur rdzennych."
+    ],
+    "destinations": ["Machu Picchu", "Cusco", "Jezioro Titicaca"],
+    "sliderImg": "/images/peru-slider.png",
+    "popularLocations": [
+      {
+        "title": "Machu Picchu",
+        "img": "/image/",
+        "city": "Andy",
+        "features": ["Inkaskie ruiny", "Cud świata"]
+      },
+      {
+        "title": "Cusco",
+        "img": "/image/",
+        "city": "Andy",
+        "features": ["Kolonialna architektura", "Centrum kultury Inków"]
+      },
+      {
+        "title": "Jezioro Titicaca",
+        "img": "/image/",
+        "city": "Granica Peru i Boliwii",
+        "features": ["Pływające wyspy Uros", "Wysokogórski krajobraz"]
+      }
+    ],
+    "food": [
+      { "restaurant": "Central", "city": "Lima" },
+      { "restaurant": "Astrid y Gastón", "city": "Lima" }
+    ],
+    "nightActivities": ["Bary w Limie", "Życie nocne w Cusco"],
+    "creditCard": "Akceptowane w dużych miastach.",
+    "atm": "Dostępne w miastach.",
+    "english": "W turystycznych miejscach można się dogadać."
+  },
+  {
+    "country": "Australia",
+    "tag": "Australia",
+    "text": "Australia — kraj kangurów, plaż i Wielkiej Rafy Koralowej.",
+    "img": "/images/australia.png",
+    "title": "Australia — kontynent przygód",
+    "subtitle": "Od Sydney Opera House po Outback — Australia to nieskończone odkrycia.",
+    "description": "Australia to kraj kontrastów: nowoczesne miasta, dzika przyroda i unikalna fauna. Sydney kusi Operą i Harbour Bridge, Melbourne żyje kulturą i kawą, a Queensland oferuje cud Wielkiej Rafy Koralowej. Outback to kraina czerwonych pustyń i Uluru. Kangury, koale i aborygeńska kultura sprawiają, że podróż tutaj to niezapomniane doświadczenie.",
+    "currency": "AUD",
+    "language": "Angielski",
+    "advices": [
+      "Słońce jest bardzo mocne — zawsze używaj kremu z filtrem.",
+      "Pamiętaj o ruchu lewostronnym.",
+      "Unikaj pływania w miejscach z meduzami.",
+      "Szanuj przyrodę i unikalne gatunki.",
+      "Transport publiczny w miastach jest bardzo wygodny."
+    ],
+    "destinations": ["Sydney Opera House", "Wielka Rafa Koralowa", "Uluru"],
+    "sliderImg": "/images/australia-slider.png",
+    "popularLocations": [
+      {
+        "title": "Sydney Opera House",
+        "img": "/image/",
+        "city": "Sydney",
+        "features": ["Ikoniczna architektura", "Widok na zatokę"]
+      },
+      {
+        "title": "Wielka Rafa Koralowa",
+        "img": "/image/",
+        "city": "Queensland",
+        "features": ["Nurkowanie i snorkeling", "Największa rafa na świecie"]
+      },
+      {
+        "title": "Uluru",
+        "img": "/image/",
+        "city": "Outback",
+        "features": ["Święta góra Aborygenów", "Spektakularne zachody słońca"]
+      }
+    ],
+    "food": [
+      { "restaurant": "Quay", "city": "Sydney" },
+      { "restaurant": "Attica", "city": "Melbourne" }
+    ],
+    "nightActivities": ["Bary w Sydney", "Kluby w Melbourne", "Festiwale muzyczne"],
+    "creditCard": "Akceptowane wszędzie.",
+    "atm": "Łatwo dostępne.",
+    "english": "Język angielski jest językiem urzędowym."
+  }
+]
