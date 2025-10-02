@@ -53,7 +53,7 @@ function prev() {
     <AppSidebar />
     <AppHeader />
 
-    <div class="flex-1 flex flex-col" style="padding-left: 256px">
+    <div class="flex-1 flex flex-col lg:pl-64">
       <main class="flex-grow">
         <!-- Promo section -->
         <div v-if="country">

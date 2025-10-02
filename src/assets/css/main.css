@@ -12411,3 +12411,10 @@ h6 {
 [data-side='right'] .\[\[data-side\=right\]_\&\]\:cursor-e-resize {
   cursor: e-resize;
 }
+
+/* Кастомный класс для адаптивного padding-left */
+@media (min-width: 1024px) {
+  .lg\:pl-64 {
+    padding-left: 16rem; /* 256px */
+  }
+}

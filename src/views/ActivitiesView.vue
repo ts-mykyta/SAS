@@ -45,7 +45,7 @@ const filteredActivities = computed(() => {
     <AppSidebar />
     <AppHeader />
 
-    <div class="flex-1 flex flex-col" style="padding-left: 256px">
+    <div class="flex-1 flex flex-col lg:pl-64">
       <main class="flex-grow">
         <!-- Promo section -->
         <AppPromo
@@ -68,10 +68,7 @@ const filteredActivities = computed(() => {
             </div>
 
             <div class="flex flex-col md:flex-row gap-8">
-              <ActivitiesFilter
-                v-model="selectedTags"
-                :options="allCountries"
-              />
+              <ActivitiesFilter v-model="selectedTags" :options="allCountries" />
 
               <div class="flex-1">
                 <div class="grid grid-cols-1 3xl:grid-cols-2 2xl:grid-cols-3 gap-6">

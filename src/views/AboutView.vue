@@ -180,7 +180,7 @@ import AppFooter from '@/components/AppFooter.vue'
         Mobile menu should be closed (state: false)
       </div>
     </div>
-    <div class="flex-1 flex flex-col" style="padding-left: 256px">
+    <div class="flex-1 flex flex-col lg:pl-64">
       <main class="flex-grow">
         <div class="bg-gray-50 py-12 mt-20">
           <div class="container mx-auto px-4">

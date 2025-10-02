@@ -2,6 +2,7 @@
 import AppPromo from '@/components/AppPromo.vue'
 import AppSidebar from '@/components/AppSidebar.vue'
 import AppFooter from '@/components/AppFooter.vue'
+import AppHeader from '@/components/AppHeader.vue'
 </script>
 
 <template>
@@ -9,7 +10,7 @@ import AppFooter from '@/components/AppFooter.vue'
     <AppSidebar />
     <AppHeader />
 
-    <div class="flex-1 flex flex-col" style="padding-left: 256px">
+    <div class="flex-1 flex flex-col lg:pl-64">
       <main class="flex-grow">
         <!-- Promo section -->
         <AppPromo
