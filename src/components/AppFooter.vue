@@ -27,8 +27,7 @@
               <span class="text-xl font-bold text-theme-primary">MYTRIPSPOLAND</span>
             </div>
             <p class="text-muted-foreground text-sm leading-relaxed">
-              Twój niezawodny towarzysz w niezwykłych podróżach. Starannie wybieramy najlepsze
-              destynacje i wciągające przygody, aby pomóc Ci stworzyć wspomnienia na całe życie.
+              Z nami każda podróż staje się wyjątkowa. Wybieramy tylko najlepsze miejsca i atrakcje, aby zapewnić Ci wspomnienia, które pozostaną z Tobą na zawsze.
             </p>
           </div>
           <div>
@@ -179,7 +178,7 @@
         ></div>
         <div class="flex flex-col sm:flex-row justify-between items-center gap-4">
           <p class="text-xs text-muted-foreground text-center sm:text-left">
-            © 2025 StarsAndSummits. Wszelkie prawa zastrzeżone.
+            © 2025 MyTripsPoland. Wszelkie prawa zastrzeżone.
           </p>
           <div class="flex items-center gap-4 text-xs text-muted-foreground">
             <span class="flex items-center gap-1">

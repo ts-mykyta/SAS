@@ -281,12 +281,12 @@ const closeModal = () => {
           <h2
             class="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold text-foreground mb-2 sm:mb-3 lg:mb-4"
           >
-            Prognoza Cen Biletów Lotniczych
+           Śledzenie Cen Biletów
           </h2>
           <p
             class="text-sm sm:text-base lg:text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed px-2"
           >
-            Porównaj ceny lotów i znajdź najlepsze oferty na swoją następną podróż
+           Monitoruj ceny lotów i rezerwuj wtedy, gdy oferta jest najlepsza.
           </p>
         </div>
         <div class="bg-card border rounded-xl p-3 sm:p-4 lg:p-6 mb-4 sm:mb-6 lg:mb-8 shadow-sm">
@@ -576,8 +576,8 @@ const closeModal = () => {
                 d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"
               ></path>
             </svg>
-            <h3 class="text-lg font-medium mb-2">Wybierz trasę podróży</h3>
-            <p>Wprowadź lotnisko wylotu i przylotu, aby zobaczyć kalendarz cen</p>
+            <h3 class="text-lg font-medium mb-2">Określ kierunek podróży</h3>
+            <p>Wpisz miejsce wylotu i przylotu, a nasz system pokaże Ci najkorzystniejsze daty lotów.</p>
           </div>
         </div>
       </div>
