@@ -287,12 +287,14 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="relative z-10 max-w-xs md:max-w-4xl mx-auto mb-16 transform rotate-1">
+  <div class="search-shell relative z-10 max-w-xs mx-auto mb-16 transform rotate-1">
     <div
       class="bg-gradient-to-br from-card/95 to-card/90 backdrop-blur-xl rounded-3xl shadow-2xl border border-card/30 p-8 lg:p-12"
     >
       <div class="text-center mb-8">
-        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Zaplanuj niezapomnianą podróż</h2>
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          Zaplanuj niezapomnianą podróż
+        </h2>
         <p class="text-gray-600 text-lg">Zanurz się w niezwykłych podróżach i doświadczeniach</p>
       </div>
       <div class="w-full">
@@ -836,3 +838,11 @@ onMounted(() => {
     </div>
   </div>
 </template>
+
+<style scoped>
+@media (min-width: 768px) {
+  .search-shell {
+    max-width: 56rem;
+  }
+}
+</style>
