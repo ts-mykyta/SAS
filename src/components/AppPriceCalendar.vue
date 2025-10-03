@@ -1,5 +1,5 @@
 <script setup>
-import { ref, reactive, computed, onMounted } from 'vue'
+import { ref, reactive, computed, onMounted, onBeforeUnmount } from 'vue'
 import airportsData from '@/store/airports.json'
 
 const searchForm = reactive({
@@ -14,6 +14,17 @@ const currentMonth = ref(new Date())
 const isLoading = ref(false)
 
 const flightData = ref({})
+
+// Modal state
+const isModalOpen = ref(false)
+const selectedDateLabel = computed(() =>
+  searchForm.selectedDate ? formatDisplayDate(searchForm.selectedDate) : '',
+)
+const selectedDateFlights = computed(() => {
+  if (!searchForm.selectedDate) return []
+  const dateKey = searchForm.selectedDate.toISOString().slice(0, 10)
+  return flightData.value[dateKey] || []
+})
 
 const filteredOriginSuggestions = computed(() => {
   if (!searchForm.origin) return []
@@ -154,6 +165,7 @@ const selectDate = (date) => {
 
   searchForm.selectedDate = date
   loadFlightsForDate(date)
+  openModal()
 }
 
 const nextMonth = () => {
@@ -227,22 +239,39 @@ const generateRandomFlights = (origin, destination) => {
       duration: `${Math.floor(Math.random() * 3) + 1}h ${Math.floor(Math.random() * 60)}m`,
       price: Math.floor(Math.random() * 400) + 200,
       currency: 'PLN',
-      bookingUrl: 'https://example.com',
+      bookingUrl: 'https://www.lot.com/pl/pl',
     })
   }
 
   return flights.sort((a, b) => a.price - b.price)
 }
 
-const getFlightsForDate = (date) => {
-  const dateKey = date.toISOString().slice(0, 10)
-  return flightData.value[dateKey] || []
-}
-
 onMounted(() => {
   currentMonth.value = new Date()
+  const handleEsc = (e) => {
+    if (e.key === 'Escape') {
+      closeModal()
+    }
+  }
+  window.addEventListener('keydown', handleEsc)
+  // store to remove on unmount
+  escHandler.value = handleEsc
 })
-</script>                             
+const escHandler = ref(null)
+onBeforeUnmount(() => {
+  if (escHandler.value) {
+    window.removeEventListener('keydown', escHandler.value)
+  }
+})
+
+const openModal = () => {
+  isModalOpen.value = true
+}
+
+const closeModal = () => {
+  isModalOpen.value = false
+}
+</script>
 
 <template>
   <section id="price-calendar">
@@ -441,97 +470,87 @@ onMounted(() => {
             </button>
           </div>
 
-          <!-- Заголовки дней недели -->
-          <div class="grid grid-cols-7 gap-2 mb-4">
-            <div class="text-center text-sm font-medium text-gray-500 dark:text-gray-400 py-2">
-              Poniedziałek
-            </div>
-            <div class="text-center text-sm font-medium text-gray-500 dark:text-gray-400 py-2">
-              Wtorek
-            </div>
-            <div class="text-center text-sm font-medium text-gray-500 dark:text-gray-400 py-2">
-              Środa
-            </div>
-            <div class="text-center text-sm font-medium text-gray-500 dark:text-gray-400 py-2">
-              Czwartek
-            </div>
-            <div class="text-center text-sm font-medium text-gray-500 dark:text-gray-400 py-2">
-              Piątek
-            </div>
-            <div class="text-center text-sm font-medium text-gray-500 dark:text-gray-400 py-2">
-              Sobota
-            </div>
-            <div class="text-center text-sm font-medium text-gray-500 dark:text-gray-400 py-2">
-              Niedziela
-            </div>
-          </div>
-
-          <!-- Календарная сетка -->
-          <div class="grid grid-cols-7 gap-2">
-            <div
-              v-for="(day, index) in getDaysInMonth(currentMonth)"
-              :key="index"
-              class="min-h-[120px] border border-gray-200 dark:border-gray-700 rounded-lg p-2"
-              :class="[
-                !day ? 'bg-gray-50 dark:bg-gray-800' : '',
-                day && isDateDisabled(day) ? 'bg-gray-100 dark:bg-gray-800 opacity-50' : '',
-                day && !isDateDisabled(day)
-                  ? 'bg-white dark:bg-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600 cursor-pointer'
-                  : '',
-                day && isDateSelected(day) ? 'ring-2 ring-travel-teal bg-travel-teal/10' : '',
-              ]"
-              @click="day && !isDateDisabled(day) && selectDate(day)"
-            >
-              <div v-if="day" class="h-full">
-                <!-- Дата -->
-                <div class="text-sm font-medium text-gray-900 dark:text-gray-100 mb-2">
-                  {{ day.getDate() }}
+          <div class="overflow-x-auto">
+            <div class="min-w-[680px] sm:min-w-0">
+              <!-- Заголовки дней недели -->
+              <div class="grid grid-cols-7 gap-1.5 sm:gap-2 mb-3 sm:mb-4">
+                <div
+                  class="text-center text-xs sm:text-sm font-medium text-gray-500 dark:text-gray-400 py-1.5 sm:py-2"
+                >
+                  <span class="hidden sm:inline">Poniedziałek</span>
+                  <span class="sm:hidden">Pn</span>
                 </div>
+                <div
+                  class="text-center text-xs sm:text-sm font-medium text-gray-500 dark:text-gray-400 py-1.5 sm:py-2"
+                >
+                  <span class="hidden sm:inline">Wtorek</span>
+                  <span class="sm:hidden">Wt</span>
+                </div>
+                <div
+                  class="text-center text-xs sm:text-sm font-medium text-gray-500 dark:text-gray-400 py-1.5 sm:py-2"
+                >
+                  <span class="hidden sm:inline">Środa</span>
+                  <span class="sm:hidden">Śr</span>
+                </div>
+                <div
+                  class="text-center text-xs sm:text-sm font-medium text-gray-500 dark:text-gray-400 py-1.5 sm:py-2"
+                >
+                  <span class="hidden sm:inline">Czwartek</span>
+                  <span class="sm:hidden">Czw</span>
+                </div>
+                <div
+                  class="text-center text-xs sm:text-sm font-medium text-gray-500 dark:text-gray-400 py-1.5 sm:py-2"
+                >
+                  <span class="hidden sm:inline">Piątek</span>
+                  <span class="sm:hidden">Pt</span>
+                </div>
+                <div
+                  class="text-center text-xs sm:text-sm font-medium text-gray-500 dark:text-gray-400 py-1.5 sm:py-2"
+                >
+                  <span class="hidden sm:inline">Sobota</span>
+                  <span class="sm:hidden">Sb</span>
+                </div>
+                <div
+                  class="text-center text-xs sm:text-sm font-medium text-gray-500 dark:text-gray-400 py-1.5 sm:py-2"
+                >
+                  <span class="hidden sm:inline">Niedziela</span>
+                  <span class="sm:hidden">Nd</span>
+                </div>
+              </div>
 
-                <!-- Блоки с рейсами -->
-                <div v-if="getFlightsForDate(day).length > 0" class="space-y-1">
-                  <div
-                    v-for="flight in getFlightsForDate(day).slice(0, 2)"
-                    :key="flight.id"
-                    class="bg-white dark:bg-gray-600 rounded p-2 text-xs border border-gray-200 dark:border-gray-500"
-                  >
-                    <div class="flex items-center justify-between mb-1">
-                      <span class="font-medium text-gray-900 dark:text-gray-100">{{
-                        flight.departure.time
-                      }}</span>
-                      <span class="text-travel-teal font-bold"
-                        >{{ flight.price }} {{ flight.currency }}</span
-                      >
+              <!-- Календарная сетка -->
+              <div class="grid grid-cols-7 gap-1.5 sm:gap-2">
+                <div
+                  v-for="(day, index) in getDaysInMonth(currentMonth)"
+                  :key="index"
+                  class="min-h-[110px] sm:min-h-[120px] border border-gray-200 dark:border-gray-700 rounded-lg p-1.5 sm:p-2"
+                  :class="[
+                    !day ? 'bg-gray-50 dark:bg-gray-800' : '',
+                    day && isDateDisabled(day) ? 'bg-gray-100 dark:bg-gray-800 opacity-50' : '',
+                    day && !isDateDisabled(day)
+                      ? 'bg-white dark:bg-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600 cursor-pointer'
+                      : '',
+                    day && isDateSelected(day) ? 'ring-2 ring-travel-teal bg-travel-teal/10' : '',
+                  ]"
+                  @click="day && !isDateDisabled(day) && selectDate(day)"
+                >
+                  <div v-if="day" class="h-full">
+                    <!-- Дата -->
+                    <div
+                      class="text-xs sm:text-sm font-medium text-gray-900 dark:text-gray-100 mb-1.5 sm:mb-2"
+                    >
+                      {{ day.getDate() }}
                     </div>
-                    <div class="text-gray-600 dark:text-gray-300">{{ flight.airline }}</div>
-                    <div class="text-gray-500 dark:text-gray-400">{{ flight.flightNumber }}</div>
+
+                    <!-- Сообщение о выборе даты -->
+                    <div
+                      class="text-[9px] sm:text-xs text-gray-400 dark:text-gray-500 text-center mt-1 sm:mt-2"
+                      v-if="!isDateDisabled(day)"
+                    >
+                      <span class="sm:hidden">Kliknij</span>
+                      <span class="hidden sm:inline">Kliknij aby zobaczyć loty</span>
+                    </div>
                   </div>
-
-                  <!-- Показать больше рейсов -->
-                  <div
-                    v-if="getFlightsForDate(day).length > 2"
-                    class="text-xs text-gray-500 dark:text-gray-400 text-center"
-                  >
-                    +{{ getFlightsForDate(day).length - 2 }} więcej
-                  </div>
-                </div>
-
-                <!-- Индикатор загрузки -->
-                <div
-                  v-if="isLoading && isDateSelected(day)"
-                  class="flex items-center justify-center h-full"
-                >
-                  <div
-                    class="animate-spin rounded-full h-6 w-6 border-b-2 border-travel-teal"
-                  ></div>
-                </div>
-
-                <!-- Сообщение о выборе даты -->
-                <div
-                  v-if="!getFlightsForDate(day).length && !isLoading"
-                  class="text-xs text-gray-400 dark:text-gray-500 text-center mt-2"
-                >
-                  Kliknij aby zobaczyć loty
                 </div>
               </div>
             </div>
@@ -564,4 +583,95 @@ onMounted(() => {
       </div>
     </section>
   </section>
+  <div v-if="isModalOpen" class="fixed inset-0 z-[100]">
+    <div class="absolute inset-0 bg-black/40" @click="closeModal"></div>
+    <div class="absolute inset-0 flex items-end sm:items-center justify-center p-3 sm:p-6">
+      <div
+        class="w-full sm:w-[560px] lg:w-[720px] max-h-[80vh] sm:max-h-[85vh] overflow-hidden rounded-2xl bg-card border shadow-xl mb-2 sm:mb-0 flex flex-col"
+        role="dialog"
+        aria-modal="true"
+        @click.stop
+      >
+        <div class="flex items-center justify-between px-4 sm:px-6 py-3 sm:py-4 border-b">
+          <div>
+            <h3 class="text-base sm:text-lg font-semibold text-foreground">
+              {{ selectedDateLabel }}
+            </h3>
+            <p
+              class="text-xs sm:text-sm text-muted-foreground"
+              v-if="searchForm.origin && searchForm.destination"
+            >
+              {{ searchForm.origin }} → {{ searchForm.destination }}
+            </p>
+          </div>
+          <button class="p-2 rounded hover:bg-muted" @click="closeModal" aria-label="Close">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M18 6 6 18"></path>
+              <path d="m6 6 12 12"></path>
+            </svg>
+          </button>
+        </div>
+        <div
+          class="flex-1 px-4 sm:px-6 py-4 pb-6 sm:pb-8 overflow-y-auto"
+          :class="[isLoading ? 'min-h-[240px]' : '']"
+        >
+          <div v-if="isLoading" class="flex items-center justify-center py-16">
+            <div class="animate-spin rounded-full h-8 w-8 border-b-2 border-travel-teal"></div>
+          </div>
+          <div v-else>
+            <div
+              v-if="selectedDateFlights.length === 0"
+              class="text-center text-muted-foreground py-10"
+            >
+              Brak lotów dla wybranej daty
+            </div>
+            <div v-else class="space-y-3">
+              <div
+                v-for="flight in selectedDateFlights"
+                :key="flight.id"
+                class="border rounded-lg p-3 sm:p-4 bg-background"
+              >
+                <div class="flex items-start justify-between gap-3">
+                  <div class="min-w-0">
+                    <div class="flex items-center gap-3">
+                      <div class="text-lg sm:text-xl font-semibold text-foreground">
+                        {{ flight.departure.time }}
+                      </div>
+                      <div class="text-muted-foreground text-sm">→ {{ flight.arrival.time }}</div>
+                    </div>
+                    <div class="text-sm text-muted-foreground mt-1 truncate">
+                      {{ flight.airline }} • {{ flight.flightNumber }} • {{ flight.duration }}
+                    </div>
+                  </div>
+                  <div class="text-right">
+                    <div class="text-travel-teal text-base sm:text-lg font-bold whitespace-nowrap">
+                      {{ flight.price }} {{ flight.currency }}
+                    </div>
+                    <a
+                      :href="flight.bookingUrl"
+                      target="_blank"
+                      rel="noopener"
+                      class="inline-block mt-2 px-3 py-1.5 text-sm rounded-md bg-travel-teal text-white hover:opacity-90"
+                    >
+                      Rezerwuj
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
