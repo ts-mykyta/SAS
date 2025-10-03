@@ -2,6 +2,7 @@
 import AppSidebar from '@/components/AppSidebar.vue'
 import AppHeader from '@/components/AppHeader.vue'
 import AppPriceClaendar from '@/components/AppPriceClaendar.vue'
+import AppFooter from '@/components/AppFooter.vue'
 
 import AppPromo from '@/components/AppPromo.vue'
 import AppDestinations from '@/components/AppDestinations.vue'
@@ -18,8 +19,8 @@ import AppActivities from '@/components/AppActivities.vue'
         <!-- Promo section -->
         <AppPromo
           imageUrl="/images/home-promo.png"
-          title="Odblokuj Twoją Następną Wyprawę"
-          subtitle="Znajdź najlepsze loty i oferty podróży dzięki naszej kompleksowej platformie porównawczej"
+          title="Otwórz Nową Podróż"
+          subtitle="Porównuj i wybieraj najlepsze oferty lotów oraz podróży dzięki naszej intuicyjnej platformie."
         />
 
         <!-- Country section -->

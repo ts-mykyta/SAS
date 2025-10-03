@@ -287,13 +287,15 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="relative z-10 max-w-4xl mx-auto mb-16 transform rotate-1">
+  <div class="search-shell relative z-10 max-w-xs mx-auto mb-16 transform rotate-1">
     <div
       class="bg-gradient-to-br from-card/95 to-card/90 backdrop-blur-xl rounded-3xl shadow-2xl border border-card/30 p-8 lg:p-12"
     >
       <div class="text-center mb-8">
-        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Zaplanuj swoją przygodę</h2>
-        <p class="text-gray-600 text-lg">Odkryj niezwykłe miejsca i doświadczenia</p>
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          Zaplanuj niezapomnianą podróż
+        </h2>
+        <p class="text-gray-600 text-lg">Zanurz się w niezwykłych podróżach i doświadczeniach</p>
       </div>
       <div class="w-full">
         <div class="relative">
@@ -696,7 +698,7 @@ onMounted(() => {
           :key="flight.id"
           class="bg-gray-50 dark:bg-gray-700 rounded-lg p-4 border border-gray-200 dark:border-gray-600 hover:shadow-md transition-shadow"
         >
-          <div class="flex items-center justify-between">
+          <div class="flex flex-col items-center justify-center items-center md:flex-row">
             <div class="flex-1">
               <div class="flex items-center space-x-4 mb-3">
                 <div class="text-lg font-semibold text-gray-900 dark:text-gray-100">
@@ -813,8 +815,8 @@ onMounted(() => {
               </div>
             </div>
 
-            <div class="ml-6 text-right">
-              <div class="text-2xl font-bold text-travel-teal mb-2">
+            <div class="ml-0 md:ml-6 text-right">
+              <div class="text-center md:text-right text-2xl font-bold text-travel-teal mb-2">
                 {{ flight.price }} {{ flight.currency }}
               </div>
               <button
@@ -836,3 +838,11 @@ onMounted(() => {
     </div>
   </div>
 </template>
+
+<style scoped>
+@media (min-width: 768px) {
+  .search-shell {
+    max-width: 56rem;
+  }
+}
+</style>
