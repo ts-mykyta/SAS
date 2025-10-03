@@ -32,7 +32,7 @@ const props = defineProps({
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-hexagon w-5 h-5 mr-2 text-white" aria-hidden="true">
               <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
             </svg>
-            <span class="text-white font-semibold text-sm">Ekspedycja Wielokątna</span>
+            <span class="text-white font-semibold text-sm">Odkrycie Nieznane</span>
           </div>
           <h1 class="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black leading-none text-white mb-8 tracking-tight">{{ props?.title }}</h1>
           <div class="max-w-3xl mx-auto">
@@ -46,7 +46,7 @@ const props = defineProps({
           <div class="relative z-20 max-w-2xl mx-auto mb-12 transform -rotate-2">
             <div class="bg-gradient-to-br from-primary/25 to-secondary/25 backdrop-blur-md rounded-2xl p-8 border border-primary/30 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
               <div class="text-center">
-                <h3 class="text-2xl font-bold text-white mb-6">Gotowi na odkrycie?</h3>
+                <h3 class="text-2xl font-bold text-white mb-6">Gotowi, by poznawać świat?</h3>
                 <div class="flex justify-center">
                   <button class="inline-flex items-center px-6 py-3 bg-primary hover:bg-primary/90 text-white font-semibold rounded-lg transition-colors duration-200 mb-8">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar w-5 h-5 mr-2" aria-hidden="true">

@@ -292,8 +292,8 @@ onMounted(() => {
       class="bg-gradient-to-br from-card/95 to-card/90 backdrop-blur-xl rounded-3xl shadow-2xl border border-card/30 p-8 lg:p-12"
     >
       <div class="text-center mb-8">
-        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Zaplanuj swoją przygodę</h2>
-        <p class="text-gray-600 text-lg">Odkryj niezwykłe miejsca i doświadczenia</p>
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Zaplanuj niezapomnianą podróż</h2>
+        <p class="text-gray-600 text-lg">Zanurz się w niezwykłych podróżach i doświadczeniach</p>
       </div>
       <div class="w-full">
         <div class="relative">

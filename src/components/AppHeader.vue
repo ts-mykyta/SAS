@@ -43,9 +43,8 @@ onBeforeUnmount(() => {
           <div class="flex items-center relative group">
             <router-link to="/" class="flex items-center gap-2" data-discover="true"
               ><span class="font-logo font-semibold tracking-wide uppercase text-white text-xl"
-                >StarsAndSummits</span
-              ></router-link
-            >
+                >MYTRIPSPOLAND</span
+              ></router-link>
             <div
               class="absolute -inset-2 bg-gradient-to-r from-primary/20 to-accent/20 rounded-lg blur-xl opacity-0 transition-opacity duration-300 group-hover:opacity-100"
             ></div>
@@ -111,7 +110,7 @@ onBeforeUnmount(() => {
             <router-link to="/" class="flex items-center gap-2">
               <span
                 class="font-logo font-semibold tracking-wide uppercase text-gray-900 dark:text-white text-lg"
-                >StarsAndSummits</span
+                >MYTRIPSPOLAND</span
               >
             </router-link>
             <button
