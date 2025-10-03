@@ -40,7 +40,15 @@ const router = createRouter({
     { path: '/about', name: 'about', component: AboutView },
     { path: '/contact', name: 'contact', component: ContactView },
   ],
-  scrollBehavior() {
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) return savedPosition
+    if (to.hash) {
+      const el = document.querySelector(to.hash)
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+        return
+      }
+    }
     return { top: 0 }
   },
 })

@@ -1,4 +1,5 @@
 <script setup>
+import { useRouter } from 'vue-router'
 import AppSearchModule from './AppSearchModule.vue'
 
 const props = defineProps({
@@ -15,6 +16,18 @@ const props = defineProps({
     required: false,
   },
 })
+
+const router = useRouter()
+
+const goToPriceCalendar = async () => {
+  const targetId = 'price-calendar'
+  const el = document.getElementById(targetId)
+  if (el) {
+    el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    return
+  }
+  await router.push({ name: 'home', hash: `#${targetId}` })
+}
 </script>
 
 <template>
@@ -76,8 +89,9 @@ const props = defineProps({
               <div class="text-center">
                 <h3 class="text-2xl font-bold text-white mb-6">Gotowi, by poznawać świat?</h3>
                 <div class="flex justify-center">
-                  <RouterLink
-                    to="/#price-calendar"
+                  <button
+                    @click="goToPriceCalendar"
+                    type="button"
                     class="inline-flex items-center px-6 py-3 bg-primary hover:bg-primary/90 text-white font-semibold rounded-lg transition-colors duration-200 mb-8"
                     aria-label="Przejdź do Kalendarza Cen"
                   >
@@ -100,7 +114,7 @@ const props = defineProps({
                       <path d="M3 10h18"></path>
                     </svg>
                     Kalendarz Cen Lotów
-                  </RouterLink>
+                  </button>
                 </div>
               </div>
             </div>
