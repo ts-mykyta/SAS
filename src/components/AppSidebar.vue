@@ -9,7 +9,7 @@
         <div class="mb-6 lg:mb-8 flex items-center justify-between">
           <router-link to="/" class="flex items-center gap-2" data-discover="true"
             ><span class="font-logo font-semibold tracking-wide uppercase text-primary text-xl"
-              >StarsAndSummits</span
+              >MYTRIPSPOLAND</span
             ></router-link
           >
           <button

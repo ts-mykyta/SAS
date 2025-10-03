@@ -22,7 +22,7 @@ const closeMobileMenu = () => {
           <div class="flex items-center relative group">
             <a class="flex items-center gap-2" href="/pl-PL" data-discover="true"
               ><span class="font-logo font-semibold tracking-wide uppercase text-white text-xl"
-                >StarsAndSummits</span
+                >MYTRIPSPOLAND</span
               ></a
             >
             <div
@@ -219,7 +219,7 @@ const closeMobileMenu = () => {
             <div class="flex items-center gap-2">
               <span
                 class="font-logo font-semibold tracking-wide uppercase text-gray-900 dark:text-white text-lg"
-                >StarsAndSummits</span
+                >MYTRIPSPOLAND</span
               >
             </div>
             <button

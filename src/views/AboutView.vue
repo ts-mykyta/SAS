@@ -16,7 +16,7 @@ import AppFooter from '@/components/AppFooter.vue'
             <div class="flex items-center relative group">
               <a class="flex items-center gap-2" href="/pl-PL" data-discover="true"
                 ><span class="font-logo font-semibold tracking-wide uppercase text-white text-xl"
-                  >StarsAndSummits</span
+                  >MYTRIPSPOLAND</span
                 ></a
               >
               <div
