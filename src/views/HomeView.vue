@@ -2,6 +2,7 @@
 import AppSidebar from '@/components/AppSidebar.vue'
 import AppHeader from '@/components/AppHeader.vue'
 import AppPriceClaendar from '@/components/AppPriceClaendar.vue'
+import AppFooter from '@/components/AppFooter.vue'
 
 import AppPromo from '@/components/AppPromo.vue'
 import AppDestinations from '@/components/AppDestinations.vue'
