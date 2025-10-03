@@ -3,6 +3,7 @@ import AppPromo from '@/components/AppPromo.vue'
 import AppSidebar from '@/components/AppSidebar.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import AppHeader from '@/components/AppHeader.vue'
+import AppReviews from '@/components/AppReviews.vue'
 
 import { computed, ref } from 'vue'
 import activitiesAll from '@/store/activities.json'
@@ -1104,6 +1105,7 @@ const relatedDestinations = computed(() => {
             </div>
           </div>
         </section>
+        <AppReviews reviewsType="activity" />
       </main>
 
       <AppFooter />
