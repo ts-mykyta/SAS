@@ -7,6 +7,7 @@ import TermsView from '@/views/TermsView.vue'
 import CookieView from '@/views/CookieView.vue'
 import AboutView from '@/views/AboutView.vue'
 import ContactView from '@/views/ContactView.vue'
+import ActivityView from '@/views/ActivityView.vue'
 
 const CountryView = () => import('@/views/CountryView.vue')
 
@@ -25,6 +26,14 @@ const router = createRouter({
     },
 
     { path: '/activities', name: 'activities', component: ActivitiesView },
+
+    {
+      path: '/activities/:slug',
+      name: 'activity',
+      component: ActivityView,
+      props: true,
+    },
+
     { path: '/privacy-policy', name: 'privacy-policy', component: PrivacyView },
     { path: '/terms', name: 'terms', component: TermsView },
     { path: '/cookie', name: 'cookie', component: CookieView },

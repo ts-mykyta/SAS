@@ -714,9 +714,11 @@ function prev() {
                                       />
                                     </div>
                                     <div class="md:w-2/3 p-5 flex flex-col">
-                                      <h4 class="font-bold text-xl text-card-foreground mb-2">
-                                        {{ a.activity }}
-                                      </h4>
+                                      <RouterLink :to="{ name: 'activity', params: { slug: slugify(a.activity) } }">
+                                        <h4 class="font-bold text-xl text-card-foreground mb-2">
+                                          {{ a.activity }}
+                                        </h4>
+                                      </RouterLink>
                                       <p class="text-muted-foreground mb-4 flex-grow">
                                         {{ a.text }}
                                       </p>
@@ -728,11 +730,12 @@ function prev() {
                                         </div>
                                       </div>
                                       <div class="flex flex-wrap gap-2 mb-4"></div>
-                                      <button
+                                      <RouterLink
+                                        :to="{ name: 'activity', params: { slug: slugify(a.activity) } }"
                                         class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 mt-auto"
                                       >
                                         Doświadczenie z książką
-                                      </button>
+                                      </RouterLink>
                                     </div>
                                   </div>
                                 </div>
