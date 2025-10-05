@@ -31,8 +31,8 @@ import AppPriceCalendar from '@/components/AppPriceCalendar.vue'
 
         <!-- Services -->
         <AppActivities
-          title="Popularne aktywności"
-          subtitle="Odkryj ekscytujące przygody i wciągające doświadczenia, które zamienią twoje podróże w niezapomniane wspomnienia."
+          title="Najczęściej wybierane atrakcje"
+          subtitle="Poznaj fascynujące przeżycia i pełne emocji aktywności, które sprawią, że każda podróż stanie się wyjątkowa."
         />
       </main>
 

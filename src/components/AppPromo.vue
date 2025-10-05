@@ -149,10 +149,10 @@ const goToPriceCalendar = async () => {
           <div class="relative z-10 py-16 lg:py-20">
             <div class="text-center mb-12">
               <h2 class="text-4xl lg:text-5xl font-bold text-white mb-4">
-                Dlaczego Wybrać Gwiazdy &amp; Szczyty
+                Dlaczego warto wybrać właśnie nas
               </h2>
               <p class="text-xl text-gray-300 max-w-2xl mx-auto">
-                Odkryj płynne planowanie przygód dzięki naszej pionierskiej usłudze
+                Doświadcz łatwego planowania podróży z naszą innowacyjną usługą.
               </p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -178,9 +178,9 @@ const goToPriceCalendar = async () => {
                     ></path>
                   </svg>
                 </div>
-                <h3 class="text-xl font-bold text-white mb-3">Wybitna Jakość</h3>
+                <h3 class="text-xl font-bold text-white mb-3">Niezrównana Jakość</h3>
                 <p class="text-gray-300 text-sm leading-relaxed">
-                  Gwiezdne ekspedycje i ucieczki ze szczytu
+                  Gwiezdne ekspedycje i górskie przygody
                 </p>
               </div>
               <div class="text-center group">
@@ -206,8 +206,8 @@ const goToPriceCalendar = async () => {
                     <path d="M3 10h18"></path>
                   </svg>
                 </div>
-                <h3 class="text-xl font-bold text-white mb-3">Całodobowa Pomoc</h3>
-                <p class="text-gray-300 text-sm leading-relaxed">Całodobowe wsparcie przygodowe</p>
+                <h3 class="text-xl font-bold text-white mb-3">Wsparcie 24/7</h3>
+                <p class="text-gray-300 text-sm leading-relaxed">Pomoc w każdej podróżniczej sytuacji</p>
               </div>
               <div class="text-center group">
                 <div
@@ -232,9 +232,9 @@ const goToPriceCalendar = async () => {
                     <circle cx="12" cy="10" r="3"></circle>
                   </svg>
                 </div>
-                <h3 class="text-xl font-bold text-white mb-3">Zasięg ogólno-planetarny</h3>
+                <h3 class="text-xl font-bold text-white mb-3">Światowa Skala</h3>
                 <p class="text-gray-300 text-sm leading-relaxed">
-                  Epickie eksploracje na każdym kontynencie
+                  Podróże i przygody na całym świecie
                 </p>
               </div>
               <div class="text-center group">
@@ -260,9 +260,9 @@ const goToPriceCalendar = async () => {
                     <circle cx="7.5" cy="7.5" r=".5" fill="currentColor"></circle>
                   </svg>
                 </div>
-                <h3 class="text-xl font-bold text-white mb-3">Oszczędności Prime</h3>
+                <h3 class="text-xl font-bold text-white mb-3">Oferty Premium</h3>
                 <p class="text-gray-300 text-sm leading-relaxed">
-                  Atrakcyjne stawki i specjalne oferty
+                  Wyjątkowe ceny i ekskluzywne okazje
                 </p>
               </div>
             </div>
