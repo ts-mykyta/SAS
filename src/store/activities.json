@@ -2,7 +2,7 @@
     {
         "activity": "Wizyta W Muzeum",
         "countries": ["Francja", "Włochy"],
-        "text": "Zanurz się w historii i sztuce, wędrując przez okazałe galerie, zachwycając się ikonicznymi arcydziełami i odkrywając fascynujące historie kryjące się za każdą wystawą podczas immersyjnej Wizyty w Muzeum.",
+        "text": "Zanurz się w świecie sztuki i historii, spacerując po imponujących galeriach pełnych niezwykłych dzieł. Podziwiaj arcydzieła, odkrywaj sekrety przeszłości i pozwól, by każda wystawa opowiedziała Ci własną, fascynującą historię.",
         "img": "/images/museum.png",
         "title": "Odkryj Muzealne Przygody",
         "subtitle": "Wyrusz w podróż przez urzekający urok Museum Visit’s. Delektuj się jego wyjątkowym dziedzictwem i zapierającymi dech panoramami, i zanurz się w każdej nadzwyczajnej chwili, jaką oferuje ten niezwykły wypad.",
@@ -39,7 +39,7 @@
     {
         "activity": "Dzień Na Plaży",
         "countries": ["Brazylia", "Tajlandia", "Australia"],
-        "text": "Beach Day to skąpane w słońcu nadmorskie doświadczenie, w którym możesz odpocząć na złotym piasku, popływać w krystalicznie czystych wodach i chłonąć tętniącą życiem nadmorską atmosferę z przyjaciółmi i rodziną.",
+        "text": "Beach Day to pełne słońca nadmorskie doświadczenie — czas relaksu, śmiechu i dobrej energii. Odpocznij na miękkim piasku, zanurz się w przejrzystych wodach i ciesz się letnią atmosferą w gronie najbliższych.",
         "img": "/images/beach.png",
         "title": "Słoneczny Relaks Na Plaży",
         "subtitle": "Spędź idealny dzień nad brzegiem morza, korzystając z promieni słonecznych, szumu fal i przyjaznej atmosfery plażowej.",
@@ -75,7 +75,7 @@
     {
         "activity": "Wycieczka Po Mieście",
         "countries": ["Francja", "Japonia", "Włochy"],
-        "text": "Rozpocznij fascynującą wycieczkę po mieście, która zabierze Cię przez tętniące życiem ulice, zabytkowe miejsca i barwne dzielnice. Odkryj ukryte historie, lokalne tradycje i ikoniczne atrakcje, zanurzając się w dynamicznej kulturze miasta.",
+        "text": "Rozpocznij przygodę po mieście, przemierzając tętniące życiem ulice i pełne charakteru dzielnice. Odkrywaj lokalne tradycje, historyczne zabytki i nieoczywiste zakątki, które nadają miastu jego wyjątkowy rytm i duszę.",
         "img": "/images/bustour.png",
         "title": "Odkryj Miasto Pełne Historii",
         "subtitle": "Poznaj miasta z przewodnikiem lub na własną rękę, odwiedzając kultowe zabytki, kolorowe dzielnice i ukryte zakątki pełne historii.",
@@ -111,7 +111,7 @@
     {
         "activity": "Przygoda Wędrówkowa",
         "countries": ["Nowa Zelandia", "Kanada", "Peru"],
-        "text": "Wyrusz na ekscytującą Wędrówkę Pieszą przez kręte górskie ścieżki, bujne lasy i panoramiczne widoki. Odkrywaj ukryte wodospady, spotykaj miejscową faunę i zanurz się w zapierającym dech w piersiach pięknie natury, podejmując wyzwanie i tworząc niezapomniane wspomnienia.",
+        "text": "Wyrusz na pełną emocji wędrówkę pieszą przez górskie szlaki, zielone doliny i zapierające dech panoramy. Odkrywaj ukryte wodospady, spotykaj dzikie zwierzęta i pozwól, by natura stała się Twoim towarzyszem w tej niezapomnianej przygodzie.",
         "img": "/images/hiking.png",
         "title": "Górskie Wędrówki i Naturalne Piękno",
         "subtitle": "Przeżyj przygodę na świeżym powietrzu, podziwiając spektakularne krajobrazy i poznając dziką przyrodę podczas pieszych wycieczek.",
@@ -147,7 +147,7 @@
     {
         "activity": "Degustacja Potraw",
         "countries": ["Japonia", "Włochy", "Tajlandia"],
-        "text": "Odkryj bogate smaki i kulinarne tradycje swojego miejsca docelowego, próbując różnorodnych lokalnych potraw, przekąsek i napojów. Prowadzeni przez kompetentnych gospodarzy odkryjesz ukryte perełki, poznasz regionalne składniki i zanurzysz się w kulturze poprzez jedzenie.",
+        "text": "Poznaj autentyczne smaki regionu, próbując lokalnych specjałów, przekąsek i napojów. Z pomocą doświadczonych gospodarzy odkryjesz kulinarne perełki, poznasz historię potraw i zanurzysz się w kulturze poprzez smak.",
         "img": "/images/degustation.png",
         "title": "Kulinarne Podróże i Degustacje",
         "subtitle": "Spróbuj autentycznych smaków lokalnej kuchni i poznaj tajniki tradycyjnych potraw podczas interaktywnej degustacji.",
@@ -182,7 +182,7 @@
     {
         "activity": "Safari Dzikiej Przyrody",
         "countries": ["Kenia"],
-        "text": "Wyrusz na ekscytujące safari w dzikiej przyrodzie, aby obserwować majestatyczne stworzenia swobodnie przemierzające rozległe sawanny i bujne tereny podmokłe, oferujące niezapomniane spotkania z najbardziej ikonicznymi gatunkami natury.",
+        "text": "Wyrusz na fascynujące safari i podziwiaj majestatyczne zwierzęta w ich naturalnym środowisku. Przemierzaj sawanny, bagna i lasy, obserwując niezwykłe gatunki w ich codziennym rytmie życia – to spotkanie, którego nie zapomnisz.",
         "img": "/images/safari.png",
         "title": "Safari w Serce Dzikiej Przyrody",
         "subtitle": "Podziwiaj dzikie zwierzęta w ich naturalnym środowisku i poznaj ekosystemy sawanny podczas niezapomnianej przygody.",
@@ -217,7 +217,7 @@
     {
         "activity": "Degustacja Wina",
         "countries": ["Francja", "Włochy", "Australia"],
-        "text": "Odkryj sztukę wina podczas prowadzonych degustacji w malowniczych winnicach. Skosztuj regionalnych szczepów, poznaj tradycje winiarskie i udoskonal swoje podniebienie w żywym, edukacyjnym doświadczeniu idealnym dla miłośników jedzenia i ciekawych podróżników.",
+        "text": "Odkryj sztukę wina w malowniczych winnicach podczas prowadzonych degustacji. Skosztuj regionalnych szczepów, poznaj tradycje winiarskie i udoskonal swoje podniebienie w inspirującym doświadczeniu dla miłośników smaku i podróży.",
         "img": "/images/wine-tasting.png",
         "title": "Degustacja Win i Winnicze Doświadczenia",
         "subtitle": "Poznaj lokalne winnice i skosztuj wyjątkowych szczepów podczas edukacyjnej i smakowitej wycieczki.",
@@ -252,7 +252,7 @@
     {
         "activity": "Dzień SPA",
         "countries": ["Japonia", "Tajlandia"],
-        "text": "Rozkoszuj się odmładzającą ucieczką z Spa Day, gdzie doświadczeni terapeuci, kojące zabiegi, i spokojne otoczenie przywracają twój umysł, ciało, i ducha. Zrelaksuj się w basenach z gorącymi kamieniami, oddaj się aromatycznym masażom, i zanurz się w całkowitym relaksie dla spokojnego i odświeżającego doświadczenia.",
+        "text": "Podaruj sobie chwilę pełną ukojenia i regeneracji. Doświadcz relaksu w aromatycznych masażach, gorących kąpielach i spokojnym otoczeniu, które przywraca równowagę ciała, umysłu i ducha.",
         "img": "/images/spa.png",
         "title": "Relaks i Odnowa w Spa",
         "subtitle": "Odnajdź spokój i witalność dzięki kompleksowym zabiegom SPA w luksusowym otoczeniu.",
@@ -287,7 +287,7 @@
     {
         "activity": "Pokaz Kulturowy",
         "countries": ["Japonia", "Brazylia"],
-        "text": "Doświadcz barwnej mozaiki lokalnych tradycji poprzez urzekające występy, muzykę, taniec i opowiadanie historii podczas angażującego Pokazu Kulturowego.",
+        "text": "Poznaj bogactwo lokalnych tradycji poprzez barwne występy, muzykę, taniec i opowieści, które ożywiają historię i kulturę danego miejsca.",
         "img": "/images/cultural-show.png",
         "title": "Tradycja i Sztuka w Pokazie Kulturowym",
         "subtitle": "Zanurz się w lokalnej kulturze dzięki muzyce, tańcom i opowieściom, które ożywiają tradycje regionu.",
@@ -322,7 +322,7 @@
     {
         "activity": "Wycieczka Rowerowa",
         "countries": ["Francja"],
-        "text": "Poczuj dreszczyk emocji odkrywając lokalne krajobrazy na dwóch kółkach, pedałując malowniczymi szlakami, urokliwymi wioskami, i zapierającymi dech w piersiach widokami.",
+        "text": "Poczuj wolność i dreszcz emocji, odkrywając lokalne krajobrazy z perspektywy dwóch kółek. Przemierzaj malownicze szlaki, urokliwe wioski i zachwycające widoki, ciesząc się każdą chwilą w ruchu.",
         "img": "/images/biketour.png",
         "title": "Rowerem przez Malownicze Szlaki",
         "subtitle": "Odkrywaj krajobrazy i urok lokalnych wiosek podczas aktywnej wycieczki rowerowej dla każdego poziomu zaawansowania.",
@@ -357,7 +357,7 @@
     {
         "activity": "Warsztaty Fotograficzne",
         "countries": ["Japonia", "Islandia", "Australia"],
-        "text": "Dołącz do profesjonalnych fotografów na immersyjnym Warsztacie Fotograficznym, ucząc się zaawansowanych technik kadrowania dramatycznych krajobrazów, żywych scen ulicznych, i bogatych momentów kulturowych. Odkrywaj ukryte perełki, doskonal swoje umiejętności, i wróć do domu z oszałamiającym portfolio zdjęć z podróży.",
+        "text": "Dołącz do profesjonalnych fotografów i naucz się uchwycić magię podróży. Poznaj techniki tworzenia wyjątkowych kadrów – od pejzaży po sceny uliczne – odkrywając ukryte miejsca i rozwijając swoje umiejętności w inspirującym otoczeniu.",
         "img": "/images/photography.png",
         "title": "Fotografia Podróżnicza i Kreatywne Warsztaty",
         "subtitle": "Rozwijaj swoje umiejętności fotograficzne, odkrywając niezwykłe miejsca i ucząc się od profesjonalistów.",
@@ -392,7 +392,7 @@
     {
         "activity": "Rejs Rzeczny",
         "countries": ["Francja"],
-        "text": "Płynąc malowniczymi drogami wodnymi podczas Rejsu Rzecznego, zwiedzając malownicze krajobrazy, urokliwe miasteczka nadbrzeżne, i historyczne zabytki w komforcie i stylu.",
+        "text": "Wybierz się w relaksujący rejs po malowniczych rzekach, mijając urokliwe miasteczka i zabytki widziane z zupełnie nowej perspektywy. Zanurz się w spokojnym rytmie wody, łącząc zwiedzanie z pełnym komfortem podróżowania.",
         "img": "/images/cruise.png",
         "title": "Spokojny Rejs Rzeczny",
         "subtitle": "Odkrywaj rzeki i ich okolice w komfortowej atmosferze, podziwiając piękne krajobrazy i zabytki.",
@@ -427,7 +427,7 @@
     {
         "activity": "Nurkowanie z rurką",
         "countries": ["Tajlandia", "Australia"],
-        "text": "Nurkowanie z rurką oferuje ekscytujący wgląd w podwodne światy, pozwalając płynąć tuż nad kolorowymi ogrodami koralowymi i ciekawskim życiem morskim w czystych, płytkich wodach. Idealne dla wszystkich grup wiekowych, to dostępna przygoda, która odkrywa ukryte skarby natury.",
+        "text": "Poznaj fascynujący świat pod powierzchnią wody, dryfując nad kolorowymi rafami koralowymi i spotykając ciekawe morskie stworzenia. To bezpieczna i dostępna przygoda dla każdego wieku, która pozwala odkryć ukryte piękno natury z bliska.",
         "img": "/images/snorkeling.png",
         "title": "Podwodne Przygody z Rurką",
         "subtitle": "Odkrywaj rafy koralowe i morskie życie w krystalicznie czystej wodzie podczas relaksującego nurkowania z rurką.",
@@ -462,7 +462,7 @@
     {
         "activity": "Zakupy Na Lokalnym Rynku",
         "countries": ["Maroko", "Tajlandia", "Peru"],
-        "text": "Zanurz się w sercu destynacji, przemierzając jej lokalne targowiska. Odkryj tętniące życiem stragany ze świeżymi produktami, wyrobami rękodzielniczymi i aromatycznymi przyprawami, nawiązując rozmowy z przyjaznymi sprzedawcami i chłonąc autentyczne widoki, dźwięki i smaki społeczności.",
+        "text": "Zanurz się w lokalnej kulturze, przemierzając tętniące życiem targowiska pełne zapachów, kolorów i dźwięków. Odkrywaj stoiska z rękodziełem, przyprawami i świeżymi produktami, poznając autentyczne oblicze miejscowej społeczności.",
         "img": "/images/shopping.png",
         "title": "Autentyczne Zakupy na Targu",
         "subtitle": "Poznaj lokalną kulturę i tradycję poprzez eksplorację targowisk, aromatyczne przyprawy i rękodzieło.",
@@ -497,7 +497,7 @@
     {
         "activity": "Lekcja Tańca",
         "countries": ["Brazylia"],
-        "text": "Doświadcz radości ruchu na pełnych życia zajęciach tanecznych, gdzie doświadczeni instruktorzy prowadzą cię przez pełne energii kroki, zanurzając cię w kulturowych rytmach i energii społeczności.",
+        "text": "Poczuj rytm i energię miejsca podczas dynamicznych zajęć tanecznych. Doświadcz kultury poprzez ruch, ucząc się kroków od lokalnych instruktorów i dając się porwać atmosferze radości i wspólnej zabawy.",
         "img": "/images/dancing.png",
         "title": "Tańce i Rytmy Kultury",
         "subtitle": "Naucz się lokalnych stylów tanecznych i poczuj rytm oraz energię społeczności podczas dynamicznej lekcji tańca.",
