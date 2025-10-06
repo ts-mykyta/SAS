@@ -16,8 +16,8 @@ import AppFooter from '@/components/AppFooter.vue'
         <!-- Promo section -->
         <AppPromo
           imageUrl="/images/home-promo.png"
-          title="Odkryj Zapierające Dech w Piersiach Miejsca"
-          subtitle="Wyrusz na przygodę do zapierających dech w piersiach miejsc na całym świecie. Od rozgrzanych słońcem piasków po wielowiekowe panoramy miejskie, odkryj idealne schronienie na swoją następną ucieczkę."
+          title="Podróż Bez Granic Poznaj Miejsca, Których Nie Zapomnisz"
+          subtitle="Wybierz się w podróż po niezwykłych zakątkach świata. Od złocistych plaż po historyczne metropolie – znajdź miejsce, które stanie się Twoją idealną ucieczką."
         />
 
         <!-- Country section -->
