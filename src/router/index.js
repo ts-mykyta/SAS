@@ -14,32 +14,35 @@ const CountryView = () => import('@/views/CountryView.vue')
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    { path: '/', name: 'home', component: HomeView },
+    { path: '/', name: 'home', component: HomeView, meta: { title: 'Twoja podróż czeka na Ciebie' } },
 
-    { path: '/destinations', name: 'destinations', component: DestinationsView },
+    { path: '/destinations', name: 'destinations', component: DestinationsView, meta: { title: 'Podróżuj Tam, Gdzie Zaczyna Się Przygoda' } },
 
     {
       path: '/destinations/:slug',
       name: 'destination',
       component: CountryView,
       props: true,
+      meta: { title: 'destination' }
     },
 
-    { path: '/activities', name: 'activities', component: ActivitiesView },
+    { path: '/activities', name: 'activities', component: ActivitiesView, meta: { title: 'activities' } },
 
     {
       path: '/activities/:slug',
       name: 'activity',
       component: ActivityView,
       props: true,
+      meta: { title: 'activity' }
     },
 
-    { path: '/privacy-policy', name: 'privacy-policy', component: PrivacyView },
-    { path: '/terms', name: 'terms', component: TermsView },
-    { path: '/cookie', name: 'cookie', component: CookieView },
-    { path: '/about', name: 'about', component: AboutView },
-    { path: '/contact', name: 'contact', component: ContactView },
+    { path: '/privacy-policy', name: 'privacy-policy', component: PrivacyView, meta: { title: 'privacy-policy' } },
+    { path: '/terms', name: 'terms', component: TermsView, meta: { title: 'terms' } },
+    { path: '/cookie', name: 'cookie', component: CookieView, meta: { title: 'cookie' } },
+    { path: '/about', name: 'about', component: AboutView, meta: { title: 'about' } },
+    { path: '/contact', name: 'contact', component: ContactView, meta: { title: 'contact' } },
   ],
+  
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) return savedPosition
     if (to.hash) {
@@ -52,5 +55,11 @@ const router = createRouter({
     return { top: 0 }
   },
 })
+
+router.afterEach((to) => {
+  const defaultTitle = 'Twoja podróż czeka na Ciebie'
+  document.title = to.meta.title || defaultTitle
+})
+
 
 export default router

@@ -2,7 +2,7 @@
   {
     "country": "Francja",
     "tag": "Europa",
-    "text": "Francja oferuje bogatą mozaikę kultury, historii i naturalnego piękna, od ikonicznych zabytków, takich jak Wieża Eiffla, po skąpane w słońcu plaże Riwiery, renomowane regiony winiarskie i malownicze wiejskie wioski.",
+    "text": "Francja urzeka bogactwem dziedzictwa i krajobrazów – od ikonicznych zabytków pośród miejskiego zgiełku po zaciszne wioski, winiarskie doliny i błękitne wybrzeża skąpane w słońcu.",
     "img": "/images/france.png",
     "title": "Odkryj ukryte uroki Francji",
     "subtitle": "Odkryj cuda Francji. Od jej bogatego dziedzictwa i wyśmienitej kuchni po alpejskie panoramy, zanurz się w każdym zachwycie, jaki ta czarująca kraina ujawnia.",
@@ -85,7 +85,7 @@
   {
     "country": "Japonia",
     "tag": "Azja",
-    "text": "Japonia jest krainą kontrastów, gdzie starożytne świątynie spotykają się z neonowymi miastami.",
+    "text": "W Japonii historia i nowoczesność idą w parze – świątynne ogrody sąsiadują z neonowymi ulicami Tokio.",
     "img": "/images/japan.png",
     "title": "Zanurz się w kontrastach Japonii",
     "subtitle": "Od świątyń Kioto po futurystyczne Tokio — Japonia łączy tradycję z nowoczesnością.",
@@ -134,7 +134,7 @@
   {
     "country": "Brazylia",
     "tag": "Ameryka Południowa",
-    "text": "Brazylia to kraina karnawału, plaż i Amazonii.",
+    "text": "Brazylia oczarowuje pasją, plażami i zielonym sercem dżungli – Amazonią.",
     "img": "/images/brazil.png",
     "title": "Brazylia — rytm życia",
     "subtitle": "Od Rio po Amazonię, odkryj tętniące życiem serce Ameryki Południowej.",
