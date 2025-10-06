@@ -60,8 +60,8 @@ const filteredActivities = computed(() => {
         <!-- Promo section -->
         <AppPromo
           imageUrl="/images/home-promo.png"
-          title="Odkryj Ekscytujące Doświadczenia Na Całym Świecie"
-          subtitle="Odkryj niezapomniane chwile, od kulinarnych przygód po ekscytujące aktywności na świeżym powietrzu. Znajdź idealne aktywności na swoją następną podróż."
+          title="Odkryj Niezapomniane Przygody na Całym Świecie"
+          subtitle="Odkryj wyjątkowe chwile – od smaków lokalnej kuchni po emocjonujące przygody na łonie natury. Wybierz aktywności, które sprawią, że Twoja podróż będzie naprawdę niezapomniana."
         />
 
         <!-- activities -->

@@ -4,9 +4,9 @@
     "tag": "Europa",
     "text": "Francja urzeka bogactwem dziedzictwa i krajobrazów – od ikonicznych zabytków pośród miejskiego zgiełku po zaciszne wioski, winiarskie doliny i błękitne wybrzeża skąpane w słońcu.",
     "img": "/images/france.png",
-    "title": "Odkryj ukryte uroki Francji",
-    "subtitle": "Odkryj cuda Francji. Od jej bogatego dziedzictwa i wyśmienitej kuchni po alpejskie panoramy, zanurz się w każdym zachwycie, jaki ta czarująca kraina ujawnia.",
-    "description": "Francja to kraj urzekającej różnorodności, gdzie wieki historii spotykają się z nowoczesną kreatywnością na malowniczych krajobrazach. Wędruj po urokliwych uliczkach Paryża, domu ikonicznych zabytków takich jak Wieża Eiffla, Luwr i majestatyczna katedra Notre-Dame. Poza stolicą pagórkowate winnice w Bordeaux i Burgundii produkują światowej sławy wina, podczas gdy lawendowe pola Prowansji tworzą żywy fioletowy gobelin pod śródziemnomorskim słońcem. Od skąpanych w słońcu plaż Riwiery po ośnieżone szczyty Francuskich Alp, każdy region oferuje swój niepowtarzalny charakter i smaki. Kultura francuska jest synonimem kulinarnej doskonałości, dziedzictwa artystycznego i głębokiego uznania dla wyrafinowanych przyjemności życia. Rozkoszuj się maślanymi croissantami w osiedlowej piekarni, kosztuj gastronomii nagrodzonej gwiazdkami Michelin w historycznych wnętrzach château albo delektuj się serami wiejskimi i wędlinami w rustykalnych wiejskich bistrach. Przy tempie życia, które ceni długie, wspólne posiłki i kulturalne więzi, podróżni odnajdą ciepło i elegancję wplecione w codzienną rutynę. Niezależnie czy zwiedzasz średniowieczne miasteczka w Normandii, pedałujesz szlakiem châteaux Doliny Loary czy tańczysz do późna w paryskich klubach, Francja obiecuje niezapomnianą podróż dla każdego poszukiwacza przygód.",
+    "title": "Poznaj ukryte piękno Francji",
+    "subtitle": "Odkryj jej historię, smaki i krajobrazy – od romantycznych ulic Paryża po majestatyczne Alpy i słoneczną Prowansję.",
+    "description": "Francja to kraj urzekającej różnorodności, gdzie wieki historii splatają się z nowoczesną kreatywnością na tle malowniczych krajobrazów. Spaceruj po urokliwych uliczkach Paryża – miasta, które jest domem dla ikonicznych symboli, takich jak Wieża Eiffla, Luwr czy majestatyczna katedra Notre-Dame. Poza stolicą rozciągają się falujące winnice Bordeaux i Burgundii, produkujące światowej sławy wina, a w Prowansji lawendowe pola tworzą żywy, fioletowy gobelin pod ciepłym śródziemnomorskim słońcem. Od złocistych plaż Lazurowego Wybrzeża po ośnieżone szczyty Francuskich Alp — każdy region ma swój niepowtarzalny charakter i smaki. Francja to również synonim kulinarnej doskonałości, bogatego dziedzictwa artystycznego i miłości do eleganckich przyjemności życia. Spróbuj maślanych croissantów w przytulnej piekarni, delektuj się potrawami z gwiazdką Michelin w historycznych wnętrzach château lub poznaj smak tradycyjnych serów i wędlin w rustykalnych bistrach prowincji. W kraju, gdzie tempo życia sprzyja długim posiłkom i rozmowom przy winie, podróżni odnajdują ciepło, autentyczność i wdzięk w codziennych chwilach. Niezależnie od tego, czy odkrywasz średniowieczne miasteczka Normandii, przemierzasz rowerem szlak zamków Doliny Loary czy tańczysz do świtu w paryskich klubach — Francja oferuje niezapomnianą podróż, która zachwyca zmysły i serce.",
     "currency": "EUR",
     "language": "Francuski",
     "advices": [
@@ -182,7 +182,7 @@
   {
     "country": "Nowa Zelandia",
     "tag": "Oceania",
-    "text": "Nowa Zelandia to kraj nieziemskich krajobrazów i przygód.",
+    "text": "Nowa Zelandia — kraina zapierających dech krajobrazów, od gór po fiordy, idealna dla miłośników natury i przygód.",
     "img": "/images/new-zealand.png",
     "title": "Nowa Zelandia — kraina natury i przygód",
     "subtitle": "Od fiordów Milford Sound po wulkany Wyspy Północnej — odkryj kraj, gdzie natura gra główną rolę.",
@@ -230,7 +230,7 @@
   {
     "country": "Maroko",
     "tag": "Afryka",
-    "text": "Maroko — kraj kolorów, przypraw i pustynnych przygód.",
+    "text": "Maroko — kraj barw, aromatów i kontrastów, gdzie pustynia spotyka się z górami i orientalnymi miastami.",
     "img": "/images/morocco.png",
     "title": "Maroko — brama do Afryki",
     "subtitle": "Od medyn Marrakeszu po wydmy Sahary — odkryj egzotyczne piękno Maroka.",
@@ -282,7 +282,7 @@
   {
     "country": "Kanada",
     "tag": "Północna Ameryka",
-    "text": "Kanada — kraj natury i wielokulturowości.",
+    "text": "Kanada — ziemia nieskończonych krajobrazów i przyjaznej różnorodności.",
     "img": "/images/canada.png",
     "title": "Kanada — wielka przygoda",
     "subtitle": "Od wodospadów Niagara po Góry Skaliste — odkryj potęgę natury Kanady.",
@@ -331,7 +331,7 @@
   {
     "country": "Włochy",
     "tag": "Europa",
-    "text": "Włochy — kraj historii, sztuki i doskonałej kuchni.",
+    "text": "Włochy — ojczyzna sztuki, historii i smaków, zachwycająca od Rzymu po winnice Toskanii.",
     "img": "/images/italy.png",
     "title": "Italia — serce Europy",
     "subtitle": "Od Koloseum po Toskanię — Włochy to podróż przez wieki kultury.",
@@ -380,7 +380,7 @@
   {
     "country": "Kenia",
     "tag": "Afryka",
-    "text": "Kenia — kraj safari i niezapomnianych krajobrazów.",
+    "text": "Kenia — kraj safari i dzikiej przyrody, gdzie Afryka ukazuje swoje najpiękniejsze oblicze.",
     "img": "/images/kenya.png",
     "title": "Kenia — królestwo dzikiej przyrody",
     "subtitle": "Od sawann Masaj Mara po szczyt Kilimandżaro — Kenia to przygoda życia.",
@@ -428,7 +428,7 @@
   {
     "country": "Tajlandia",
     "tag": "Azja",
-    "text": "Tajlandia — kraj uśmiechu, złotych świątyń i tropikalnych plaż.",
+    "text": "Tajlandia — kraina uśmiechu, złotych świątyń i rajskich plaż, pełna egzotyki i energii.",
     "img": "/images/thailand.png",
     "title": "Tajlandia — egzotyczny raj Azji",
     "subtitle": "Od Bangkoku po wyspy Phuket i Koh Samui — Tajlandia to podróż marzeń.",
@@ -476,7 +476,7 @@
   {
     "country": "Islandia",
     "tag": "Europa",
-    "text": "Islandia — kraina ognia, lodu i zorzy polarnej.",
+    "text": "Islandia — ziemia ognia i lodu, gdzie natura tworzy najbardziej niezwykłe pejzaże świata.",
     "img": "/images/island.png",
     "title": "Islandia — cud natury",
     "subtitle": "Od gejzerów i lodowców po wodospady i zorzę polarną — Islandia to przyroda w najczystszej postaci.",
@@ -524,7 +524,7 @@
   {
     "country": "Peru",
     "tag": "Ameryka Południowa",
-    "text": "Peru — ojczyzna Machu Picchu i inkaskiego dziedzictwa.",
+    "text": "Peru — ojczyzna Machu Picchu i Inków, pełna gór, tradycji i fascynujących historii.",
     "img": "/images/peru.png",
     "title": "Peru — podróż w czasie",
     "subtitle": "Od ruin Inków po amazońską dżunglę — Peru to historia i przygoda.",
@@ -572,7 +572,7 @@
   {
     "country": "Australia",
     "tag": "Australia",
-    "text": "Australia — kraj kangurów, plaż i Wielkiej Rafy Koralowej.",
+    "text": "Australia — kraj słońca, surfingu i niezwykłej przyrody, otoczony oceanem i wolnością.",
     "img": "/images/australia.png",
     "title": "Australia — kontynent przygód",
     "subtitle": "Od Sydney Opera House po Outback — Australia to nieskończone odkrycia.",
