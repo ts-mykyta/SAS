@@ -80,7 +80,27 @@
     ],
     "creditCard": "Powszechnie akceptowane w miastach i obszarach turystycznych; niektóre małe wsie mogą preferować gotówkę.",
     "atm": "Łatwo dostępne w obszarach miejskich i turystycznych; ograniczona dostępność w odległych wsiach.",
-    "english": "Powszechne w miejscach turystycznych"
+    "english": "Powszechne w miejscach turystycznych",
+    "reviews": [
+      {
+        "img": "/images/michael.png",
+        "name": "Name Name",
+        "country": "Country, Country",
+        "text": "texttexttext"
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      }
+    ]
   },
   {
     "country": "Japonia",
@@ -129,7 +149,27 @@
     "nightActivities": ["Robot Restaurant w Tokio", "Golden Gai w Shinjuku", "Kluby w Osace"],
     "creditCard": "Akceptowane w dużych miastach, mniej w wiejskich obszarach.",
     "atm": "Bankomaty 24h dostępne w konbinis.",
-    "english": "Popularny w turystycznych strefach i hotelach"
+    "english": "Popularny w turystycznych strefach i hotelach",
+    "reviews": [
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      }
+    ]
   },
   {
     "country": "Brazylia",
@@ -177,7 +217,27 @@
     "nightActivities": ["Kluby samby w Rio", "Bar Vila Madalena w São Paulo"],
     "creditCard": "Akceptowane w większych miastach.",
     "atm": "Dostępne powszechnie.",
-    "english": "W hotelach i kurortach — tak, na wsiach — mniej"
+    "english": "W hotelach i kurortach — tak, na wsiach — mniej",
+    "reviews": [
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      }
+    ]
   },
   {
     "country": "Nowa Zelandia",
@@ -225,7 +285,27 @@
     "nightActivities": ["SkyCity Casino w Auckland", "Kluby w Queenstown"],
     "creditCard": "Akceptowane w miastach i kurortach.",
     "atm": "Dostępne w większości miejscowości.",
-    "english": "Język angielski jest urzędowy."
+    "english": "Język angielski jest urzędowy.",
+    "reviews": [
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      }
+    ]
   },
   {
     "country": "Maroko",
@@ -277,7 +357,27 @@
     ],
     "creditCard": "Akceptowane w hotelach i większych sklepach.",
     "atm": "Dostępne w miastach.",
-    "english": "Często używany w turystycznych miejscach."
+    "english": "Często używany w turystycznych miejscach.",
+    "reviews": [
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      }
+    ]
   },
   {
     "country": "Kanada",
@@ -326,7 +426,27 @@
     "nightActivities": ["Kluby w Toronto", "Puby w Montrealu", "Życie nocne w Vancouver"],
     "creditCard": "Akceptowane wszędzie.",
     "atm": "Dostępne nawet w małych miastach.",
-    "english": "Język angielski jest podstawowym."
+    "english": "Język angielski jest podstawowym.",
+    "reviews": [
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      }
+    ]
   },
   {
     "country": "Włochy",
@@ -375,7 +495,27 @@
     "nightActivities": ["Aperitivo w Mediolanie", "Nocne spacery w Rzymie", "Kluby w Rimini"],
     "creditCard": "Akceptowane w miastach.",
     "atm": "Powszechne.",
-    "english": "W turystycznych miastach większość osób mówi po angielsku."
+    "english": "W turystycznych miastach większość osób mówi po angielsku.",
+    "reviews": [
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      }
+    ]
   },
   {
     "country": "Kenia",
@@ -423,7 +563,27 @@
     "nightActivities": ["Bary w Nairobi", "Kluby w Mombasie", "Ogniska safari"],
     "creditCard": "Akceptowane w dużych miastach i hotelach.",
     "atm": "Dostępne w miastach, mniej na wsiach.",
-    "english": "Język angielski szeroko używany."
+    "english": "Język angielski szeroko używany.",
+    "reviews": [
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      }
+    ]
   },
   {
     "country": "Tajlandia",
@@ -471,7 +631,27 @@
     "nightActivities": ["Khao San Road w Bangkoku", "Full Moon Party na Koh Phangan", "Bary w Phuket"],
     "creditCard": "Akceptowane w dużych miastach i hotelach.",
     "atm": "Bardzo łatwo dostępne.",
-    "english": "W turystycznych rejonach powszechne."
+    "english": "W turystycznych rejonach powszechne.",
+    "reviews": [
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      }
+    ]
   },
   {
     "country": "Islandia",
@@ -519,7 +699,27 @@
     "nightActivities": ["Obserwacja zorzy polarnej", "Bary w Reykjaviku", "Kąpiele w Blue Lagoon"],
     "creditCard": "Akceptowane wszędzie.",
     "atm": "Łatwo dostępne.",
-    "english": "Większość mieszkańców mówi płynnie po angielsku."
+    "english": "Większość mieszkańców mówi płynnie po angielsku.",
+    "reviews": [
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      }
+    ]
   },
   {
     "country": "Peru",
@@ -567,7 +767,27 @@
     "nightActivities": ["Bary w Limie", "Życie nocne w Cusco"],
     "creditCard": "Akceptowane w dużych miastach.",
     "atm": "Dostępne w miastach.",
-    "english": "W turystycznych miejscach można się dogadać."
+    "english": "W turystycznych miejscach można się dogadać.",
+    "reviews": [
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      }
+    ]
   },
   {
     "country": "Australia",
@@ -615,6 +835,26 @@
     "nightActivities": ["Bary w Sydney", "Kluby w Melbourne", "Festiwale muzyczne"],
     "creditCard": "Akceptowane wszędzie.",
     "atm": "Łatwo dostępne.",
-    "english": "Język angielski jest językiem urzędowym."
+    "english": "Język angielski jest językiem urzędowym.",
+    "reviews": [
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      }
+    ]
   }
 ]
