@@ -42,7 +42,7 @@ const router = createRouter({
     { path: '/about', name: 'about', component: AboutView, meta: { title: 'about' } },
     { path: '/contact', name: 'contact', component: ContactView, meta: { title: 'contact' } },
   ],
-  
+
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) return savedPosition
     if (to.hash) {

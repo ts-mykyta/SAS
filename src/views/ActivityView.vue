@@ -5,7 +5,7 @@ import AppFooter from '@/components/AppFooter.vue'
 import AppHeader from '@/components/AppHeader.vue'
 import AppReviews from '@/components/AppReviews.vue'
 
-import { computed, ref } from 'vue'
+import { computed, ref, onMounted } from 'vue'
 import activitiesAll from '@/store/activities.json'
 import destinationsAll from '@/store/destinations.json'
 
@@ -22,6 +22,12 @@ function slugify(s) {
 
 const activity = computed(() => {
   return activitiesAll.find((a) => (a.slug || slugify(a.activity)) === props.slug)
+})
+
+onMounted(() => {
+  document.title = activity.value
+    ? `${activity.value.activity} - Twoja podróż czeka na Ciebie`
+    : 'Twoja podróż czeka na Ciebie'
 })
 
 const activeTab = ref('overview')
@@ -73,7 +79,7 @@ const relatedDestinations = computed(() => {
                   <div
                     role="tablist"
                     aria-orientation="horizontal"
-                    class="h-10 items-center rounded-md text-muted-foreground inline-flex bg-transparent p-1 border-b border-border w-full justify-start gap-8"
+                    class="h-10 items-center rounded-md text-muted-foreground inline-flex bg-transparent p-1 border-b border-border w-full justify-start gap-1 md:gap-8"
                     tabindex="0"
                     data-orientation="horizontal"
                     style="outline: none"
@@ -1105,7 +1111,7 @@ const relatedDestinations = computed(() => {
             </div>
           </div>
         </section>
-        <AppReviews reviewsType="activity" />
+        <AppReviews reviewsType="activity" :reviewsActivity="activity.reviewsActivity" />
       </main>
 
       <AppFooter />

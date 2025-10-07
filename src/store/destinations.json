@@ -10,11 +10,11 @@
     "currency": "EUR",
     "language": "Francuski",
     "advices": [
-      "Zawsze witaj sprzedawców i personel restauracji uprzejmym “Bonjour” przed rozpoczęciem rozmowy.",
-      "Używaj formy grzecznościowej (Monsieur/Madame), chyba że zaproszono do zwracania się po imieniu.",
-      "Etykieta przy stole: trzymaj ręce na stole, łam chleb rękami, i poczekaj, aż wszyscy zostaną podani, zanim zaczniesz jeść.",
-      "Napiwek: opłata serwisowa jest wliczona, ale zostawienie niewielkiego dodatkowego napiwku (5–10%) jest mile widziane przy doskonałej obsłudze.",
-      "Zwróć uwagę na godziny otwarcia sklepów i muzeów; wiele z nich zamyka się na lunch (12–2 pm) i jest zamkniętych w niedziele."
+      "Powitanie: zawsze rozpocznij rozmowę uprzejmym „Bonjour”, witając sprzedawcę lub obsługę w restauracji przed zadaniem pytania.",
+      "Forma grzecznościowa: używaj Monsieur / Madame, dopóki rozmówca nie zaproponuje przejścia na formę po imieniu.",
+      "Etykieta przy stole: trzymaj dłonie na stole (ale nie łokcie), łam chleb rękami i poczekaj, aż wszyscy otrzymają swoje dania, zanim zaczniesz jeść.",
+      "Napiwek: opłata serwisowa jest zwykle wliczona w rachunek, jednak pozostawienie 5–10% przy doskonałej obsłudze jest mile widziane.",
+      "Godziny otwarcia: wiele sklepów i muzeów zamyka się na przerwę obiadową (12:00–14:00) i nieczynne są w niedziele, dlatego warto wcześniej zaplanować wizytę."
     ],
     "destinations": ["Taras Wieży Eiffla", "Lawendowe Pola", "Promenada Anglików"],
     "sliderImg": "/images/france-slider.png",
@@ -80,24 +80,44 @@
     ],
     "creditCard": "Powszechnie akceptowane w miastach i obszarach turystycznych; niektóre małe wsie mogą preferować gotówkę.",
     "atm": "Łatwo dostępne w obszarach miejskich i turystycznych; ograniczona dostępność w odległych wsiach.",
-    "english": "Powszechne w miejscach turystycznych"
+    "english": "Powszechne w miejscach turystycznych",
+    "reviews": [
+      {
+        "img": "/images/michael.png",
+        "name": "Name Name",
+        "country": "Country, Country",
+        "text": "texttexttext"
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      }
+    ]
   },
   {
     "country": "Japonia",
     "tag": "Azja",
     "text": "W Japonii historia i nowoczesność idą w parze – świątynne ogrody sąsiadują z neonowymi ulicami Tokio.",
     "img": "/images/japan.png",
-    "title": "Zanurz się w kontrastach Japonii",
-    "subtitle": "Od świątyń Kioto po futurystyczne Tokio — Japonia łączy tradycję z nowoczesnością.",
-    "description": "Japonia to kraj, gdzie tradycja i nowoczesność współistnieją w idealnej harmonii. Od spokojnych ogrodów zen i starożytnych świątyń w Kioto po pulsujące energią dzielnice Shibuya w Tokio, podróżnik odkrywa nieustannie zmieniający się krajobraz. Japonia to również kraj kulinarnej doskonałości — sushi, ramen i tempura to tylko początek przygody. Ośnieżone stoki Hokkaido przyciągają narciarzy, a tropikalne plaże Okinawy zapewniają relaks w rajskim otoczeniu.",
+    "title": "Odkryj harmonię Japonii",
+    "subtitle": "Od spokojnych ogrodów Kioto po pulsujące światła Tokio — kraj, gdzie przeszłość i przyszłość żyją w równowadze.",
+    "description": "Japonia to kraj, w którym tradycja i nowoczesność współistnieją w doskonałej harmonii. Od spokojnych ogrodów zen i starożytnych świątyń Kioto po tętniące życiem ulice Shibuya w Tokio – każdy krok odsłania nowe oblicze tej niezwykłej krainy. To również mekka smakoszy: od delikatnego sushi i aromatycznego ramenu po chrupiącą tempurę – każda potrawa to podróż przez kulturę i zmysły. Zimą ośnieżone stoki Hokkaido zachwycają narciarzy, a latem tropikalne plaże Okinawy zapraszają do beztroskiego wypoczynku w rajskim klimacie.",
     "currency": "JPY",
     "language": "Japoński",
     "advices": [
-      "Zawsze zdejmuj buty w domach i świątyniach.",
-      "Mów 'Arigato' dziękując, a 'Sumimasen' przepraszając.",
-      "Gotówka wciąż szeroko używana — miej przy sobie yen.",
-      "W metrze i pociągach zachowaj ciszę.",
-      "Napiwki nie są praktykowane."
+      "Zdejmowanie obuwia: zawsze zdejmuj buty przy wejściu do domów, świątyń i niektórych tradycyjnych restauracji.",
+      "Uprzejmość w słowach: używaj „Arigato” (dziękuję) i „Sumimasen” (przepraszam) w codziennych sytuacjach – to wyraz szacunku.",
+      "Płatności: gotówka nadal jest powszechnie używana, dlatego warto mieć przy sobie jeny.",
+      "Zachowanie w transporcie: w metrze i pociągach zachowuj ciszę – rozmowy przez telefon są źle widziane.",
+      "Napiwki: nie praktykuje się ich w Japonii; uprzejma obsługa jest już częścią kultury"
     ],
     "destinations": ["Tokio Tower", "Świątynia Fushimi Inari", "Fuji-san"],
     "sliderImg": "/images/japan-slider.png",
@@ -129,24 +149,44 @@
     "nightActivities": ["Robot Restaurant w Tokio", "Golden Gai w Shinjuku", "Kluby w Osace"],
     "creditCard": "Akceptowane w dużych miastach, mniej w wiejskich obszarach.",
     "atm": "Bankomaty 24h dostępne w konbinis.",
-    "english": "Popularny w turystycznych strefach i hotelach"
+    "english": "Popularny w turystycznych strefach i hotelach",
+    "reviews": [
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      }
+    ]
   },
   {
     "country": "Brazylia",
     "tag": "Ameryka Południowa",
     "text": "Brazylia oczarowuje pasją, plażami i zielonym sercem dżungli – Amazonią.",
     "img": "/images/brazil.png",
-    "title": "Brazylia — rytm życia",
-    "subtitle": "Od Rio po Amazonię, odkryj tętniące życiem serce Ameryki Południowej.",
-    "description": "Brazylia to kraj pełen energii i koloru. Rio de Janeiro przyciąga złotymi plażami Copacabana i słynnym posągiem Chrystusa Odkupiciela. Amazońska dżungla oferuje niezrównane bogactwo przyrody, a wodospady Iguaçu zachwycają potęgą. Karnawał w Rio to eksplozja tańca, muzyki i radości życia.",
+    "title": "Brazylia — energia i pasja",
+    "subtitle": "Od Rio po Amazonię, poczuj puls życia i magię tropików.",
+    "description": "Brazylia to kraj pulsujący energią, rytmem i kolorem. W Rio de Janeiro złote plaże Copacabany i monumentalny posąg Chrystusa Odkupiciela tworzą jedną z najbardziej rozpoznawalnych panoram świata. Amazonia zachwyca bezkresnym bogactwem przyrody, a wodospady Iguaçu – swoją spektakularną potęgą. Kulminacją brazylijskiego ducha jest Karnawał w Rio, pełen muzyki, tańca i niekończącej się radości życia.",
     "currency": "BRL",
     "language": "Portugalski",
     "advices": [
-      "Uważaj na kieszonkowców w dużych miastach.",
-      "Zawsze pij wodę butelkowaną.",
-      "Przywitaj się uściskiem dłoni lub pocałunkiem w policzek.",
-      "Unikaj samotnych spacerów nocą w nieznanych dzielnicach.",
-      "Ciesz się muzyką i tańcem — to część kultury."
+      "Bezpieczeństwo: zachowaj czujność w dużych miastach i uważaj na kieszonkowców, zwłaszcza w zatłoczonych miejscach.",
+      "Woda: pij wyłącznie wodę butelkowaną, unikając tej z kranu.",
+      "Powitania: Brazylijczycy są serdeczni — przy powitaniu często używa się uścisku dłoni lub pocałunku w policzek.",
+      "Po zmroku: unikaj samotnych spacerów po nieznanych dzielnicach nocą.",
+      "Kultura: muzyka i taniec to dusza Brazylii — nie bój się dołączyć i cieszyć chwilą!"
     ],
     "destinations": ["Statua Chrystusa", "Amazonia", "Plaża Copacabana"],
     "sliderImg": "/images/brazil-slider.png",
@@ -177,24 +217,44 @@
     "nightActivities": ["Kluby samby w Rio", "Bar Vila Madalena w São Paulo"],
     "creditCard": "Akceptowane w większych miastach.",
     "atm": "Dostępne powszechnie.",
-    "english": "W hotelach i kurortach — tak, na wsiach — mniej"
+    "english": "W hotelach i kurortach — tak, na wsiach — mniej",
+    "reviews": [
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      }
+    ]
   },
   {
     "country": "Nowa Zelandia",
     "tag": "Oceania",
     "text": "Nowa Zelandia — kraina zapierających dech krajobrazów, od gór po fiordy, idealna dla miłośników natury i przygód.",
     "img": "/images/new-zealand.png",
-    "title": "Nowa Zelandia — kraina natury i przygód",
-    "subtitle": "Od fiordów Milford Sound po wulkany Wyspy Północnej — odkryj kraj, gdzie natura gra główną rolę.",
-    "description": "Nowa Zelandia to raj dla miłośników przyrody i aktywnego wypoczynku. Góry, fiordy i jeziora południowej wyspy kontrastują z geotermalnymi cudami Rotorua i złotymi plażami Bay of Islands. Kultura Maorysów wzbogaca doświadczenie podróży, a fani filmów mogą zwiedzić plan filmowy Władcy Pierścieni. To kraj, gdzie trekking, sporty ekstremalne i niezapomniane widoki są codziennością.",
+    "title": "Nowa Zelandia — serce natury",
+    "subtitle": "Od gór Południowej Wyspy po jeziora i fiordy — odkryj krainę niekończącej się przygody.",
+    "description": "Nowa Zelandia to prawdziwy raj dla miłośników natury i aktywnego wypoczynku. Potężne góry, malownicze fiordy i spokojne jeziora Południowej Wyspy kontrastują z geotermalnymi cudami Rotoruy i złocistymi plażami Bay of Islands. Kultura Maorysów dodaje podróży głębi i autentyczności, a fani kina mogą odkryć magiczne plenery znane z „Władcy Pierścieni”. To kraj, w którym trekking, sporty ekstremalne i zachwycające widoki stają się codziennością.",
     "currency": "NZD",
     "language": "Angielski, Maoryski",
     "advices": [
-      "Pogoda zmienia się szybko — zawsze miej kurtkę przeciwdeszczową.",
-      "Kiwis są bardzo przyjaźni i bezpośredni.",
-      "Samochód to najlepszy sposób zwiedzania kraju.",
-      "Ciesz się przyrodą, ale szanuj zasady ekologii.",
-      "Nie ma napiwków jako obowiązku, ale są mile widziane."
+      "Pogoda: warunki zmieniają się błyskawicznie — zawsze miej przy sobie kurtkę przeciwdeszczową.",
+      "Ludzie: mieszkańcy, zwani Kiwis, są przyjaźni, otwarci i bezpośredni w kontaktach.",
+      "Transport: najlepszym sposobem poznania kraju jest podróż samochodem, który daje pełną swobodę odkrywania.",
+      "Przyroda: ciesz się nieskazitelnym środowiskiem, ale szanuj zasady ekologii – „leave no trace” to niepisana zasada każdego podróżnika.",
+      "Napiwki: nie są obowiązkowe, ale mile widziane jako wyraz wdzięczności za dobrą obsługę."
     ],
     "destinations": ["Milford Sound", "Rotorua", "Bay of Islands"],
     "sliderImg": "/images/nz-slider.png",
@@ -225,24 +285,44 @@
     "nightActivities": ["SkyCity Casino w Auckland", "Kluby w Queenstown"],
     "creditCard": "Akceptowane w miastach i kurortach.",
     "atm": "Dostępne w większości miejscowości.",
-    "english": "Język angielski jest urzędowy."
+    "english": "Język angielski jest urzędowy.",
+    "reviews": [
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      }
+    ]
   },
   {
     "country": "Maroko",
     "tag": "Afryka",
     "text": "Maroko — kraj barw, aromatów i kontrastów, gdzie pustynia spotyka się z górami i orientalnymi miastami.",
     "img": "/images/morocco.png",
-    "title": "Maroko — brama do Afryki",
-    "subtitle": "Od medyn Marrakeszu po wydmy Sahary — odkryj egzotyczne piękno Maroka.",
-    "description": "Maroko to miejsce, gdzie orientalna magia spotyka afrykańską gościnność. Marrakesz kusi kolorowymi sukami i aromatem przypraw, Fez czaruje średniowiecznymi uliczkami, a Sahara daje doświadczenie życia pod gwiazdami. Góry Atlasu oferują trekking, a nadmorski Essaouira relaks nad Atlantykiem. To kraj, gdzie każda podróż pachnie miętową herbatą i tajine.",
+    "title": "Maroko — między pustynią a oceanem",
+    "subtitle": "Od gór Atlasu po złote wydmy — kraj pełen zapachów, kolorów i tajemnic.",
+    "description": "Maroko to kraj, w którym orientalna magia łączy się z afrykańską gościnnością. Marrakesz zachwyca barwnymi sukami i zapachem przypraw, Fez przenosi w czasy średniowiecza swoimi labiryntami uliczek, a Sahara pozwala doświadczyć ciszy i blasku gwiazd jak nigdzie indziej. Góry Atlasu zapraszają miłośników trekkingu, a nadmorska Essaouira oferuje odprężenie w rytmie fal Atlantyku. To kraj, w którym każda podróż pachnie miętową herbatą, świeżym chlebem i tajine prosto z glinianego naczynia.",
     "currency": "MAD",
     "language": "Arabski, Berberyjski, Francuski",
     "advices": [
-      "Negocjowanie cen na targach jest normą.",
-      "Unikaj fotografowania ludzi bez zgody.",
-      "W miejscach religijnych ubieraj się skromnie.",
-      "Pij tylko butelkowaną wodę.",
-      "Uważaj na nachalnych sprzedawców."
+      "Negocjacje: targowanie się na bazarach to część lokalnej kultury – traktuj to jak przyjazny rytuał, nie obowiązek.",
+      "Fotografie: nie rób zdjęć mieszkańcom bez ich wyraźnej zgody, zwłaszcza w mniejszych miejscowościach.",
+      "Ubiór: w miejscach religijnych ubieraj się skromnie – zakryte ramiona i kolana to oznaka szacunku.",
+      "Woda: pij wyłącznie wodę butelkowaną i unikaj lodu w napojach.",
+      "Sprzedawcy: przygotuj się na zaczepnych handlarzy w popularnych miejscach turystycznych – uprzejme, stanowcze „nie, dziękuję” zwykle wystarczy."
     ],
     "destinations": ["Marrakesz Medina", "Sahara", "Essaouira"],
     "sliderImg": "/images/morocco-slider.png",
@@ -277,24 +357,44 @@
     ],
     "creditCard": "Akceptowane w hotelach i większych sklepach.",
     "atm": "Dostępne w miastach.",
-    "english": "Często używany w turystycznych miejscach."
+    "english": "Często używany w turystycznych miejscach.",
+    "reviews": [
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      }
+    ]
   },
   {
     "country": "Kanada",
     "tag": "Północna Ameryka",
     "text": "Kanada — ziemia nieskończonych krajobrazów i przyjaznej różnorodności.",
     "img": "/images/canada.png",
-    "title": "Kanada — wielka przygoda",
-    "subtitle": "Od wodospadów Niagara po Góry Skaliste — odkryj potęgę natury Kanady.",
-    "description": "Kanada to kraj ogromnych przestrzeni i przyjaznych ludzi. Wschód zachwyca wodospadami Niagara i Montrealem pełnym kultury. Zachód to Vancouver i Góry Skaliste, raj dla narciarzy i miłośników trekkingu. Północ Kanady kryje zorze polarne i bezkresną tundrę. To miejsce, gdzie kultura europejska i północnoamerykańska mieszają się w wielokulturowym tyglu.",
+    "title": "Kanada — dzika i piękna",
+    "subtitle": "Od wodospadów Niagara po majestatyczne Góry Skaliste — poczuj wolność natury.",
+    "description": "Kanada to kraj bezkresnych przestrzeni i niezwykle życzliwych ludzi. Na wschodzie zachwyca monumentalnymi wodospadami Niagara i tętniącym kulturą Montrealem, natomiast zachód to Vancouver i Góry Skaliste – raj dla narciarzy, wędrowców i miłośników natury. Na północy czekają zorze polarne i dzika tundra, która urzeka swoją surową urodą. Kanada to miejsce, gdzie europejska elegancja spotyka się z północnoamerykańskim duchem wolności, tworząc harmonijny, wielokulturowy świat pełen różnorodności.",
     "currency": "CAD",
     "language": "Angielski, Francuski",
     "advices": [
-      "Zima może być ekstremalna — ubierz się odpowiednio.",
-      "Kanadyjczycy są bardzo grzeczni — używaj 'Sorry' i 'Thank you'.",
-      "Napiwki 15–20% są standardem.",
-      "Przyroda jest chroniona — szanuj zasady parków narodowych.",
-      "Wielkie odległości — planuj podróże z wyprzedzeniem."
+      "Zima: potrafi być bardzo surowa – ubieraj się warstwowo i przygotuj na zmienne warunki pogodowe.",
+      "Uprzejmość: Kanadyjczycy są wyjątkowo grzeczni – często używaj słów „Sorry” i „Thank you”.",
+      "Napiwki: standardowo wynoszą 15–20%, szczególnie w restauracjach i taksówkach.",
+      "Przyroda: jest tu narodowym skarbem – przestrzegaj zasad ochrony środowiska w parkach narodowych.",
+      "Odległości: kraj jest ogromny, dlatego planuj podróże z wyprzedzeniem i uwzględnij czas przejazdów."
     ],
     "destinations": ["Wodospady Niagara", "Góry Skaliste", "Toronto CN Tower"],
     "sliderImg": "/images/canada-slider.png",
@@ -326,24 +426,44 @@
     "nightActivities": ["Kluby w Toronto", "Puby w Montrealu", "Życie nocne w Vancouver"],
     "creditCard": "Akceptowane wszędzie.",
     "atm": "Dostępne nawet w małych miastach.",
-    "english": "Język angielski jest podstawowym."
+    "english": "Język angielski jest podstawowym.",
+    "reviews": [
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      }
+    ]
   },
   {
     "country": "Włochy",
     "tag": "Europa",
     "text": "Włochy — ojczyzna sztuki, historii i smaków, zachwycająca od Rzymu po winnice Toskanii.",
     "img": "/images/italy.png",
-    "title": "Italia — serce Europy",
-    "subtitle": "Od Koloseum po Toskanię — Włochy to podróż przez wieki kultury.",
-    "description": "Włochy to kraj sztuki, kuchni i dolce vita. Rzym oczarowuje ruinami Koloseum i Watykanem, Florencja zachwyca sztuką renesansu, a Wenecja romantycznymi kanałami. Toskania to falujące wzgórza i winnice, a Wybrzeże Amalfi kusi malowniczymi miasteczkami nad morzem. To kraj, gdzie każdy posiłek jest świętem, a życie płynie w rytmie espresso i rozmów przy stole.",
+    "title": "Italia — kraj sztuki i smaku",
+    "subtitle": "Od Rzymu po Florencję — odkryj piękno, które inspiruje od wieków.",
+    "description": "Włochy to kraj sztuki, smaków i prawdziwego dolce vita. Rzym oczarowuje majestatycznym Koloseum i duchowym blaskiem Watykanu, Florencja zachwyca renesansowym dziedzictwem, a Wenecja urzeka romantycznymi kanałami i spokojem gondoli. Toskania to kraina falujących wzgórz i winnic, natomiast Wybrzeże Amalfi przyciąga pastelowymi miasteczkami zawieszonymi nad błękitem morza. Włochy to miejsce, gdzie każdy posiłek staje się świętem, a życie toczy się w rytmie espresso, słońca i serdecznych rozmów przy stole.",
     "currency": "EUR",
     "language": "Włoski",
     "advices": [
-      "Kawa pije się szybko przy barze.",
-      "W restauracjach doliczana jest coperto (opłata za nakrycie).",
-      "Ubieraj się elegancko — Włosi cenią styl.",
-      "Nie zamawiaj cappuccino po 11 rano.",
-      "Miej gotówkę, szczególnie w małych miasteczkach."
+      "Kawa: pijana jest szybko — Włosi zazwyczaj wypijają espresso przy barze, nie przy stoliku.",
+      "Coperto: w restauracjach często doliczana jest opłata za nakrycie (zazwyczaj 1–3 € od osoby).",
+      "Styl: ubieraj się elegancko – Włosi przywiązują dużą wagę do wyglądu i dobrego smaku.",
+      "Kawa po 11: unikaj zamawiania cappuccino po 11:00, uznaje się je za napój śniadaniowy.",
+      "Gotówka: miej przy sobie trochę euro w gotówce, zwłaszcza w małych miejscowościach i kawiarniach."
     ],
     "destinations": ["Koloseum", "Kanały Wenecji", "Wybrzeże Amalfi"],
     "sliderImg": "/images/italy-slider.png",
@@ -375,7 +495,27 @@
     "nightActivities": ["Aperitivo w Mediolanie", "Nocne spacery w Rzymie", "Kluby w Rimini"],
     "creditCard": "Akceptowane w miastach.",
     "atm": "Powszechne.",
-    "english": "W turystycznych miastach większość osób mówi po angielsku."
+    "english": "W turystycznych miastach większość osób mówi po angielsku.",
+    "reviews": [
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      }
+    ]
   },
   {
     "country": "Kenia",
@@ -423,7 +563,27 @@
     "nightActivities": ["Bary w Nairobi", "Kluby w Mombasie", "Ogniska safari"],
     "creditCard": "Akceptowane w dużych miastach i hotelach.",
     "atm": "Dostępne w miastach, mniej na wsiach.",
-    "english": "Język angielski szeroko używany."
+    "english": "Język angielski szeroko używany.",
+    "reviews": [
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      }
+    ]
   },
   {
     "country": "Tajlandia",
@@ -471,7 +631,27 @@
     "nightActivities": ["Khao San Road w Bangkoku", "Full Moon Party na Koh Phangan", "Bary w Phuket"],
     "creditCard": "Akceptowane w dużych miastach i hotelach.",
     "atm": "Bardzo łatwo dostępne.",
-    "english": "W turystycznych rejonach powszechne."
+    "english": "W turystycznych rejonach powszechne.",
+    "reviews": [
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      }
+    ]
   },
   {
     "country": "Islandia",
@@ -519,7 +699,27 @@
     "nightActivities": ["Obserwacja zorzy polarnej", "Bary w Reykjaviku", "Kąpiele w Blue Lagoon"],
     "creditCard": "Akceptowane wszędzie.",
     "atm": "Łatwo dostępne.",
-    "english": "Większość mieszkańców mówi płynnie po angielsku."
+    "english": "Większość mieszkańców mówi płynnie po angielsku.",
+    "reviews": [
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      }
+    ]
   },
   {
     "country": "Peru",
@@ -567,7 +767,27 @@
     "nightActivities": ["Bary w Limie", "Życie nocne w Cusco"],
     "creditCard": "Akceptowane w dużych miastach.",
     "atm": "Dostępne w miastach.",
-    "english": "W turystycznych miejscach można się dogadać."
+    "english": "W turystycznych miejscach można się dogadać.",
+    "reviews": [
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      }
+    ]
   },
   {
     "country": "Australia",
@@ -615,6 +835,26 @@
     "nightActivities": ["Bary w Sydney", "Kluby w Melbourne", "Festiwale muzyczne"],
     "creditCard": "Akceptowane wszędzie.",
     "atm": "Łatwo dostępne.",
-    "english": "Język angielski jest językiem urzędowym."
+    "english": "Język angielski jest językiem urzędowym.",
+    "reviews": [
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      },
+      {
+        "img": "/images/michael.png",
+        "name": "",
+        "country": "",
+        "text": ""
+      }
+    ]
   }
 ]

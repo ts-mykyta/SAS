@@ -3,8 +3,9 @@ import AppPromo from '@/components/AppPromo.vue'
 import AppSidebar from '@/components/AppSidebar.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import AppReviews from '@/components/AppReviews.vue'
+import AppHeader from '@/components/AppHeader.vue'
 
-import { computed, ref } from 'vue'
+import { computed, ref, onMounted } from 'vue'
 import all from '@/store/destinations.json'
 import activitiesAll from '@/store/activities.json'
 
@@ -21,6 +22,12 @@ function slugify(s) {
 
 const country = computed(() => {
   return all.find((d) => (d.slug || slugify(d.country)) === props.slug)
+})
+
+onMounted(() => {
+  document.title = country.value
+    ? `${country.value.country} - Twoja podróż czeka na Ciebie`
+    : 'Twoja podróż czeka na Ciebie'
 })
 
 const activeTab = ref('overview')
@@ -72,7 +79,7 @@ function prev() {
                     <div
                       role="tablist"
                       aria-orientation="horizontal"
-                      class="h-10 items-center rounded-md text-muted-foreground inline-flex bg-transparent p-1 border-b border-border w-full justify-start gap-8"
+                      class="h-10 items-center rounded-md text-muted-foreground inline-flex bg-transparent p-1 border-b border-border w-full justify-start gap-1 md:gap-8"
                       tabindex="0"
                       data-orientation="horizontal"
                       style="outline: none"
@@ -1090,7 +1097,7 @@ function prev() {
                                   <path d="M9 18h6"></path>
                                   <path d="M10 22h4"></path>
                                 </svg>
-                                Wskazówki Kulturowe Dla Podróżnych
+                                Wskazówki Kulturowe dla Podróżnych – {{ country.country }}
                               </h3>
                               <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                                 <div
@@ -1196,7 +1203,7 @@ function prev() {
         <div v-else class="container py-12">
           <p>Nie znaleziono destynacji.</p>
         </div>
-        <AppReviews />
+        <AppReviews :reviews="country.reviews" />
       </main>
 
       <AppFooter />
