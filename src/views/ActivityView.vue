@@ -721,7 +721,7 @@ const relatedDestinations = computed(() => {
                               About This Activity
                             </h3>
                             <p class="text-lg text-muted-foreground leading-relaxed">
-                              {{ activity.description || activity.text }}
+                              {{ activity.aboutActivity || activity.text }}
                             </p>
                           </div>
                           <!-- <div class="mb-8">
