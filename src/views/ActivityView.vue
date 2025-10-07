@@ -5,7 +5,7 @@ import AppFooter from '@/components/AppFooter.vue'
 import AppHeader from '@/components/AppHeader.vue'
 import AppReviews from '@/components/AppReviews.vue'
 
-import { computed, ref } from 'vue'
+import { computed, ref, onMounted } from 'vue'
 import activitiesAll from '@/store/activities.json'
 import destinationsAll from '@/store/destinations.json'
 
@@ -22,6 +22,12 @@ function slugify(s) {
 
 const activity = computed(() => {
   return activitiesAll.find((a) => (a.slug || slugify(a.activity)) === props.slug)
+})
+
+onMounted(() => {
+  document.title = activity.value
+    ? `${activity.value.activity} - Twoja podróż czeka na Ciebie`
+    : 'Twoja podróż czeka na Ciebie'
 })
 
 const activeTab = ref('overview')

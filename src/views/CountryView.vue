@@ -4,7 +4,7 @@ import AppSidebar from '@/components/AppSidebar.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import AppReviews from '@/components/AppReviews.vue'
 
-import { computed, ref } from 'vue'
+import { computed, ref, onMounted } from 'vue'
 import all from '@/store/destinations.json'
 import activitiesAll from '@/store/activities.json'
 
@@ -21,6 +21,12 @@ function slugify(s) {
 
 const country = computed(() => {
   return all.find((d) => (d.slug || slugify(d.country)) === props.slug)
+})
+
+onMounted(() => {
+  document.title = country.value
+    ? `${country.value.country} - Twoja podróż czeka na Ciebie`
+    : 'Twoja podróż czeka na Ciebie'
 })
 
 const activeTab = ref('overview')
