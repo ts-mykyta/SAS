@@ -79,7 +79,7 @@ const relatedDestinations = computed(() => {
                   <div
                     role="tablist"
                     aria-orientation="horizontal"
-                    class="h-10 items-center rounded-md text-muted-foreground inline-flex bg-transparent p-1 border-b border-border w-full justify-start gap-8"
+                    class="h-10 items-center rounded-md text-muted-foreground inline-flex bg-transparent p-1 border-b border-border w-full justify-start gap-1 md:gap-8"
                     tabindex="0"
                     data-orientation="horizontal"
                     style="outline: none"
