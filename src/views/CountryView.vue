@@ -1203,7 +1203,7 @@ function prev() {
         <div v-else class="container py-12">
           <p>Nie znaleziono destynacji.</p>
         </div>
-        <AppReviews />
+        <AppReviews :reviews="country.reviews" />
       </main>
 
       <AppFooter />

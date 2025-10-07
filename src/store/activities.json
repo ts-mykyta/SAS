@@ -34,7 +34,27 @@
         "Personal purchases and souvenirs"
         ],
         "difficulty": "Easy",
-        "price": "$10-25"
+        "price": "$10-25",
+        "reviewsActivity": [
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            },
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            },
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            }
+        ]
     },
     {
         "activity": "Dzień Na Plaży",
@@ -70,7 +90,27 @@
         "Ubezpieczenie osobiste"
         ],
         "difficulty": "Easy",
-        "price": "$5-20"
+        "price": "$5-20",
+        "reviewsActivity": [
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            },
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            },
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            }
+        ]
     },
     {
         "activity": "Wycieczka Po Mieście",
@@ -106,7 +146,27 @@
         "Pamiątki"
         ],
         "difficulty": "Easy",
-        "price": "$15-40"
+        "price": "$15-40",
+        "reviewsActivity": [
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            },
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            },
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            }
+        ]
     },
     {
         "activity": "Przygoda Wędrówkowa",
@@ -142,7 +202,27 @@
         "Ubezpieczenie osobiste"
         ],
         "difficulty": "Medium",
-        "price": "$20-50"
+        "price": "$20-50",
+        "reviewsActivity": [
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            },
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            },
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            }
+        ]
     },
     {
         "activity": "Degustacja Potraw",
@@ -177,7 +257,27 @@
         "Pamiątki i zakupy osobiste"
         ],
         "difficulty": "Easy",
-        "price": "$25-60"
+        "price": "$25-60",
+        "reviewsActivity": [
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            },
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            },
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            }
+        ]
     },
     {
         "activity": "Safari Dzikiej Przyrody",
@@ -212,7 +312,27 @@
         "Osobiste wydatki"
         ],
         "difficulty": "Medium",
-        "price": "$80-150"
+        "price": "$80-150",
+        "reviewsActivity": [
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            },
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            },
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            }
+        ]
     },
     {
         "activity": "Degustacja Wina",
@@ -247,7 +367,27 @@
         "Pamiątki i osobiste zakupy"
         ],
         "difficulty": "Easy",
-        "price": "$30-70"
+        "price": "$30-70",
+        "reviewsActivity": [
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            },
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            },
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            }
+        ]
     },
     {
         "activity": "Dzień SPA",
@@ -282,7 +422,27 @@
         "Zakupy osobiste i pamiątki"
         ],
         "difficulty": "Easy",
-        "price": "$50-120"
+        "price": "$50-120",
+        "reviewsActivity": [
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            },
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            },
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            }
+        ]
     },
     {
         "activity": "Pokaz Kulturowy",
@@ -317,7 +477,27 @@
         "Dodatkowe warsztaty (opcjonalne)"
         ],
         "difficulty": "Easy",
-        "price": "$15-40"
+        "price": "$15-40",
+        "reviewsActivity": [
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            },
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            },
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            }
+        ]
     },
     {
         "activity": "Wycieczka Rowerowa",
@@ -352,7 +532,27 @@
         "Sprzęt dodatkowy (np. GPS, sakwy)"
         ],
         "difficulty": "Medium",
-        "price": "$20-50"
+        "price": "$20-50",
+        "reviewsActivity": [
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            },
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            },
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            }
+        ]
     },
     {
         "activity": "Warsztaty Fotograficzne",
@@ -387,7 +587,27 @@
         "Posiłki i napoje"
         ],
         "difficulty": "Medium",
-        "price": "$50-100"
+        "price": "$50-100",
+        "reviewsActivity": [
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            },
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            },
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            }
+        ]
     },
     {
         "activity": "Rejs Rzeczny",
@@ -422,7 +642,27 @@
         "Pamiątki"
         ],
         "difficulty": "Easy",
-        "price": "$25-60"
+        "price": "$25-60",
+        "reviewsActivity": [
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            },
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            },
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            }
+        ]
     },
     {
         "activity": "Nurkowanie z rurką",
@@ -457,7 +697,27 @@
         "Profesjonalny sprzęt fotograficzny pod wodą"
         ],
         "difficulty": "Easy",
-        "price": "$20-50"
+        "price": "$20-50",
+        "reviewsActivity": [
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            },
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            },
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            }
+        ]
     },
     {
         "activity": "Zakupy Na Lokalnym Rynku",
@@ -492,7 +752,27 @@
         "Posiłki i napoje"
         ],
         "difficulty": "Easy",
-        "price": "$5-20"
+        "price": "$5-20",
+        "reviewsActivity": [
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            },
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            },
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            }
+        ]
     },
     {
         "activity": "Lekcja Tańca",
@@ -527,6 +807,26 @@
         "Posiłki i napoje"
         ],
         "difficulty": "Easy",
-        "price": "$10-30"
+        "price": "$10-30",
+        "reviewsActivity": [
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            },
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            },
+            {
+                "img": "/images/michael.png",
+                "name": "",
+                "country": "",
+                "text": ""
+            }
+        ]
     }
 ]

@@ -1111,7 +1111,7 @@ const relatedDestinations = computed(() => {
             </div>
           </div>
         </section>
-        <AppReviews reviewsType="activity" />
+        <AppReviews reviewsType="activity" :reviewsActivity="activity.reviewsActivity" />
       </main>
 
       <AppFooter />
