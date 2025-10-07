@@ -3,6 +3,7 @@ import AppPromo from '@/components/AppPromo.vue'
 import AppSidebar from '@/components/AppSidebar.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import AppReviews from '@/components/AppReviews.vue'
+import AppHeader from '@/components/AppHeader.vue'
 
 import { computed, ref, onMounted } from 'vue'
 import all from '@/store/destinations.json'
