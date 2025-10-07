@@ -1097,7 +1097,7 @@ function prev() {
                                   <path d="M9 18h6"></path>
                                   <path d="M10 22h4"></path>
                                 </svg>
-                                Wskazówki Kulturowe Dla Podróżnych
+                                Wskazówki Kulturowe dla Podróżnych – {{ country.country }}
                               </h3>
                               <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                                 <div
