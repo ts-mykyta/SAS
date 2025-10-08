@@ -38,22 +38,19 @@
         "price": "$10-25",
         "reviewsActivity": [
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Dominik N.",
+                "text": "Wszystko przebiegło zgodnie z oczekiwaniami. Miejsce spokojne, dobrze zorganizowane i czyste. Warto było poświęcić chwilę na wizytę."
             },
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Ewelina J.",
+                "text": "Dobre doświadczenie, bez pośpiechu i chaosu. Obsługa działała sprawnie. Całość pozostawiła neutralne, ale pozytywne wrażenie."
             },
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Adrian O.",
+                "text": "Czas spędzony w tym miejscu był przyjemny. Wszystko funkcjonowało bez zarzutu. Organizacja na odpowiednim poziomie."
             }
         ]
     },
@@ -95,22 +92,19 @@
         "price": "$5-20",
         "reviewsActivity": [
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Sylwia G.",
+                "text": "Wizyta przebiegła bez problemów. Miejsce zadbane i spokojne, atmosfera sprzyjała odpoczynkowi."
             },
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Michał W.",
+                "text": "Nie było tłoku, co pozwoliło spokojnie cieszyć się chwilą. Widać, że obsługa dba o porządek i wygodę odwiedzających."
             },
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Ola C.",
+                "text": "Całość zorganizowana w sposób przejrzysty i spokojny. Niczego nie brakowało, wszystko przebiegło naturalnie."
             }
         ]
     },
@@ -152,22 +146,19 @@
         "price": "$15-40",
         "reviewsActivity": [
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Łukasz E.",
+                "text": "Wrażenia raczej neutralne, ale pozytywne. Dobre miejsce, by spędzić trochę czasu bez pośpiechu."
             },
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Julia D.",
+                "text": "Obsługa była uprzejma, a otoczenie czyste i estetyczne. Nie ma się do czego przyczepić."
             },
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Patryk F.",
+                "text": "Było dokładnie tak, jak opisano. Dobre tempo, spokojna atmosfera, niczego nie brakowało."
             }
         ]
     },
@@ -209,22 +200,19 @@
         "price": "$20-50",
         "reviewsActivity": [
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Alicja T.",
+                "text": "Doświadczenie przebiegło płynnie i bez stresu. Wszystko dobrze przygotowane, z zachowaniem porządku."
             },
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Kamil P.",
+                "text": "Doświadczenie było dobrze zorganizowane. Wszystko przebiegło spokojnie i bez pośpiechu. Atmosfera sprzyjała relaksowi."
             },
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Marta K.",
+                "text": "Ciekawe miejsce, które warto odwiedzić. Dobrze przygotowane i zadbane, widać dbałość o szczegóły."
             }
         ]
     },
@@ -265,22 +253,19 @@
         "price": "$25-60",
         "reviewsActivity": [
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Tomasz Z.",
+                "text": "Całość zrobiła pozytywne wrażenie. Obsługa była uprzejma, a organizacja na wysokim poziomie."
             },
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Natalia R.",
+                "text": "Przebiegło wszystko zgodnie z planem. Dobre wrażenie pozostaje po całym doświadczeniu."
             },
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Paweł M.",
+                "text": "Miejsce jest czyste i spokojne. Można tu miło spędzić czas, niezależnie od pory dnia."
             }
         ]
     },
@@ -321,22 +306,19 @@
         "price": "$80-150",
         "reviewsActivity": [
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Anna L.",
+                "text": "Wrażenia raczej pozytywne. Widać, że zadbano o komfort uczestników i porządek."
             },
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Jakub S.",
+                "text": "Dobrze zorganizowane i przyjemne doświadczenie. Nie było tłoku, a atmosfera była swobodna."
             },
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Karolina B.",
+                "text": "Czas spędzony w tym miejscu minął przyjemnie. Wszystko wyglądało zgodnie z opisem."
             }
         ]
     },
@@ -377,22 +359,19 @@
         "price": "$30-70",
         "reviewsActivity": [
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Piotr D.",
+                "text": "Dobra organizacja i spokojna atmosfera. Miejsce spełniło oczekiwania, bez większych zastrzeżeń."
             },
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Magda W.",
+                "text": "Ogólne wrażenie neutralne, ale pozytywne. Widać, że wszystko zostało przygotowane z myślą o odwiedzających."
             },
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Konrad K.",
+                "text": "Wszystko było dobrze zorganizowane. Czas spędzony w spokojnej atmosferze, bez pośpiechu. Ogólnie pozytywne wrażenie."
             }
         ]
     },
@@ -433,22 +412,19 @@
         "price": "$50-120",
         "reviewsActivity": [
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Marcelina T.",
+                "text": "Było w porządku, zgodnie z opisem. Miejsce czyste i zadbane, obsługa kompetentna."
             },
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Wojciech P.",
+                "text": "Całość przebiegła bezproblemowo. Dobrze przygotowane i przemyślane doświadczenie. Warto odwiedzić."
             },
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Lena S.",
+                "text": "Spokojna atmosfera i porządek. Wszystko funkcjonowało tak, jak powinno. Bez zastrzeżeń."
             }
         ]
     },
@@ -489,22 +465,19 @@
         "price": "$15-40",
         "reviewsActivity": [
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Damian J.",
+                "text": "Nie było żadnych niespodzianek, wszystko zgodnie z planem. Miejsce robi dobre, neutralne wrażenie."
             },
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Agnieszka F.",
+                "text": "Organizacja na dobrym poziomie. Obsługa uprzejma, a całość przebiegła w spokojny sposób."
             },
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Grzegorz L.",
+                "text": "Czas spędzony w przyjemnym otoczeniu. Widać, że zadbano o szczegóły i porządek."
             }
         ]
     },
@@ -545,22 +518,19 @@
         "price": "$20-50",
         "reviewsActivity": [
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Aneta C.",
+                "text": "Było poprawnie i bez pośpiechu. Atmosfera sprzyjała odpoczynkowi, wszystko dobrze przygotowane."
             },
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Daniel O.",
+                "text": "Doświadczenie przebiegło zgodnie z oczekiwaniami. Niczego nie brakowało, a organizacja była na dobrym poziomie."
             },
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Weronika M.",
+                "text": "Miejsce spokojne i estetyczne. Czas minął szybko, bez żadnych problemów. Ogólne wrażenie pozytywne."
             }
         ]
     },
@@ -601,22 +571,19 @@
         "price": "$50-100",
         "reviewsActivity": [
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Kamil N.",
+                "text": "Było spokojnie i dobrze zorganizowane. Wszystko przebiegło bez opóźnień, a atmosfera była przyjemna."
             },
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Marta L.",
+                "text": "Miejsce spełniło oczekiwania. Obsługa była pomocna, a całość dobrze zaplanowana."
             },
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Tomasz R.",
+                "text": "Doświadczenie neutralne, ale pozytywne. Nie było tłoku, wszystko wyglądało estetycznie i schludnie."
             }
         ]
     },
@@ -657,22 +624,19 @@
         "price": "$25-60",
         "reviewsActivity": [
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Natalia D.",
+                "text": "Czas minął szybko i w przyjaznej atmosferze. Wszystko zgodnie z opisem, bez zastrzeżeń."
             },
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Paweł T.",
+                "text": "Organizacja na dobrym poziomie. Można było spokojnie skorzystać z oferowanych możliwości."
             },
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Anna P.",
+                "text": "Było w porządku, bez pośpiechu. Miejsce czyste i zadbane, niczego nie brakowało."
             }
         ]
     },
@@ -713,22 +677,19 @@
         "price": "$20-50",
         "reviewsActivity": [
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Jakub K.",
+                "text": "Całość przygotowana starannie. Dobrze zaplanowane i przejrzyste doświadczenie."
             },
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Karolina Z.",
+                "text": "Wszystko działało sprawnie. Czuć było porządek i dbałość o odwiedzających."
             },
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Piotr M.",
+                "text": "Wrażenia raczej spokojne i pozytywne. Nie było tłumu, co sprzyjało komfortowi."
             }
         ]
     },
@@ -769,22 +730,19 @@
         "price": "$5-20",
         "reviewsActivity": [
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Magda S.",
+                "text": "Było dokładnie tak, jak się spodziewano. Miejsce estetyczne, a obsługa profesjonalna."
             },
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Dominik K.",
+                "text": "Było w porządku i bez pośpiechu. Wszystko przebiegło spokojnie, zgodnie z oczekiwaniami."
             },
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Ewelina R.",
+                "text": "Miejsce dobrze utrzymane i czyste. Obsługa działała sprawnie, a atmosfera była neutralna i przyjazna."
             }
         ]
     },
@@ -825,22 +783,19 @@
         "price": "$10-30",
         "reviewsActivity": [
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Adrian L.",
+                "text": "Doświadczenie zorganizowane poprawnie. Nie było tłoku, a całość pozostawiła dobre wrażenie."
             },
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Sylwia P.",
+                "text": "Wszystko wyglądało zgodnie z opisem. Czas minął przyjemnie i bez żadnych komplikacji."
             },
             {
-                "img": "/images/michael.png",
-                "name": "",
-                "country": "",
-                "text": ""
+                "img": "/images/avatar.png",
+                "name": "Michał Z.",
+                "text": "Spokojne miejsce, dobrze przygotowane dla odwiedzających. Organizacja i obsługa na solidnym poziomie."
             }
         ]
     }
