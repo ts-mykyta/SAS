@@ -83,22 +83,19 @@
     "english": "Powszechne w miejscach turystycznych",
     "reviews": [
       {
-        "img": "/images/michael.png",
-        "name": "Name Name",
-        "country": "Country, Country",
-        "text": "texttexttext"
+        "img": "/images/avatar.png",
+        "name": "Kamil P.",
+        "text": "Kraj ma ciekawą historię i zróżnicowane krajobrazy. Widać wpływy różnych kultur, co tworzy interesującą mieszankę."
       },
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Marta K.",
+        "text": "Wiele rzeczy funkcjonuje dobrze, choć niektóre obszary mogłyby być lepiej rozwinięte. Ogólne wrażenie jest spokojne i zrównoważone."
       },
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Tomasz Z.",
+        "text": "Czuć tu połączenie tradycji i nowoczesności. Miasta są zadbane, a atmosfera raczej przyjazna."
       }
     ]
   },
@@ -152,22 +149,19 @@
     "english": "Popularny w turystycznych strefach i hotelach",
     "reviews": [
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Natalia R.",
+        "text": "Ludzie wydają się pomocni i otwarci. Kultura ma swój charakter, który można łatwo dostrzec na co dzień. To miejsce z własnym rytmem życia."
       },
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Paweł M.",
+        "text": "W większych miastach panuje szybkie tempo, ale poza nimi można znaleźć spokój. Zróżnicowanie regionalne jest widoczne."
       },
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Anna L.",
+        "text": "Infrastruktura jest na dobrym poziomie. Czasami zdarzają się drobne niedogodności, lecz nie wpływają one znacząco na codzienność."
       }
     ]
   },
@@ -220,22 +214,19 @@
     "english": "W hotelach i kurortach — tak, na wsiach — mniej",
     "reviews": [
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Jakub S.",
+        "text": "Kraj wydaje się stabilny i uporządkowany. Widać dbałość o przestrzeń publiczną i otoczenie."
       },
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Karolina B.",
+        "text": "Architektura w wielu miejscach jest ciekawa i różnorodna. Można dostrzec wpływy historii w budynkach i układzie miast. To dodaje im wyjątkowego klimatu."
       },
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Piotr D.",
+        "text": "Transport publiczny działa sprawnie. Czasami występują opóźnienia, ale ogólnie system jest przejrzysty."
       }
     ]
   },
@@ -288,22 +279,19 @@
     "english": "Język angielski jest urzędowy.",
     "reviews": [
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Magda W.",
+        "text": "Przyroda jest dostępna i dobrze zachowana. Góry, jeziora i lasy tworzą przyjemne warunki do wypoczynku. Miejsce idealne do spokojnych wędrówek."
       },
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Dominik N.",
+        "text": "Kraj ma spokojną atmosferę i dobrze rozwiniętą infrastrukturę. Widać, że wiele inwestuje się w nowoczesne rozwiązania i porządek przestrzenny."
       },
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Ewelina J.",
+        "text": "Lokalna kuchnia jest zróżnicowana. Nie wszystko odpowiada każdemu, ale można znaleźć ciekawe smaki."
       }
     ]
   },
@@ -360,22 +348,19 @@
     "english": "Często używany w turystycznych miejscach.",
     "reviews": [
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Adrian O.",
+        "text": "Ceny są różne w zależności od regionu. W większych miastach wyższe, ale w mniejszych miejscowościach bardziej przystępne."
       },
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Sylwia G.",
+        "text": "Wiele zabytków jest dobrze zachowanych i dostępnych dla zwiedzających. Czuć szacunek do historii."
       },
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Michał W.",
+        "text": "Ludzie są raczej uprzejmi, choć czasami zdystansowani. W codziennych kontaktach panuje spokój i uprzejmość."
       }
     ]
   },
@@ -429,22 +414,19 @@
     "english": "Język angielski jest podstawowym.",
     "reviews": [
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Ola C.",
+        "text": "Pogoda potrafi się szybko zmienić. Krajobrazy są jednak malownicze i warto je zobaczyć o każdej porze roku."
       },
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Łukasz E.",
+        "text": "Widać dbałość o środowisko i rozwój zielonych przestrzeni. To dobre miejsce do życia w spokojnym tempie."
       },
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Julia D.",
+        "text": "Transport publiczny działa sprawnie. Łatwo można przemieszczać się między większymi miastami."
       }
     ]
   },
@@ -498,22 +480,19 @@
     "english": "W turystycznych miastach większość osób mówi po angielsku.",
     "reviews": [
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Patryk F.",
+        "text": "Miasta różnią się klimatem i architekturą. Każde z nich ma coś innego do zaoferowania. To czyni podróże ciekawszymi."
       },
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Alicja T.",
+        "text": "Lokalne wydarzenia kulturalne są ciekawe i dobrze zorganizowane. To sposób, by lepiej poznać tradycję i współczesność."
       },
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Rafał P.",
+        "text": "Czystość przestrzeni publicznych robi pozytywne wrażenie. Widać, że ludzie dbają o otoczenie."
       }
     ]
   },
@@ -566,22 +545,19 @@
     "english": "Język angielski szeroko używany.",
     "reviews": [
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Kinga B.",
+        "text": "Bezpieczeństwo stoi na wysokim poziomie. Nawet wieczorne spacery nie budzą niepokoju."
       },
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Sebastian H.",
+        "text": "Przyroda jest różnorodna — od plaż po góry. Każdy region ma swój niepowtarzalny charakter."
       },
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Patrycja Z.",
+        "text": "Architektura łączy nowoczesność z historią. Wiele miast zachowało swój pierwotny układ i atmosferę."
       }
     ]
   },
@@ -634,22 +610,19 @@
     "english": "W turystycznych rejonach powszechne.",
     "reviews": [
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Mateusz R.",
+        "text": "Poziom usług jest zadowalający. Widać, że obsługa klienta ma coraz większe znaczenie."
       },
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Klaudia L.",
+        "text": "Język może być trudny dla osób z zewnątrz, ale ludzie są cierpliwi i pomocni. To ułatwia codzienną komunikację."
       },
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Norbert S.",
+        "text": "Zimą krajobrazy wyglądają wyjątkowo. Góry przyciągają spokojem i pięknymi widokami."
       }
     ]
   },
@@ -702,22 +675,19 @@
     "english": "Większość mieszkańców mówi płynnie po angielsku.",
     "reviews": [
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Justyna K.",
+        "text": "Miasta są dobrze oświetlone i bezpieczne po zmroku. Dzięki temu można spokojnie spacerować wieczorem."
       },
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Bartek G.",
+        "text": "Widać rozwój gospodarczy i inwestycje w infrastrukturę. Z roku na rok kraj wygląda coraz nowocześniej."
       },
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Izabela N.",
+        "text": "Edukacja ma dobre zaplecze. Instytucje kulturalne oferują wiele interesujących programów."
       }
     ]
   },
@@ -770,22 +740,19 @@
     "english": "W turystycznych miejscach można się dogadać.",
     "reviews": [
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Damian J.",
+        "text": "System zdrowia funkcjonuje poprawnie, choć czasem trzeba czekać dłużej. Ogólnie usługi medyczne są dostępne."
       },
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Weronika M.",
+        "text": "Miejsca publiczne są zadbane. W parkach i na ulicach panuje porządek."
       },
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Grzegorz L.",
+        "text": "Kraj ma stabilną gospodarkę i spokojną atmosferę. Widać pozytywne zmiany w codziennym życiu mieszkańców."
       }
     ]
   },
@@ -838,22 +805,19 @@
     "english": "Język angielski jest językiem urzędowym.",
     "reviews": [
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Aneta C.",
+        "text": "Sztuka i kultura są dobrze obecne. Wystawy i koncerty odbywają się regularnie, co tworzy ciekawe środowisko."
       },
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Daniel O.",
+        "text": "łatwe. Transport działa sprawnie i przewidywalnie."
       },
       {
-        "img": "/images/michael.png",
-        "name": "",
-        "country": "",
-        "text": ""
+        "img": "/images/avatar.png",
+        "name": "Agnieszka F.",
+        "text": "Lokalne firmy rozwijają się dynamicznie. Widać, że przedsiębiorczość staje się coraz silniejsza."
       }
     ]
   }

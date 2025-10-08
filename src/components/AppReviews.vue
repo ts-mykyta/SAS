@@ -1,6 +1,8 @@
 <script setup>
 const props = defineProps({
   reviewsType: String,
+  country: String,
+  countryActivity: Array,
   reviews: Array,
   reviewsActivity: Array,
 })
@@ -68,7 +70,9 @@ function getRandomDate() {
                 <div class="flex justify-between items-start">
                   <div>
                     <h4 class="font-semibold text-foreground">{{ a.name }}</h4>
-                    <p class="text-sm text-muted-foreground">{{ a.country }}</p>
+                    <p class="text-sm text-muted-foreground">
+                      {{ props.countryActivity.slice(0, 1).toString() }}
+                    </p>
                   </div>
                   <div class="flex items-center">
                     <svg
@@ -184,7 +188,7 @@ function getRandomDate() {
                 <div class="flex justify-between items-start">
                   <div>
                     <h4 class="font-semibold text-foreground">{{ c.name }}</h4>
-                    <p class="text-sm text-muted-foreground">{{ c.country }}</p>
+                    <p class="text-sm text-muted-foreground">{{ props.country }}</p>
                   </div>
                   <div class="flex items-center">
                     <svg
