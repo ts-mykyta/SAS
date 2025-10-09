@@ -1,4 +1,5 @@
 <script setup>
+import { useHead } from '@unhead/vue'
 import AppSidebar from '@/components/AppSidebar.vue'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
@@ -7,6 +8,8 @@ import AppPromo from '@/components/AppPromo.vue'
 import AppDestinations from '@/components/AppDestinations.vue'
 import AppActivities from '@/components/AppActivities.vue'
 import AppPriceCalendar from '@/components/AppPriceCalendar.vue'
+
+useHead({ title: 'Twoja podróż czeka na Ciebie' })
 </script>
 
 <template>

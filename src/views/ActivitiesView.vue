@@ -1,5 +1,6 @@
 <script setup>
 import { ref, computed } from 'vue'
+import { useHead } from '@unhead/vue'
 import activitiesData from '@/store/activities.json'
 
 import AppSidebar from '@/components/AppSidebar.vue'
@@ -48,6 +49,8 @@ const filteredActivities = computed(() => {
     selectedTags.value.every((tag) => activity.countries.includes(tag)),
   )
 })
+
+useHead({ title: 'Aktywności – Spektakularne Doświadczenia' })
 </script>
 
 <template>

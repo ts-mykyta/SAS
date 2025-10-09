@@ -1,5 +1,6 @@
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue'
+import { useHead } from '@unhead/vue'
 import AppSidebar from '@/components/AppSidebar.vue'
 import AppHeader from '@/components/AppHeader.vue'
 import PolicyPromo from '@/components/policy/PolicyPromo.vue'
@@ -60,6 +61,8 @@ onMounted(() => {
 onBeforeUnmount(() => {
   if (observer) observer.disconnect()
 })
+
+useHead({ title: 'Warunki korzystania – StarsAndSummits' })
 </script>
 
 <template>
