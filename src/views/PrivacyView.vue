@@ -1,8 +1,11 @@
 <script setup>
+import { useHead } from '@unhead/vue'
 import AppSidebar from '@/components/AppSidebar.vue'
 import AppHeader from '@/components/AppHeader.vue'
 import PolicyPromo from '@/components/policy/PolicyPromo.vue'
 import AppFooter from '@/components/AppFooter.vue'
+
+useHead({ title: 'Polityka prywatności – StarsAndSummits' })
 </script>
 
 <template>

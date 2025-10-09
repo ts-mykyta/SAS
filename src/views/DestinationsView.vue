@@ -1,9 +1,13 @@
 <script setup>
+import { useHead } from '@unhead/vue'
 import AppSidebar from '@/components/AppSidebar.vue'
 import AppHeader from '@/components/AppHeader.vue'
 import AppPromo from '@/components/AppPromo.vue'
 import AppDestinations from '@/components/AppDestinations.vue'
 import AppFooter from '@/components/AppFooter.vue'
+
+useHead({ title: 'Podróżuj Tam, Gdzie Zaczyna Się Przygoda' });
+
 </script>
 
 <template>
