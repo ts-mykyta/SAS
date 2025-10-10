@@ -44,9 +44,9 @@ function getRandomDate() {
               <path d="M14 12a2 2 0 0 0 2-2V8h-2"></path>
             </svg>
           </div>
-          <h2 class="text-3xl md:text-4xl font-bold text-foreground mb-4">Customer Reviews</h2>
+          <h2 class="text-3xl md:text-4xl font-bold text-foreground mb-4">Opinie klientów</h2>
           <p class="text-xl text-muted-foreground max-w-2xl">
-            Hear what our customers have to say about their experience
+            Posłuchaj, co nasi klienci mają do powiedzenia o swoich doświadczeniach
           </p>
         </div>
         <div

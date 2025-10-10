@@ -48,6 +48,10 @@ const relatedDestinations = computed(() => {
       text: d.text || d.description,
     }))
 })
+
+const randomRate = () => {
+  return +(4.5 + Math.random() * 0.4).toFixed(1);
+}
 </script>
 
 <template>
@@ -100,7 +104,7 @@ const relatedDestinations = computed(() => {
                       data-radix-collection-item=""
                       @click="activeTab = 'overview'"
                     >
-                      Overview</button
+                      Przegląd</button
                     ><button
                       type="button"
                       role="tab"
@@ -114,7 +118,7 @@ const relatedDestinations = computed(() => {
                       data-radix-collection-item=""
                       @click="activeTab = 'details'"
                     >
-                      Details</button
+                      Szczegóły</button
                     ><button
                       type="button"
                       role="tab"
@@ -128,7 +132,7 @@ const relatedDestinations = computed(() => {
                       data-radix-collection-item=""
                       @click="activeTab = 'practical'"
                     >
-                      What's Included
+                      Co obejmuje
                     </button>
                   </div>
                   <div class="mt-8">
@@ -146,7 +150,7 @@ const relatedDestinations = computed(() => {
                                 aria-expanded="true"
                                 data-state="open"
                               >
-                                <span>About {{ activity.activity }}</span
+                                <span>O {{ activity.activity }}</span
                                 ><span>↑</span>
                               </button>
                               <div
@@ -186,29 +190,29 @@ const relatedDestinations = computed(() => {
                                         ></path>
                                         <path d="M2 12h20"></path>
                                       </svg>
-                                      Key Information
+                                      Najważniejsze informacje
                                     </h3>
                                     <div class="space-y-3">
                                       <div class="flex justify-between items-center text-sm">
-                                        <span class="text-muted-foreground">Duration</span
+                                        <span class="text-muted-foreground">Czas trwania</span
                                         ><span class="font-medium text-card-foreground">{{
                                           activity.duration || '—'
                                         }}</span>
                                       </div>
                                       <div class="flex justify-between items-center text-sm">
-                                        <span class="text-muted-foreground">Group Size</span
+                                        <span class="text-muted-foreground">Wielkość grupy</span
                                         ><span class="font-medium text-card-foreground">{{
                                           activity.groupSize || '—'
                                         }}</span>
                                       </div>
                                       <div class="flex justify-between items-center text-sm">
-                                        <span class="text-muted-foreground">Min Age</span
+                                        <span class="text-muted-foreground">Minimalny wiek</span
                                         ><span class="font-medium text-card-foreground"
                                           >{{ activity.minAge || '—' }}+</span
                                         >
                                       </div>
                                       <div class="flex justify-between items-center text-sm">
-                                        <span class="text-muted-foreground">Rating</span>
+                                        <span class="text-muted-foreground">Ocena</span>
                                         <div class="flex items-center">
                                           <svg
                                             xmlns="http://www.w3.org/2000/svg"
@@ -297,7 +301,7 @@ const relatedDestinations = computed(() => {
                                           </svg>
                                         </div>
                                         <span class="ml-1 font-medium text-card-foreground"
-                                          >4.6</span
+                                          >{{ randomRate() }}</span
                                         >
                                       </div>
                                     </div>
@@ -327,7 +331,7 @@ const relatedDestinations = computed(() => {
                                         <path d="M9 18h6"></path>
                                         <path d="M10 22h4"></path>
                                       </svg>
-                                      Activity Highlights
+                                      Najważniejsze atrakcje
                                     </h3>
                                     <ul class="space-y-2">
                                       <li
@@ -361,7 +365,7 @@ const relatedDestinations = computed(() => {
                                       id="radix-«rhu»-trigger-details"
                                       @click="activeTab = 'details'"
                                     >
-                                      See all details
+                                      Zobacz wszystkie szczegóły
                                     </button>
                                   </div>
                                   <div
@@ -388,7 +392,7 @@ const relatedDestinations = computed(() => {
                                         ></path>
                                         <circle cx="12" cy="10" r="3"></circle>
                                       </svg>
-                                      Top Destinations
+                                      Najpopularniejsze miejsca
                                     </h3>
                                     <ul class="space-y-2">
                                       <li
@@ -424,7 +428,7 @@ const relatedDestinations = computed(() => {
                           </div>
                           <div class="hidden md:block">
                             <h3 class="text-lg font-bold mb-4 text-foreground">
-                              About {{ activity.activity }}
+                              O {{ activity.activity }}
                             </h3>
                             <div class="space-y-6 text-sm">
                               <div class="mb-6">
@@ -455,29 +459,29 @@ const relatedDestinations = computed(() => {
                                     ></path>
                                     <path d="M2 12h20"></path>
                                   </svg>
-                                  Key Information
+                                  Najważniejsze informacje
                                 </h3>
                                 <div class="space-y-3">
                                   <div class="flex justify-between items-center text-sm">
-                                    <span class="text-muted-foreground">Duration</span
+                                    <span class="text-muted-foreground">Czas trwania</span
                                     ><span class="font-medium text-card-foreground">{{
                                       activity.duration || '—'
                                     }}</span>
                                   </div>
                                   <div class="flex justify-between items-center text-sm">
-                                    <span class="text-muted-foreground">Group Size</span
+                                    <span class="text-muted-foreground">Wielkość grupy</span
                                     ><span class="font-medium text-card-foreground">{{
                                       activity.groupSize || '—'
                                     }}</span>
                                   </div>
                                   <div class="flex justify-between items-center text-sm">
-                                    <span class="text-muted-foreground">Min Age</span
+                                    <span class="text-muted-foreground">Minimalny wiek</span
                                     ><span class="font-medium text-card-foreground"
                                       >{{ activity.minAge || '—' }}+</span
                                     >
                                   </div>
                                   <div class="flex justify-between items-center text-sm">
-                                    <span class="text-muted-foreground">Rating</span>
+                                    <span class="text-muted-foreground">Ocena</span>
                                     <div class="flex items-center">
                                       <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -565,7 +569,7 @@ const relatedDestinations = computed(() => {
                                         ></path>
                                       </svg>
                                     </div>
-                                    <span class="ml-1 font-medium text-card-foreground">4.6</span>
+                                    <span class="ml-1 font-medium text-card-foreground">{{ randomRate() }}</span>
                                   </div>
                                 </div>
                               </div>
@@ -594,7 +598,7 @@ const relatedDestinations = computed(() => {
                                     <path d="M9 18h6"></path>
                                     <path d="M10 22h4"></path>
                                   </svg>
-                                  Activity Highlights
+                                  Najważniejsze atrakcje
                                 </h3>
                                 <ul class="space-y-2">
                                   <li
@@ -628,7 +632,7 @@ const relatedDestinations = computed(() => {
                                   id="radix-«rhu»-trigger-details"
                                   @click="activeTab = 'details'"
                                 >
-                                  See all details
+                                  Zobacz wszystkie szczegóły
                                 </button>
                               </div>
                               <div
@@ -655,7 +659,7 @@ const relatedDestinations = computed(() => {
                                     ></path>
                                     <circle cx="12" cy="10" r="3"></circle>
                                   </svg>
-                                  Top Destinations
+                                  Najpopularniejsze miejsca
                                 </h3>
                                 <ul class="space-y-2">
                                   <li
@@ -706,7 +710,7 @@ const relatedDestinations = computed(() => {
                           >
                             <div class="p-4 border-b border-border">
                               <h3 class="text-xl font-bold text-card-foreground">
-                                Experience {{ activity.activity }}
+                                Doświadczenie {{ activity.activity }}
                               </h3>
                             </div>
                             <div class="h-64 md:h-80 relative">
@@ -721,7 +725,7 @@ const relatedDestinations = computed(() => {
                           </div>
                           <div class="mb-8">
                             <h3 class="text-2xl font-bold mb-4 text-foreground">
-                              About This Activity
+                              O tej atrakcji
                             </h3>
                             <p class="text-lg text-muted-foreground leading-relaxed">
                               {{ activity.aboutActivity || activity.text }}
@@ -760,7 +764,7 @@ const relatedDestinations = computed(() => {
                         >
                           <div class="mb-8">
                             <h3 class="text-2xl font-bold mb-6 text-foreground">
-                              Activity Highlights
+                              Najważniejsze atrakcje
                             </h3>
                             <div class="grid-cols-1 md:grid-cols-2 gap-4">
                               <div
@@ -789,7 +793,7 @@ const relatedDestinations = computed(() => {
                           </div>
                           <div class="mb-8">
                             <h3 class="text-xl font-bold mb-4 text-foreground">
-                              Best Time to Visit
+                              Najlepszy czas na wizytę
                             </h3>
                             <div class="flex flex-wrap gap-3">
                               <span
@@ -800,7 +804,7 @@ const relatedDestinations = computed(() => {
                           </div>
                           <div class="mb-8">
                             <h3 class="text-xl font-bold mb-4 text-foreground">
-                              Available Destinations
+                              Dostępne kierunki
                             </h3>
                             <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
                               <div
@@ -844,7 +848,7 @@ const relatedDestinations = computed(() => {
                           v-show="activeTab === 'practical'"
                         >
                           <div class="mb-8">
-                            <h3 class="text-2xl font-bold mb-6 text-foreground">What's Included</h3>
+                            <h3 class="text-2xl font-bold mb-6 text-foreground">Co obejmuje</h3>
                             <div class="grid-cols-1 md:grid-cols-2 gap-4">
                               <div
                                 v-for="(inc, i) in activity.includes || []"
@@ -872,7 +876,7 @@ const relatedDestinations = computed(() => {
                           </div>
                           <div class="mb-8">
                             <h3 class="text-2xl font-bold mb-6 text-foreground">
-                              What's Not Included
+                              Co nie jest wliczone w cenę
                             </h3>
                             <div class="grid-cols-1 md:grid-cols-2 gap-4">
                               <div
@@ -891,7 +895,7 @@ const relatedDestinations = computed(() => {
                             class="bg-card/80 backdrop-blur-sm rounded-xl shadow-sm p-6 border border-border"
                           >
                             <h3 class="text-xl font-bold mb-4 text-card-foreground">
-                              Requirements &amp; Information
+                              Wymagania i informacje
                             </h3>
                             <div class="space-y-4">
                               <div
@@ -955,10 +959,10 @@ const relatedDestinations = computed(() => {
                   </svg>
                 </div>
                 <h2 class="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                  Top Destinations for {{ activity.activity }}
+                  Najpopularniejsze miejsca for {{ activity.activity }}
                 </h2>
                 <p class="text-xl text-muted-foreground max-w-2xl">
-                  Discover the world's best locations for {{ activity.activity }} adventures
+                  Odkryj najlepsze miejsca na świecie do przeżycia przygód z {{ activity.activity }}
                 </p>
               </div>
               <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -1088,7 +1092,7 @@ const relatedDestinations = computed(() => {
                         <div
                           class="w-full flex items-center justify-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors"
                         >
-                          <span>Explore {{ d.country }}</span>
+                          <span>Odkryj {{ d.country }}</span>
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="24"
