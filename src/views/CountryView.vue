@@ -57,6 +57,10 @@ function prev() {
     currentSlide.value--
   }
 }
+
+const randomRate = () => {
+  return +(4.5 + Math.random() * 0.4).toFixed(1);
+}
 </script>
 
 <template>
@@ -931,7 +935,7 @@ function prev() {
                                       ></path>
                                     </svg>
                                     <span class="text-xs font-medium text-muted-foreground ml-1"
-                                      >4.4</span
+                                      >{{ randomRate() }}</span
                                     >
                                   </div>
                                 </div>
