@@ -38,7 +38,7 @@ const router = createRouter({
 
     { path: '/privacy-policy', name: 'privacy-policy', component: PrivacyView, meta: { title: 'privacy-policy' } },
     { path: '/terms', name: 'terms', component: TermsView, meta: { title: 'terms' } },
-    { path: '/cookie', name: 'cookie', component: CookieView, meta: { title: 'cookie' } },
+    { path: '/cookie', name: 'cookie', component: CookieView, meta: { title: 'Polityka plików cookie' } },
     { path: '/about', name: 'about', component: AboutView, meta: { title: 'about' } },
     { path: '/contact', name: 'contact', component: ContactView, meta: { title: 'contact' } },
   ],
