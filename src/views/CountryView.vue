@@ -579,8 +579,8 @@ function prev() {
                                           loading="lazy"
                                           decoding="async"
                                           class="w-full h-full object-cover"
-                                          :alt="loc.title"
-                                          :src="loc.img || country.img"
+                                          :alt="country.country"
+                                          :src="country.img"
                                         />
                                       </div>
                                     </div>
@@ -594,7 +594,7 @@ function prev() {
 
                                 <button
                                   @click="prev"
-                                  :disabled="currentSlide === 0"
+                                  :disabled="true"
                                   class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground absolute h-8 w-8 rounded-full top-1/2 -translate-y-1/2 left-2"
                                 >
                                   <svg
@@ -618,7 +618,7 @@ function prev() {
 
                                 <button
                                   @click="next"
-                                  :disabled="currentSlide === slides.length - 1"
+                                  :disabled="true"
                                   class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground absolute h-8 w-8 rounded-full top-1/2 -translate-y-1/2 right-2"
                                 >
                                   <svg
@@ -657,7 +657,7 @@ function prev() {
                                       decoding="async"
                                       class="w-full h-full object-cover"
                                       :alt="pl.title"
-                                      :src="pl.img || country.img"
+                                      src="/images/place.png"
                                     />
                                   </div>
                                   <div class="w-2/3 p-4">
