@@ -79,7 +79,7 @@ useHead({ title: 'Kontakt – My Trips Poland' })
                         <h3 class="font-semibold text-gray-900 dark:text-white mb-1">
                           Gwiezdna Poczta
                         </h3>
-                        <p class="text-gray-600 dark:text-gray-300">info@My Trips Poland.com</p>
+                        <p class="text-gray-600 dark:text-gray-300">info@mytripspoland.com</p>
                       </div>
                     </div>
                     <div
@@ -181,7 +181,7 @@ useHead({ title: 'Kontakt – My Trips Poland' })
                     </p>
                     <p class="text-gray-600 dark:text-gray-300">
                       Find us online at
-                      <span class="font-semibold text-travel-teal">My Trips Poland.com</span>
+                      <span class="font-semibold text-travel-teal">mytripspoland.com</span>
                     </p>
                   </div>
                 </div>

@@ -305,12 +305,12 @@ useHead({ title: 'Polityka plików cookie – StarsAndSummits' })
                       </li>
                       <li class="dark:text-gray-300">
                         Visit our
-                        <a
+                        <router-link
                           class="hover:underline font-medium"
-                          href="/pl-PL/contact"
+                          to="/contact"
                           data-discover="true"
                           style="color: var(--theme-primary)"
-                          >contact page</a
+                          >contact page</router-link
                         >
                       </li>
                     </ul>

@@ -273,12 +273,12 @@ useHead({ title: 'Warunki korzystania – StarsAndSummits' })
                       </li>
                       <li class="dark:text-gray-300">
                         By visiting our
-                        <a
+                        <router-link
                           class="hover:underline"
-                          href="/pl-PL/contact"
+                          href="/contact"
                           data-discover="true"
                           style="color: var(--theme-primary)"
-                          >contact page</a
+                          >contact page</router-link
                         >
                       </li>
                     </ul>
