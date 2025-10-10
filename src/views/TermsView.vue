@@ -74,8 +74,8 @@ useHead({ title: 'Warunki korzystania – StarsAndSummits' })
       <main class="flex-grow">
         <!-- Promo section -->
         <PolicyPromo
-          title="Terms of Use"
-          subtitle="Zanim wyruszysz w swoją podróż Stars & Summits, prosimy o dokładne zapoznanie się z tymi warunkami."
+          title="Warunki Użytkowania"
+          subtitle="Zanim wyruszysz w swoją podróż My Trips Poland, prosimy o dokładne zapoznanie się z tymi warunkami."
         />
 
         <section class="container mx-auto px-4 py-8 bg-gray-50 dark:bg-gray-950">
@@ -115,7 +115,7 @@ useHead({ title: 'Warunki korzystania – StarsAndSummits' })
                       Akceptacja warunków
                     </h2>
                     <p class="dark:text-gray-300">
-                      Podejmując się eksploracji Stars &amp; Summits i korzystając z tej witryny,
+                      Podejmując się eksploracji My Trips Poland i korzystając z tej witryny,
                       zgadzasz się przestrzegać niniejszych warunków. Jeśli nie akceptujesz tych
                       postanowień, prosimy o powstrzymanie się od korzystania z naszej usługi.
                     </p>
@@ -130,7 +130,7 @@ useHead({ title: 'Warunki korzystania – StarsAndSummits' })
                       Licencja Użytkowania
                     </h2>
                     <p class="dark:text-gray-300">
-                      At Stars &amp; Summits, you’re welcome to download one temporary copy of our
+                      At My Trips Poland, you’re welcome to download one temporary copy of our
                       site’s materials for personal, non-commercial, transient viewing only. This
                       grants you a license—not a transfer of ownership—and under this license you
                       may not:
@@ -160,7 +160,7 @@ useHead({ title: 'Warunki korzystania – StarsAndSummits' })
                       Zastrzeżenie
                     </h2>
                     <p class="dark:text-gray-300">
-                      The information and resources on starsandsummits.com are presented “as is.” We
+                      The information and resources on mytripspoland.com are presented “as is.” We
                       make no express or implied guarantees and expressly disavow all other
                       assurances, including, without limitation, any implied warranties of
                       merchantability, suitability for a particular purpose, non-infringement of
@@ -180,7 +180,7 @@ useHead({ title: 'Warunki korzystania – StarsAndSummits' })
                       Under no circumstances will we or our suppliers be liable for any
                       damages—including, but not limited to, data loss, lost profits, or business
                       interruptions—that result from your use of, or inability to access, the
-                      content on starsandsummits.com, even if we or a duly authorized representative
+                      content on mytripspoland.com, even if we or a duly authorized representative
                       have been notified orally or in writing of the potential for such harm.
                     </p>
                   </section>
@@ -194,7 +194,7 @@ useHead({ title: 'Warunki korzystania – StarsAndSummits' })
                       Dokładność Materiałów
                     </h2>
                     <p class="dark:text-gray-300">
-                      Choć dążymy do dostarczania inspirujących treści na Stars &amp; Summits,
+                      Choć dążymy do dostarczania inspirujących treści na My Trips Poland,
                       niektóre strony mogą wciąż zawierać usterki techniczne, literówki lub
                       niedoskonałości grafik. Nie możemy zagwarantować, że każdy szczegół jest w
                       pełni dokładny, kompletny lub aktualny. Cała zawartość i elementy wizualne
@@ -212,7 +212,7 @@ useHead({ title: 'Warunki korzystania – StarsAndSummits' })
                       Linki
                     </h2>
                     <p class="dark:text-gray-300">
-                      StarsAndSummits.com hasn’t fully vetted every external website we link to, so
+                      Mytripspoland.com hasn’t fully vetted every external website we link to, so
                       we can’t be held accountable for their content. Including any link doesn’t
                       constitute our endorsement. You explore or use these third-party sites
                       entirely at your own risk.
@@ -228,7 +228,7 @@ useHead({ title: 'Warunki korzystania – StarsAndSummits' })
                       Modyfikacje
                     </h2>
                     <p class="dark:text-gray-300">
-                      Stars &amp; Summits reserves the right to update these terms of service at any
+                      My Trips Poland reserves the right to update these terms of service at any
                       time and without prior notice. By continuing to explore our site, you agree to
                       abide by the most current version of these terms.
                     </p>
@@ -259,16 +259,16 @@ useHead({ title: 'Warunki korzystania – StarsAndSummits' })
                     </h2>
                     <p class="dark:text-gray-300">
                       Have questions about these Terms of Use? Reach out to us at
-                      starsandsummits.com:
+                      mytripspoland.com:
                     </p>
                     <ul class="list-none pl-0 my-4 space-y-2">
                       <li class="dark:text-gray-300">
                         By email:
                         <a
-                          href="mailto:legal@starsandsummits.com"
+                          href="mailto:legal@mytripspoland.com"
                           class="hover:underline"
                           style="color: var(--theme-primary)"
-                          >legal@starsandsummits.com</a
+                          >legal@mytripspoland.com</a
                         >
                       </li>
                       <li class="dark:text-gray-300">

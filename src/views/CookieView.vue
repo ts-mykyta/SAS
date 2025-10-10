@@ -73,8 +73,8 @@ useHead({ title: 'Polityka plików cookie – StarsAndSummits' })
       <main class="flex-grow">
         <!-- Promo section -->
         <PolicyPromo
-          title="Cookie Policy"
-          subtitle="Dowiedz się, jak nasze pliki cookie poprawiają Twoje wrażenia z przeglądania Stars & Summits."
+          title="Polityka plików cookie"
+          subtitle="Dowiedz się, jak nasze pliki cookie poprawiają Twoje wrażenia z przeglądania My Trips Poland."
         />
 
         <section class="container mx-auto px-4 py-8">
@@ -111,7 +111,7 @@ useHead({ title: 'Polityka plików cookie – StarsAndSummits' })
                     Czym Są Ciasteczka
                   </h2>
                   <p class="dark:text-gray-300 mb-4">
-                    Na Stars &amp; Summits umieszczamy na Twoim komputerze lub urządzeniu mobilnym
+                    Na My Trips Poland umieszczamy na Twoim komputerze lub urządzeniu mobilnym
                     niewielkie fragmenty tekstu — zwane ciasteczkami — gdy przeglądasz naszą
                     witrynę. Te małe pomocniki usprawniają Twoje przeglądanie i dostarczają nam
                     kluczowych informacji, aby ulepszyć Twoje doświadczenie.
@@ -189,7 +189,7 @@ useHead({ title: 'Polityka plików cookie – StarsAndSummits' })
                         Pierwszej-Strony Ciasteczka
                       </h3>
                       <p class="dark:text-gray-300">
-                        Te pliki cookie pochodzą od samego Stars &amp; Summits, i tylko nasza strona
+                        Te pliki cookie pochodzą od samego My Trips Poland, i tylko nasza strona
                         potrafi je odszyfrować.
                       </p>
                     </div>
@@ -204,7 +204,7 @@ useHead({ title: 'Polityka plików cookie – StarsAndSummits' })
                     Ciasteczka stron trzecich
                   </h2>
                   <p class="dark:text-gray-300 mb-4">
-                    W Stars &amp; Summits, kilka plików cookie pochodzi z usług naszych partnerów.
+                    W My Trips Poland, kilka plików cookie pochodzi z usług naszych partnerów.
                     Możesz napotkać:
                   </p>
                   <ul class="list-disc pl-6 mb-4 space-y-2">
@@ -231,7 +231,7 @@ useHead({ title: 'Polityka plików cookie – StarsAndSummits' })
                     Zarządzanie plikami cookie
                   </h2>
                   <p class="dark:text-gray-300 mb-4">
-                    W Stars &amp; Summits masz kilka opcji dostosowywania i zarządzania plikami
+                    W My Trips Poland masz kilka opcji dostosowywania i zarządzania plikami
                     cookie:
                   </p>
                   <ul class="list-disc pl-6 mb-4 space-y-2">
@@ -258,7 +258,7 @@ useHead({ title: 'Polityka plików cookie – StarsAndSummits' })
                     Zgoda Na Pliki Cookie
                   </h2>
                   <p class="dark:text-gray-300 mb-4">
-                    Kontynuując eksplorację Stars &amp; Summits, zgadzasz się na użycie plików
+                    Kontynuując eksplorację My Trips Poland, zgadzasz się na użycie plików
                     cookie zgodnie z tą polityką. Zgodę możesz cofnąć w dowolnym momencie,
                     zmieniając ustawienia przeglądarki lub kontaktując się z nami bezpośrednio.
                   </p>
@@ -272,7 +272,7 @@ useHead({ title: 'Polityka plików cookie – StarsAndSummits' })
                     Aktualizacje tej polityki
                   </h2>
                   <p class="dark:text-gray-300 mb-4">
-                    Na starsandsummits.com możemy okresowo odświeżać naszą Politykę plików cookie,
+                    Na mytripspoland.com możemy okresowo odświeżać naszą Politykę plików cookie,
                     aby dostosować ją do nowych praktyk lub spełnić wymagania operacyjne, prawne lub
                     regulacyjne. Gdy wprowadzimy jakiekolwiek znaczące aktualizacje, opublikujemy
                     zmienioną politykę na naszej stronie internetowej, abyś zawsze był
@@ -297,10 +297,10 @@ useHead({ title: 'Polityka plików cookie – StarsAndSummits' })
                       <li class="dark:text-gray-300">
                         Email:
                         <a
-                          href="mailto:cookies@starsandsummits.com"
+                          href="mailto:cookies@mytripspoland.com"
                           class="hover:underline font-medium"
                           style="color: var(--theme-primary)"
-                          >cookies@starsandsummits.com</a
+                          >cookies@mytripspoland.com</a
                         >
                       </li>
                       <li class="dark:text-gray-300">
