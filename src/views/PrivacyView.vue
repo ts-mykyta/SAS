@@ -5,7 +5,7 @@ import AppHeader from '@/components/AppHeader.vue'
 import PolicyPromo from '@/components/policy/PolicyPromo.vue'
 import AppFooter from '@/components/AppFooter.vue'
 
-useHead({ title: 'Polityka prywatności – StarsAndSummits' })
+useHead({ title: 'Polityka prywatności – My Trips poland' })
 </script>
 
 <template>
@@ -18,8 +18,8 @@ useHead({ title: 'Polityka prywatności – StarsAndSummits' })
         <!-- Promo section -->
         <PolicyPromo
           budg="Informacje Prawne"
-          title="Privacy Policy"
-          subtitle="Twoja prywatność to nasza pasja. Poznaj, jak StarsAndSummits.com zabezpiecza Twoje dane."
+          title="Polityka prywatności"
+          subtitle="Twoja prywatność to nasza pasja. Poznaj, jak mytripspoland.com zabezpiecza Twoje dane."
         />
 
         <section class="container mx-auto px-4 py-12 md:py-16">
@@ -87,7 +87,7 @@ useHead({ title: 'Polityka prywatności – StarsAndSummits' })
                     </svg>
                   </div>
                   <p class="text-sm text-muted-foreground line-clamp-2">
-                    Na Stars &amp; Summits wykorzystujemy szczegóły, które zbieramy, do realizacji
+                    Na My Trips Poland wykorzystujemy szczegóły, które zbieramy, do realizacji
                     kilku celów, takich jak:
                   </p>
                 </div>
@@ -120,7 +120,7 @@ useHead({ title: 'Polityka prywatności – StarsAndSummits' })
                     </svg>
                   </div>
                   <p class="text-sm text-muted-foreground line-clamp-2">
-                    W Stars and Summits, nigdy nie sprzedajemy, nie wymieniamy ani nie udostępniamy
+                    W My Trips Poland, nigdy nie sprzedajemy, nie wymieniamy ani nie udostępniamy
                     Twoich danych osobowych osobom trzecim bez Twojej wyraźnej zgody, z wyjątkiem
                     następujących przypadków:
                   </p>
@@ -154,7 +154,7 @@ useHead({ title: 'Polityka prywatności – StarsAndSummits' })
                     </svg>
                   </div>
                   <p class="text-sm text-muted-foreground line-clamp-2">
-                    Na stronie StarsAndSummits.com stosujemy solidne zabezpieczenia, aby chronić
+                    Na stronie mytripspoland.com stosujemy solidne zabezpieczenia, aby chronić
                     Twoje dane osobowe przed nieautoryzowanym dostępem, modyfikacją, ujawnieniem lub
                     zniszczeniem. Nasze środki ostrożności obejmują:
                   </p>
@@ -188,7 +188,7 @@ useHead({ title: 'Polityka prywatności – StarsAndSummits' })
                     </svg>
                   </div>
                   <p class="text-sm text-muted-foreground line-clamp-2">
-                    W Stars &amp; Summits zachowujesz określone prawa związane z Twoimi danymi
+                    W My Trips Poland zachowujesz określone prawa związane z Twoimi danymi
                     osobowymi, w tym:
                   </p>
                 </div>
@@ -221,7 +221,7 @@ useHead({ title: 'Polityka prywatności – StarsAndSummits' })
                     </svg>
                   </div>
                   <p class="text-sm text-muted-foreground line-clamp-2">
-                    W Stars and Summits używamy plików cookie i powiązanych narzędzi śledzących, aby
+                    W My Trips Poland używamy plików cookie i powiązanych narzędzi śledzących, aby
                     wzbogacić Twoją przygodę na stronie. Aby zapoznać się ze wszystkimi szczegółami
                     dotyczącymi korzystania z plików cookie, zobacz naszą Politykę plików cookie.
                   </p>
@@ -326,7 +326,7 @@ useHead({ title: 'Polityka prywatności – StarsAndSummits' })
                     </svg>
                   </div>
                   <p class="text-sm text-muted-foreground line-clamp-2">
-                    Masz pytania dotyczące naszej Polityki prywatności w Stars &amp; Summits?
+                    Masz pytania dotyczące naszej Polityki prywatności w My Trips Poland?
                     Skontaktuj się z naszym zespołem:
                   </p>
                 </div>
@@ -406,7 +406,7 @@ useHead({ title: 'Polityka prywatności – StarsAndSummits' })
                   <div class="p-6 md:p-8">
                     <div class="prose prose-lg max-w-none">
                       <p class="text-muted-foreground leading-relaxed mb-6">
-                        Na Stars &amp; Summits wykorzystujemy szczegóły, które zbieramy, do
+                        Na My Trips Poland wykorzystujemy szczegóły, które zbieramy, do
                         realizacji kilku celów, takich jak:
                       </p>
                       <div class="bg-muted/30 rounded-lg p-6 mb-6">
@@ -474,7 +474,7 @@ useHead({ title: 'Polityka prywatności – StarsAndSummits' })
                   <div class="p-6 md:p-8">
                     <div class="prose prose-lg max-w-none">
                       <p class="text-muted-foreground leading-relaxed mb-6">
-                        W Stars and Summits, nigdy nie sprzedajemy, nie wymieniamy ani nie
+                        W My Trips Poland, nigdy nie sprzedajemy, nie wymieniamy ani nie
                         udostępniamy Twoich danych osobowych osobom trzecim bez Twojej wyraźnej
                         zgody, z wyjątkiem następujących przypadków:
                       </p>
@@ -532,7 +532,7 @@ useHead({ title: 'Polityka prywatności – StarsAndSummits' })
                   <div class="p-6 md:p-8">
                     <div class="prose prose-lg max-w-none">
                       <p class="text-muted-foreground leading-relaxed mb-6">
-                        Na stronie StarsAndSummits.com stosujemy solidne zabezpieczenia, aby chronić
+                        Na stronie mytripspoland.com stosujemy solidne zabezpieczenia, aby chronić
                         Twoje dane osobowe przed nieautoryzowanym dostępem, modyfikacją, ujawnieniem
                         lub zniszczeniem. Nasze środki ostrożności obejmują:
                       </p>
@@ -588,7 +588,7 @@ useHead({ title: 'Polityka prywatności – StarsAndSummits' })
                   <div class="p-6 md:p-8">
                     <div class="prose prose-lg max-w-none">
                       <p class="text-muted-foreground leading-relaxed mb-6">
-                        W Stars &amp; Summits zachowujesz określone prawa związane z Twoimi danymi
+                        W My Trips Poland zachowujesz określone prawa związane z Twoimi danymi
                         osobowymi, w tym:
                       </p>
                       <div class="bg-muted/30 rounded-lg p-6 mb-6">
@@ -656,7 +656,7 @@ useHead({ title: 'Polityka prywatności – StarsAndSummits' })
                   <div class="p-6 md:p-8">
                     <div class="prose prose-lg max-w-none">
                       <p class="text-muted-foreground leading-relaxed mb-6">
-                        W Stars and Summits używamy plików cookie i powiązanych narzędzi śledzących,
+                        W My Trips Poland używamy plików cookie i powiązanych narzędzi śledzących,
                         aby wzbogacić Twoją przygodę na stronie. Aby zapoznać się ze wszystkimi
                         szczegółami dotyczącymi korzystania z plików cookie, zobacz naszą Politykę
                         plików cookie.
@@ -810,7 +810,7 @@ useHead({ title: 'Polityka prywatności – StarsAndSummits' })
                   <div class="p-6 md:p-8">
                     <div class="prose prose-lg max-w-none">
                       <p class="text-muted-foreground leading-relaxed mb-6">
-                        Masz pytania dotyczące naszej Polityki prywatności w Stars &amp; Summits?
+                        Masz pytania dotyczące naszej Polityki prywatności w My Trips Poland?
                         Skontaktuj się z naszym zespołem:
                       </p>
                       <div
@@ -856,10 +856,10 @@ useHead({ title: 'Polityka prywatności – StarsAndSummits' })
                             <span class="text-muted-foreground">
                               Email:
                               <a
-                                href="mailto:privacy@starsandsummits.com"
+                                href="mailto:privacy@mytripspoland.com"
                                 class="text-primary hover:underline font-medium inline-flex items-center gap-1"
                               >
-                                privacy@starsandsummits.com
+                                privacy@mytripspoland.com
                                 <svg
                                   xmlns="http://www.w3.org/2000/svg"
                                   width="24"

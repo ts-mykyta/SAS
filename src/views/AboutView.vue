@@ -5,7 +5,7 @@ import AppHeader from '@/components/AppHeader.vue'
 import AppPromo from '@/components/AppPromo.vue'
 import { useHead } from '@unhead/vue'
 
-useHead({ title: 'O nas – StarsAndSummits' })
+useHead({ title: 'O nas – My Trips Poland' })
 </script>
 
 <template>
@@ -18,33 +18,27 @@ useHead({ title: 'O nas – StarsAndSummits' })
         <!-- Promo section -->   
          <AppPromo
           imageUrl="/images/home-promo.png"
-          title="Title for about page"
-          subtitle="Subtitle for about page"
+          title="O nas"
+          subtitle="Nasza pasja do podróży sprawia, że każdą wyprawę tworzymy z dbałością o szczegóły i autentyczne doświadczenia."
         />
         
         <!-- About section -->
         <div class="bg-gray-50 py-12 mt-20">
           <div class="container mx-auto px-4">
             <div class="text-center mb-16">
-              <h1 class="text-4xl font-bold text-gray-900 mb-4">Odkryj StarsAndSummits</h1>
+              <h1 class="text-4xl font-bold text-gray-900 mb-4">Odkryj My Trips Poland</h1>
               <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                Jesteśmy pasjonatami prowadzenia poszukiwaczy przygód do spektakularnych miejsc i
-                tworzenia niezapomnianych podróży po całym świecie.
+                Z pasją odkrywamy niezwykłe zakątki świata, prowadząc miłośników podróży ku wyjątkowym doświadczeniom i niezapomnianym wspomnieniom.
               </p>
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
               <div>
                 <h2 class="text-3xl font-bold text-gray-900 mb-6">Nasza Gwiazda Przewodnia</h2>
                 <p class="text-gray-600 mb-6">
-                  Tutaj, w StarsAndSummits, wiemy, że odkrywanie nowych miejsc może obudzić ducha,
-                  poszerzyć horyzonty i dostarczyć niezapomnianych chwil. Zobowiązujemy się do
-                  uproszczenia planowania podróży i rozbudzania Twojej żądzy podróży dzięki
-                  obszernym przewodnikom, profesjonalnym poradom i cennym wskazówkom od insiderów.
+                  W My Trips Poland wierzymy, że każda podróż to coś więcej niż tylko przemieszczanie się — to sposób na odkrywanie siebie i świata na nowo. Naszym celem jest ułatwienie Ci planowania wypraw oraz inspirowanie do odkrywania dzięki rzetelnym przewodnikom, eksperckim poradom i unikalnym wskazówkom od podróżników z doświadczeniem.
                 </p>
                 <p class="text-gray-600">
-                  Od ekscytujących eskapad po spokojne schronienia, od immersyjnych spotkań
-                  kulturowych po nieodparte kulinarne podróże, jesteśmy tu, by poprowadzić cię w
-                  stronę twojego kolejnego wymarzonego wypadu.
+                  Niezależnie od tego, czy szukasz adrenaliny, spokoju natury, kulturowych odkryć czy smaków z najdalszych zakątków świata — jesteśmy tu, aby pomóc Ci znaleźć Twoją następną niezapomnianą przygodę.
                 </p>
               </div>
               <div class="relative">
@@ -197,10 +191,9 @@ useHead({ title: 'O nas – StarsAndSummits' })
                       src="/images/sierra.png"
                     />
                     <h3 class="text-xl font-semibold text-gray-900 mb-2">Sierra Jensen</h3>
-                    <p class="text-primary mb-3">Założyciel &amp; Wirtuoz Podróży</p>
+                    <p class="text-primary mb-3">Założyciel & Wirtuoz Podróży</p>
                     <p class="text-gray-600 text-sm">
-                      Wykorzystując ponad 15 lat eksploracji w 60+ krajach, zapewnia StarsAndSummits
-                      niezrównaną ekspertyzę podróżniczą.
+                      Wykorzystując ponad 15 lat eksploracji w 60+ krajach, zapewnia StarsAndSummits niezrównaną ekspertyzę podróżniczą.
                     </p>
                   </div>
                 </div>
@@ -214,12 +207,11 @@ useHead({ title: 'O nas – StarsAndSummits' })
                       src="/images/michael.png"
                     />
                     <h3 class="text-xl font-semibold text-gray-900 mb-2">
-                      Michael „Starlight” Chen
+                      Mateusz „Błysk” Nowak
                     </h3>
                     <p class="text-primary mb-3">Mistrz Przygód</p>
                     <p class="text-gray-600 text-sm">
-                      Poświęcony ekscytującym wyprawom ekspedycyjnym i przygodom na świeżym
-                      powietrzu, zdobywając szczyty na wszystkich siedmiu kontynentach.
+                      Oddany fascynującym ekspedycjom i przygodom na świeżym powietrzu, zdobył szczyty na wszystkich siedmiu kontynentach, inspirując innych do przekraczania własnych granic.
                     </p>
                   </div>
                 </div>
@@ -232,11 +224,10 @@ useHead({ title: 'O nas – StarsAndSummits' })
                       alt="Team member"
                       src="/images/emilia.png"
                     />
-                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Emilia Rodriguez</h3>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Aleksandra Kowalczyk</h3>
                     <p class="text-primary mb-3">Kurator Kulturalnych Przygód</p>
                     <p class="text-gray-600 text-sm">
-                      Oddany immersyjnym podróżom kulturowym i autentycznym lokalnym odkryciom,
-                      biegle włada pięcioma językami.
+                      Zafascynowana podróżami kulturowymi i autentycznymi lokalnymi doświadczeniami, biegle posługuje się pięcioma językami, łącząc ludzi i miejsca z pasją do odkrywania świata.
                     </p>
                   </div>
                 </div>
@@ -247,7 +238,7 @@ useHead({ title: 'O nas – StarsAndSummits' })
                 Gotowy do rozpoczęcia swojej przygody?
               </h2>
               <p class="text-gray-600 mb-6">
-                Dołącz do tysięcy odkrywców, którzy polegają na StarsAndSummits, aby odkryć
+                Dołącz do tysięcy odkrywców, którzy polegają na My Trips Poland, aby odkryć
                 niezapomniane miejsca.
               </p>
               <router-link
