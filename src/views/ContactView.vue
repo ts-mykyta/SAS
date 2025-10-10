@@ -5,7 +5,7 @@ import AppFooter from '@/components/AppFooter.vue'
 import AppHeader from '@/components/AppHeader.vue'
 import { useHead } from '@unhead/vue'
 
-useHead({ title: 'Kontakt – StarsAndSummits' })
+useHead({ title: 'Kontakt – My Trips Poland' })
 </script>
 
 <template>
@@ -19,7 +19,7 @@ useHead({ title: 'Kontakt – StarsAndSummits' })
         <AppPromo
           imageUrl="/images/home-promo.png"
           title="Wyślij sygnał"
-          subtitle="Masz pytania dotyczące Twojej następnej przygody? Jesteśmy tutaj, aby pomóc ci zaprojektować niezapomnianą podróż. Skontaktuj się, a razem spełnimy Twoje podróżnicze marzenia."
+          subtitle="Masz pytania dotyczące swojej kolejnej podróży? Nasz zespół jest gotowy, aby pomóc Ci zaplanować wyjątkowe doświadczenie. Skontaktuj się z nami – razem stworzymy wyprawę, o której zawsze marzyłeś."
         />
 
         <section class="py-16 lg:py-24 bg-gray-50 dark:bg-gray-950">
@@ -79,7 +79,7 @@ useHead({ title: 'Kontakt – StarsAndSummits' })
                         <h3 class="font-semibold text-gray-900 dark:text-white mb-1">
                           Gwiezdna Poczta
                         </h3>
-                        <p class="text-gray-600 dark:text-gray-300">info@starsandsummits.com</p>
+                        <p class="text-gray-600 dark:text-gray-300">info@My Trips Poland.com</p>
                       </div>
                     </div>
                     <div
@@ -112,7 +112,7 @@ useHead({ title: 'Kontakt – StarsAndSummits' })
                           Lokalizacja
                         </h3>
                         <p class="text-gray-600 dark:text-gray-300">
-                          456 Bulwar Galaxy, Summitview, SS 67890
+                          456 Bulwar Galaxy, MyTripsPoland, SS 67890
                         </p>
                       </div>
                     </div>
@@ -171,7 +171,7 @@ useHead({ title: 'Kontakt – StarsAndSummits' })
                 >
                   <div class="flex flex-col space-y-1.5 p-6">
                     <h3 class="tracking-tight text-xl font-bold text-gray-900 dark:text-white">
-                      Odkryj StarsAndSummits
+                      Odkryj My Trips Poland
                     </h3>
                   </div>
                   <div class="p-6 pt-0">
@@ -181,7 +181,7 @@ useHead({ title: 'Kontakt – StarsAndSummits' })
                     </p>
                     <p class="text-gray-600 dark:text-gray-300">
                       Find us online at
-                      <span class="font-semibold text-travel-teal">starsandsummits.com</span>
+                      <span class="font-semibold text-travel-teal">My Trips Poland.com</span>
                     </p>
                   </div>
                 </div>
