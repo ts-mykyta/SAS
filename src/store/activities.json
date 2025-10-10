@@ -21,18 +21,18 @@
         ],
         "bestTime": "Poranki w dni powszednie lub późne popołudnia",
         "includes": [
-        "General admission ticket",
-        "Portable audio guide in multiple languages",
-        "Detailed museum map and exhibit brochure",
-        "Access to permanent and temporary galleries",
-        "Lockers for personal belongings",
-        "Museum café seating area"
+        "Bilet wstępu ogólnego",
+        "Przenośny audioprzewodnik w wielu językach",
+        "Szczegółowa mapa muzeum i broszura dotycząca ekspozycji",
+        "Dostęp do galerii stałych i czasowych",
+        "Szafki na rzeczy osobiste",
+        "Kawiarnia muzealna z miejscami do siedzenia"
         ],
         "notIncludes": [
-        "Parking fees (on-site parking may apply)",
-        "Special exhibition surcharge (if applicable)",
-        "Guided group tour (available at extra cost)",
-        "Personal purchases and souvenirs"
+        "Opłaty parkingowe (może obowiązywać opłata za parking na miejscu)",
+        "Dodatkowa opłata za wystawę specjalną (jeśli dotyczy)",
+        "Wycieczka z przewodnikiem dla grup (dostępna za dodatkową opłatą)",
+        "Osobiste zakupy i pamiątki"
         ],
         "difficulty": "Easy",
         "price": "$10-25",

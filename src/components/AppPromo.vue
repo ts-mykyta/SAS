@@ -124,20 +124,20 @@ const goToPriceCalendar = async () => {
               <div
                 class="bg-gradient-to-br from-primary/20 to-secondary/20 backdrop-blur-md rounded-2xl p-6 border border-primary/30 shadow-xl text-center transform hover:scale-105 transition-all duration-300"
               >
-                <div class="text-3xl font-black text-primary mb-2">500+</div>
-                <div class="text-gray-300 font-semibold">Epickie wypady</div>
+                <div class="text-3xl font-black text-secondary mb-2">500+</div>
+                <div class="text-secondary font-semibold">Epickie wypady</div>
               </div>
               <div
                 class="bg-gradient-to-br from-secondary/20 to-primary/20 backdrop-blur-md rounded-2xl p-6 border border-secondary/30 shadow-xl text-center transform hover:scale-105 transition-all duration-300"
               >
                 <div class="text-3xl font-black text-secondary mb-2">10K+</div>
-                <div class="text-gray-300 font-semibold">Błogosławieni Odkrywcy</div>
+                <div class="text-secondary font-semibold">Błogosławieni Odkrywcy</div>
               </div>
               <div
                 class="bg-gradient-to-br from-primary/20 to-secondary/20 backdrop-blur-md rounded-2xl p-6 border border-primary/30 shadow-xl text-center transform hover:scale-105 transition-all duration-300"
               >
-                <div class="text-3xl font-black text-primary mb-2">4.9★</div>
-                <div class="text-gray-300 font-semibold">Wynik Szczytu</div>
+                <div class="text-3xl font-black text-secondary mb-2">4.9★</div>
+                <div class="text-secondary font-semibold">Wynik Szczytu</div>
               </div>
             </div>
           </div>
@@ -151,7 +151,7 @@ const goToPriceCalendar = async () => {
               <h2 class="text-4xl lg:text-5xl font-bold text-white mb-4">
                 Dlaczego warto wybrać właśnie nas
               </h2>
-              <p class="text-xl text-gray-300 max-w-2xl mx-auto">
+              <p class="text-xl text-secondary max-w-2xl mx-auto">
                 Doświadcz łatwego planowania podróży z naszą innowacyjną usługą.
               </p>
             </div>
@@ -179,7 +179,7 @@ const goToPriceCalendar = async () => {
                   </svg>
                 </div>
                 <h3 class="text-xl font-bold text-white mb-3">Niezrównana Jakość</h3>
-                <p class="text-gray-300 text-sm leading-relaxed">
+                <p class="text-secondary text-sm leading-relaxed">
                   Gwiezdne ekspedycje i górskie przygody
                 </p>
               </div>
@@ -207,7 +207,7 @@ const goToPriceCalendar = async () => {
                   </svg>
                 </div>
                 <h3 class="text-xl font-bold text-white mb-3">Wsparcie 24/7</h3>
-                <p class="text-gray-300 text-sm leading-relaxed">Pomoc w każdej podróżniczej sytuacji</p>
+                <p class="text-secondary text-sm leading-relaxed">Pomoc w każdej podróżniczej sytuacji</p>
               </div>
               <div class="text-center group">
                 <div
@@ -233,7 +233,7 @@ const goToPriceCalendar = async () => {
                   </svg>
                 </div>
                 <h3 class="text-xl font-bold text-white mb-3">Światowa Skala</h3>
-                <p class="text-gray-300 text-sm leading-relaxed">
+                <p class="text-secondary text-sm leading-relaxed">
                   Podróże i przygody na całym świecie
                 </p>
               </div>
@@ -261,7 +261,7 @@ const goToPriceCalendar = async () => {
                   </svg>
                 </div>
                 <h3 class="text-xl font-bold text-white mb-3">Oferty Premium</h3>
-                <p class="text-gray-300 text-sm leading-relaxed">
+                <p class="text-secondary text-sm leading-relaxed">
                   Wyjątkowe ceny i ekskluzywne okazje
                 </p>
               </div>
